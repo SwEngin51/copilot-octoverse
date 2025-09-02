@@ -1,7 +1,7 @@
 {
   "metadata": {
     "platform": "IDE",
-    "lastUpdated": "2025-09-02T09:23:13.351433",
+    "lastUpdated": "2025-09-02T11:23:55.637526",
     "generatedBy": "automated-extraction",
     "feedSources": [
       "copilot-feature-matrix.md"
@@ -22,8 +22,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346569",
-      "lastModified": "2025-09-02T09:23:13.346570"
+      "detectionDate": "2025-09-02T11:23:55.632631",
+      "lastModified": "2025-09-02T11:23:55.632632"
     },
     {
       "featureCapability": "Custom Instructions GA",
@@ -39,8 +39,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346595",
-      "lastModified": "2025-09-02T09:23:13.346596"
+      "detectionDate": "2025-09-02T11:23:55.632656",
+      "lastModified": "2025-09-02T11:23:55.632657"
     },
     {
       "featureCapability": "Advanced Codebase Search",
@@ -56,8 +56,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346620",
-      "lastModified": "2025-09-02T09:23:13.346621"
+      "detectionDate": "2025-09-02T11:23:55.632682",
+      "lastModified": "2025-09-02T11:23:55.632683"
     },
     {
       "featureCapability": "Next Edit Suggestions Collapsed Mode",
@@ -73,8 +73,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346646",
-      "lastModified": "2025-09-02T09:23:13.346647"
+      "detectionDate": "2025-09-02T11:23:55.632707",
+      "lastModified": "2025-09-02T11:23:55.632708"
     },
     {
       "featureCapability": "Problems Attachment",
@@ -90,8 +90,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346671",
-      "lastModified": "2025-09-02T09:23:13.346672"
+      "detectionDate": "2025-09-02T11:23:55.632732",
+      "lastModified": "2025-09-02T11:23:55.632733"
     },
     {
       "featureCapability": "Folder Attachments",
@@ -107,8 +107,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346695",
-      "lastModified": "2025-09-02T09:23:13.346696"
+      "detectionDate": "2025-09-02T11:23:55.632757",
+      "lastModified": "2025-09-02T11:23:55.632758"
     },
     {
       "featureCapability": "Completion Model Selection",
@@ -124,8 +124,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346724",
-      "lastModified": "2025-09-02T09:23:13.346725"
+      "detectionDate": "2025-09-02T11:23:55.632786",
+      "lastModified": "2025-09-02T11:23:55.632787"
     },
     {
       "featureCapability": "GPT-4.5 Model Support",
@@ -141,8 +141,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346750",
-      "lastModified": "2025-09-02T09:23:13.346751"
+      "detectionDate": "2025-09-02T11:23:55.632811",
+      "lastModified": "2025-09-02T11:23:55.632812"
     },
     {
       "featureCapability": "Claude 3.7 Sonnet",
@@ -158,8 +158,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346775",
-      "lastModified": "2025-09-02T09:23:13.346776"
+      "detectionDate": "2025-09-02T11:23:55.632836",
+      "lastModified": "2025-09-02T11:23:55.632837"
     },
     {
       "featureCapability": "Copilot Edits Limits Removed",
@@ -175,8 +175,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346838",
-      "lastModified": "2025-09-02T09:23:13.346841"
+      "detectionDate": "2025-09-02T11:23:55.632863",
+      "lastModified": "2025-09-02T11:23:55.632864"
     },
     {
       "featureCapability": "Smoother Authentication Flows",
@@ -192,8 +192,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346870",
-      "lastModified": "2025-09-02T09:23:13.346874"
+      "detectionDate": "2025-09-02T11:23:55.632889",
+      "lastModified": "2025-09-02T11:23:55.632892"
     },
     {
       "featureCapability": "Notebook Support in Copilot Edits",
@@ -209,8 +209,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346900",
-      "lastModified": "2025-09-02T09:23:13.346901"
+      "detectionDate": "2025-09-02T11:23:55.632917",
+      "lastModified": "2025-09-02T11:23:55.632918"
     },
     {
       "featureCapability": "Copilot Next Edit Suggestions (NES)",
@@ -226,8 +226,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346926",
-      "lastModified": "2025-09-02T09:23:13.346927"
+      "detectionDate": "2025-09-02T11:23:55.632942",
+      "lastModified": "2025-09-02T11:23:55.632943"
     },
     {
       "featureCapability": "Copilot Edits General Availability",
@@ -243,8 +243,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346952",
-      "lastModified": "2025-09-02T09:23:13.346953"
+      "detectionDate": "2025-09-02T11:23:55.632967",
+      "lastModified": "2025-09-02T11:23:55.632968"
     },
     {
       "featureCapability": "GitHub Copilot Free Plan",
@@ -260,8 +260,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346977",
-      "lastModified": "2025-09-02T09:23:13.346978"
+      "detectionDate": "2025-09-02T11:23:55.632992",
+      "lastModified": "2025-09-02T11:23:55.632993"
     },
     {
       "featureCapability": "Debug with Copilot",
@@ -277,8 +277,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347002",
-      "lastModified": "2025-09-02T09:23:13.347003"
+      "detectionDate": "2025-09-02T11:23:55.633017",
+      "lastModified": "2025-09-02T11:23:55.633018"
     },
     {
       "featureCapability": "Copilot Edits Integration",
@@ -294,8 +294,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347027",
-      "lastModified": "2025-09-02T09:23:13.347028"
+      "detectionDate": "2025-09-02T11:23:55.633042",
+      "lastModified": "2025-09-02T11:23:55.633043"
     },
     {
       "featureCapability": "@remote-ssh Chat Participant",
@@ -311,8 +311,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347053",
-      "lastModified": "2025-09-02T09:23:13.347054"
+      "detectionDate": "2025-09-02T11:23:55.633069",
+      "lastModified": "2025-09-02T11:23:55.633070"
     },
     {
       "featureCapability": "GPT-4o Model Upgrade",
@@ -328,8 +328,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347078",
-      "lastModified": "2025-09-02T09:23:13.347079"
+      "detectionDate": "2025-09-02T11:23:55.633095",
+      "lastModified": "2025-09-02T11:23:55.633096"
     },
     {
       "featureCapability": "Public Code Matching",
@@ -345,8 +345,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347102",
-      "lastModified": "2025-09-02T09:23:13.347103"
+      "detectionDate": "2025-09-02T11:23:55.633119",
+      "lastModified": "2025-09-02T11:23:55.633120"
     },
     {
       "featureCapability": "Chat Attachments",
@@ -362,8 +362,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347130",
-      "lastModified": "2025-09-02T09:23:13.347131"
+      "detectionDate": "2025-09-02T11:23:55.633144",
+      "lastModified": "2025-09-02T11:23:55.633145"
     },
     {
       "featureCapability": "Full Repository Context in Visual Studio",
@@ -379,8 +379,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347189",
-      "lastModified": "2025-09-02T09:23:13.347190"
+      "detectionDate": "2025-09-02T11:23:55.633211",
+      "lastModified": "2025-09-02T11:23:55.633212"
     },
     {
       "featureCapability": "Bing Search in VS Code Chat",
@@ -396,8 +396,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347214",
-      "lastModified": "2025-09-02T09:23:13.347215"
+      "detectionDate": "2025-09-02T11:23:55.633237",
+      "lastModified": "2025-09-02T11:23:55.633238"
     },
     {
       "featureCapability": "Rename Suggestions",
@@ -413,8 +413,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347239",
-      "lastModified": "2025-09-02T09:23:13.347240"
+      "detectionDate": "2025-09-02T11:23:55.633262",
+      "lastModified": "2025-09-02T11:23:55.633263"
     },
     {
       "featureCapability": "Chat and Language Model API",
@@ -430,8 +430,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347264",
-      "lastModified": "2025-09-02T09:23:13.347265"
+      "detectionDate": "2025-09-02T11:23:55.633288",
+      "lastModified": "2025-09-02T11:23:55.633288"
     },
     {
       "featureCapability": "Chat Agents (@workspace, @vscode)",
@@ -447,8 +447,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347345",
-      "lastModified": "2025-09-02T09:23:13.347346"
+      "detectionDate": "2025-09-02T11:23:55.633372",
+      "lastModified": "2025-09-02T11:23:55.633373"
     },
     {
       "featureCapability": "Streaming Inline Chat",
@@ -464,8 +464,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347371",
-      "lastModified": "2025-09-02T09:23:13.347372"
+      "detectionDate": "2025-09-02T11:23:55.633398",
+      "lastModified": "2025-09-02T11:23:55.633399"
     },
     {
       "featureCapability": "Test Generation",
@@ -481,8 +481,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347396",
-      "lastModified": "2025-09-02T09:23:13.347397"
+      "detectionDate": "2025-09-02T11:23:55.633423",
+      "lastModified": "2025-09-02T11:23:55.633424"
     },
     {
       "featureCapability": "Chat Editors",
@@ -498,8 +498,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347425",
-      "lastModified": "2025-09-02T09:23:13.347426"
+      "detectionDate": "2025-09-02T11:23:55.633451",
+      "lastModified": "2025-09-02T11:23:55.633452"
     },
     {
       "featureCapability": "Codeblock Commands",
@@ -515,8 +515,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347452",
-      "lastModified": "2025-09-02T09:23:13.347453"
+      "detectionDate": "2025-09-02T11:23:55.633476",
+      "lastModified": "2025-09-02T11:23:55.633477"
     },
     {
       "featureCapability": "Code Actions Integration",
@@ -532,8 +532,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347477",
-      "lastModified": "2025-09-02T09:23:13.347478"
+      "detectionDate": "2025-09-02T11:23:55.633501",
+      "lastModified": "2025-09-02T11:23:55.633502"
     },
     {
       "featureCapability": "GitHub Copilot Chat (Initial)",
@@ -549,8 +549,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347502",
-      "lastModified": "2025-09-02T09:23:13.347503"
+      "detectionDate": "2025-09-02T11:23:55.633526",
+      "lastModified": "2025-09-02T11:23:55.633527"
     },
     {
       "featureCapability": "Dev Container Copilot Integration",
@@ -566,8 +566,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347292",
-      "lastModified": "2025-09-02T09:23:13.347293"
+      "detectionDate": "2025-09-02T11:23:55.633318",
+      "lastModified": "2025-09-02T11:23:55.633319"
     },
     {
       "featureCapability": "GitHub Copilot Extension Auto-Install",
@@ -583,8 +583,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347317",
-      "lastModified": "2025-09-02T09:23:13.347318"
+      "detectionDate": "2025-09-02T11:23:55.633344",
+      "lastModified": "2025-09-02T11:23:55.633345"
     },
     {
       "featureCapability": "GitHub Copilot Extension Support",
@@ -600,8 +600,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347528",
-      "lastModified": "2025-09-02T09:23:13.347529"
+      "detectionDate": "2025-09-02T11:23:55.633551",
+      "lastModified": "2025-09-02T11:23:55.633552"
     },
     {
       "featureCapability": "Inline Completions API",
@@ -617,8 +617,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347552",
-      "lastModified": "2025-09-02T09:23:13.347553"
+      "detectionDate": "2025-09-02T11:23:55.633576",
+      "lastModified": "2025-09-02T11:23:55.633577"
     },
     {
       "featureCapability": "GPT-5 Integration",
@@ -634,8 +634,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.345700",
-      "lastModified": "2025-09-02T09:23:13.345707"
+      "detectionDate": "2025-09-02T11:23:55.631754",
+      "lastModified": "2025-09-02T11:23:55.631759"
     },
     {
       "featureCapability": "Chat Checkpoints",
@@ -651,8 +651,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.345743",
-      "lastModified": "2025-09-02T09:23:13.345745"
+      "detectionDate": "2025-09-02T11:23:55.631795",
+      "lastModified": "2025-09-02T11:23:55.631796"
     },
     {
       "featureCapability": "Claude Opus 4.1 Model Support",
@@ -668,8 +668,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.345774",
-      "lastModified": "2025-09-02T09:23:13.345775"
+      "detectionDate": "2025-09-02T11:23:55.631830",
+      "lastModified": "2025-09-02T11:23:55.631831"
     },
     {
       "featureCapability": "Tool Picker (Quick Tree)",
@@ -685,8 +685,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.345820",
-      "lastModified": "2025-09-02T09:23:13.345821"
+      "detectionDate": "2025-09-02T11:23:55.631859",
+      "lastModified": "2025-09-02T11:23:55.631860"
     },
     {
       "featureCapability": "Tool Grouping",
@@ -702,8 +702,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.345850",
-      "lastModified": "2025-09-02T09:23:13.345851"
+      "detectionDate": "2025-09-02T11:23:55.631900",
+      "lastModified": "2025-09-02T11:23:55.631902"
     },
     {
       "featureCapability": "Task/Todo Lists",
@@ -719,8 +719,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.345878",
-      "lastModified": "2025-09-02T09:23:13.345879"
+      "detectionDate": "2025-09-02T11:23:55.631930",
+      "lastModified": "2025-09-02T11:23:55.631931"
     },
     {
       "featureCapability": "Azure DevOps Remote Index",
@@ -736,8 +736,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.345909",
-      "lastModified": "2025-09-02T09:23:13.345910"
+      "detectionDate": "2025-09-02T11:23:55.631960",
+      "lastModified": "2025-09-02T11:23:55.631961"
     },
     {
       "featureCapability": "Output Polling",
@@ -753,8 +753,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.345940",
-      "lastModified": "2025-09-02T09:23:13.345941"
+      "detectionDate": "2025-09-02T11:23:55.631991",
+      "lastModified": "2025-09-02T11:23:55.631992"
     },
     {
       "featureCapability": "Task Awareness",
@@ -770,8 +770,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.345967",
-      "lastModified": "2025-09-02T09:23:13.345968"
+      "detectionDate": "2025-09-02T11:23:55.632019",
+      "lastModified": "2025-09-02T11:23:55.632020"
     },
     {
       "featureCapability": "Terminal Awareness",
@@ -787,8 +787,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.345994",
-      "lastModified": "2025-09-02T09:23:13.345995"
+      "detectionDate": "2025-09-02T11:23:55.632045",
+      "lastModified": "2025-09-02T11:23:55.632046"
     },
     {
       "featureCapability": "Terminal Inline Chat",
@@ -804,8 +804,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346019",
-      "lastModified": "2025-09-02T09:23:13.346020"
+      "detectionDate": "2025-09-02T11:23:55.632071",
+      "lastModified": "2025-09-02T11:23:55.632072"
     },
     {
       "featureCapability": "Chat Sessions View",
@@ -821,8 +821,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346048",
-      "lastModified": "2025-09-02T09:23:13.346049"
+      "detectionDate": "2025-09-02T11:23:55.632100",
+      "lastModified": "2025-09-02T11:23:55.632101"
     },
     {
       "featureCapability": "Math Support in Chat",
@@ -838,8 +838,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346074",
-      "lastModified": "2025-09-02T09:23:13.346075"
+      "detectionDate": "2025-09-02T11:23:55.632126",
+      "lastModified": "2025-09-02T11:23:55.632127"
     },
     {
       "featureCapability": "Context7 Integration",
@@ -855,8 +855,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346100",
-      "lastModified": "2025-09-02T09:23:13.346101"
+      "detectionDate": "2025-09-02T11:23:55.632151",
+      "lastModified": "2025-09-02T11:23:55.632152"
     },
     {
       "featureCapability": "Accessible Chat Elicitations",
@@ -872,8 +872,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346125",
-      "lastModified": "2025-09-02T09:23:13.346126"
+      "detectionDate": "2025-09-02T11:23:55.632178",
+      "lastModified": "2025-09-02T11:23:55.632179"
     },
     {
       "featureCapability": "AI Settings Search",
@@ -889,8 +889,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346153",
-      "lastModified": "2025-09-02T09:23:13.346154"
+      "detectionDate": "2025-09-02T11:23:55.632219",
+      "lastModified": "2025-09-02T11:23:55.632220"
     },
     {
       "featureCapability": "AI Statistics",
@@ -906,8 +906,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346178",
-      "lastModified": "2025-09-02T09:23:13.346179"
+      "detectionDate": "2025-09-02T11:23:55.632245",
+      "lastModified": "2025-09-02T11:23:55.632246"
     },
     {
       "featureCapability": "Notebook Inline Chat",
@@ -923,8 +923,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346206",
-      "lastModified": "2025-09-02T09:23:13.346207"
+      "detectionDate": "2025-09-02T11:23:55.632274",
+      "lastModified": "2025-09-02T11:23:55.632275"
     },
     {
       "featureCapability": "Voice Dictation (Terminal)",
@@ -940,8 +940,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346233",
-      "lastModified": "2025-09-02T09:23:13.346234"
+      "detectionDate": "2025-09-02T11:23:55.632301",
+      "lastModified": "2025-09-02T11:23:55.632302"
     },
     {
       "featureCapability": "Model Management",
@@ -957,8 +957,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346262",
-      "lastModified": "2025-09-02T09:23:13.346263"
+      "detectionDate": "2025-09-02T11:23:55.632326",
+      "lastModified": "2025-09-02T11:23:55.632327"
     },
     {
       "featureCapability": "Agent Mode",
@@ -974,8 +974,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346288",
-      "lastModified": "2025-09-02T09:23:13.346289"
+      "detectionDate": "2025-09-02T11:23:55.632351",
+      "lastModified": "2025-09-02T11:23:55.632352"
     },
     {
       "featureCapability": "Chat Mode Customization",
@@ -991,8 +991,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346313",
-      "lastModified": "2025-09-02T09:23:13.346314"
+      "detectionDate": "2025-09-02T11:23:55.632376",
+      "lastModified": "2025-09-02T11:23:55.632377"
     },
     {
       "featureCapability": "MCP Support (General Availability)",
@@ -1008,8 +1008,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346363",
-      "lastModified": "2025-09-02T09:23:13.346364"
+      "detectionDate": "2025-09-02T11:23:55.632426",
+      "lastModified": "2025-09-02T11:23:55.632427"
     },
     {
       "featureCapability": "Terminal Auto-Approve",
@@ -1025,8 +1025,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346388",
-      "lastModified": "2025-09-02T09:23:13.346389"
+      "detectionDate": "2025-09-02T11:23:55.632451",
+      "lastModified": "2025-09-02T11:23:55.632452"
     },
     {
       "featureCapability": "Edit Previous Requests",
@@ -1042,8 +1042,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346441",
-      "lastModified": "2025-09-02T09:23:13.346442"
+      "detectionDate": "2025-09-02T11:23:55.632504",
+      "lastModified": "2025-09-02T11:23:55.632505"
     },
     {
       "featureCapability": "Open Source Copilot Chat",
@@ -1059,8 +1059,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346338",
-      "lastModified": "2025-09-02T09:23:13.346339"
+      "detectionDate": "2025-09-02T11:23:55.632401",
+      "lastModified": "2025-09-02T11:23:55.632402"
     },
     {
       "featureCapability": "Custom Instructions Generator",
@@ -1076,8 +1076,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346414",
-      "lastModified": "2025-09-02T09:23:13.346415"
+      "detectionDate": "2025-09-02T11:23:55.632476",
+      "lastModified": "2025-09-02T11:23:55.632477"
     },
     {
       "featureCapability": "Custom Instructions & Prompts",
@@ -1093,8 +1093,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346466",
-      "lastModified": "2025-09-02T09:23:13.346467"
+      "detectionDate": "2025-09-02T11:23:55.632529",
+      "lastModified": "2025-09-02T11:23:55.632530"
     },
     {
       "featureCapability": "Enhanced MCP Support",
@@ -1110,8 +1110,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346491",
-      "lastModified": "2025-09-02T09:23:13.346492"
+      "detectionDate": "2025-09-02T11:23:55.632554",
+      "lastModified": "2025-09-02T11:23:55.632554"
     },
     {
       "featureCapability": "Conversation Caching",
@@ -1127,8 +1127,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346518",
-      "lastModified": "2025-09-02T09:23:13.346519"
+      "detectionDate": "2025-09-02T11:23:55.632580",
+      "lastModified": "2025-09-02T11:23:55.632581"
     },
     {
       "featureCapability": "Multi-window Chat Support",
@@ -1144,8 +1144,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.346544",
-      "lastModified": "2025-09-02T09:23:13.346545"
+      "detectionDate": "2025-09-02T11:23:55.632605",
+      "lastModified": "2025-09-02T11:23:55.632606"
     },
     {
       "featureCapability": "Knowledge Base Access in VS Code",
@@ -1161,8 +1161,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347163",
-      "lastModified": "2025-09-02T09:23:13.347164"
+      "detectionDate": "2025-09-02T11:23:55.633173",
+      "lastModified": "2025-09-02T11:23:55.633174"
     },
     {
       "featureCapability": "Larger Context Windows in VS Code",
@@ -1178,8 +1178,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.348260",
-      "lastModified": "2025-09-02T09:23:13.348261"
+      "detectionDate": "2025-09-02T11:23:55.634284",
+      "lastModified": "2025-09-02T11:23:55.634285"
     },
     {
       "featureCapability": "Inline Chat in JetBrains IDEs",
@@ -1195,8 +1195,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.348285",
-      "lastModified": "2025-09-02T09:23:13.348286"
+      "detectionDate": "2025-09-02T11:23:55.634309",
+      "lastModified": "2025-09-02T11:23:55.634310"
     },
     {
       "featureCapability": "Multi-file Editing in VS Code",
@@ -1212,8 +1212,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.348078",
-      "lastModified": "2025-09-02T09:23:13.348079"
+      "detectionDate": "2025-09-02T11:23:55.634091",
+      "lastModified": "2025-09-02T11:23:55.634092"
     },
     {
       "featureCapability": "OpenAI O1 Models Public Preview",
@@ -1229,8 +1229,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.348103",
-      "lastModified": "2025-09-02T09:23:13.348104"
+      "detectionDate": "2025-09-02T11:23:55.634118",
+      "lastModified": "2025-09-02T11:23:55.634119"
     },
     {
       "featureCapability": "Web Search in Copilot Individual",
@@ -1246,8 +1246,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.348131",
-      "lastModified": "2025-09-02T09:23:13.348132"
+      "detectionDate": "2025-09-02T11:23:55.634143",
+      "lastModified": "2025-09-02T11:23:55.634144"
     },
     {
       "featureCapability": "Enhanced C++ Completions in Visual Studio",
@@ -1263,8 +1263,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.348156",
-      "lastModified": "2025-09-02T09:23:13.348157"
+      "detectionDate": "2025-09-02T11:23:55.634169",
+      "lastModified": "2025-09-02T11:23:55.634170"
     },
     {
       "featureCapability": "Terminal Chat in Windows Terminal",
@@ -1280,8 +1280,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.348181",
-      "lastModified": "2025-09-02T09:23:13.348182"
+      "detectionDate": "2025-09-02T11:23:55.634194",
+      "lastModified": "2025-09-02T11:23:55.634195"
     },
     {
       "featureCapability": "Enhanced .NET Completions in Visual Studio",
@@ -1297,8 +1297,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.348209",
-      "lastModified": "2025-09-02T09:23:13.348210"
+      "detectionDate": "2025-09-02T11:23:55.634233",
+      "lastModified": "2025-09-02T11:23:55.634234"
     },
     {
       "featureCapability": "Copilot for Xcode Generally Available",
@@ -1314,8 +1314,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.348235",
-      "lastModified": "2025-09-02T09:23:13.348236"
+      "detectionDate": "2025-09-02T11:23:55.634259",
+      "lastModified": "2025-09-02T11:23:55.634260"
     },
     {
       "featureCapability": "Claude 3.5 Sonnet Model Support",
@@ -1331,8 +1331,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.348053",
-      "lastModified": "2025-09-02T09:23:13.348054"
+      "detectionDate": "2025-09-02T11:23:55.634063",
+      "lastModified": "2025-09-02T11:23:55.634064"
     },
     {
       "featureCapability": "Java App Modernization in VS Code",
@@ -1348,8 +1348,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347703",
-      "lastModified": "2025-09-02T09:23:13.347704"
+      "detectionDate": "2025-09-02T11:23:55.633727",
+      "lastModified": "2025-09-02T11:23:55.633728"
     },
     {
       "featureCapability": "Next Edit Suggestions Generally Available",
@@ -1365,8 +1365,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347784",
-      "lastModified": "2025-09-02T09:23:13.347785"
+      "detectionDate": "2025-09-02T11:23:55.633810",
+      "lastModified": "2025-09-02T11:23:55.633811"
     },
     {
       "featureCapability": "Copilot Chat in JetBrains IDEs",
@@ -1382,8 +1382,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.348336",
-      "lastModified": "2025-09-02T09:23:13.348337"
+      "detectionDate": "2025-09-02T11:23:55.634361",
+      "lastModified": "2025-09-02T11:23:55.634362"
     },
     {
       "featureCapability": "Context Variables in Visual Studio",
@@ -1399,8 +1399,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347979",
-      "lastModified": "2025-09-02T09:23:13.347980"
+      "detectionDate": "2025-09-02T11:23:55.633988",
+      "lastModified": "2025-09-02T11:23:55.633989"
     },
     {
       "featureCapability": "Slash Commands in Visual Studio",
@@ -1416,8 +1416,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.348004",
-      "lastModified": "2025-09-02T09:23:13.348005"
+      "detectionDate": "2025-09-02T11:23:55.634013",
+      "lastModified": "2025-09-02T11:23:55.634014"
     },
     {
       "featureCapability": "Copilot Edits Generally Available in VS Code",
@@ -1433,8 +1433,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347825",
-      "lastModified": "2025-09-02T09:23:13.347826"
+      "detectionDate": "2025-09-02T11:23:55.633836",
+      "lastModified": "2025-09-02T11:23:55.633837"
     },
     {
       "featureCapability": "Copilot Chat for Xcode Generally Available",
@@ -1450,8 +1450,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347853",
-      "lastModified": "2025-09-02T09:23:13.347854"
+      "detectionDate": "2025-09-02T11:23:55.633862",
+      "lastModified": "2025-09-02T11:23:55.633863"
     },
     {
       "featureCapability": "Agent Mode in VS Code (Public Preview)",
@@ -1467,8 +1467,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347879",
-      "lastModified": "2025-09-02T09:23:13.347880"
+      "detectionDate": "2025-09-02T11:23:55.633888",
+      "lastModified": "2025-09-02T11:23:55.633889"
     },
     {
       "featureCapability": "Prompt Files in VS Code",
@@ -1484,8 +1484,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347904",
-      "lastModified": "2025-09-02T09:23:13.347905"
+      "detectionDate": "2025-09-02T11:23:55.633913",
+      "lastModified": "2025-09-02T11:23:55.633914"
     },
     {
       "featureCapability": "Vision Support in VS Code Insiders",
@@ -1501,8 +1501,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347929",
-      "lastModified": "2025-09-02T09:23:13.347930"
+      "detectionDate": "2025-09-02T11:23:55.633938",
+      "lastModified": "2025-09-02T11:23:55.633939"
     },
     {
       "featureCapability": "GPT-4o Code Completion Model",
@@ -1518,8 +1518,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347954",
-      "lastModified": "2025-09-02T09:23:13.347955"
+      "detectionDate": "2025-09-02T11:23:55.633963",
+      "lastModified": "2025-09-02T11:23:55.633964"
     },
     {
       "featureCapability": "JetBrains Partial Acceptance",
@@ -1535,8 +1535,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.348028",
-      "lastModified": "2025-09-02T09:23:13.348029"
+      "detectionDate": "2025-09-02T11:23:55.634038",
+      "lastModified": "2025-09-02T11:23:55.634039"
     },
     {
       "featureCapability": "Next Edit Suggestions (NES) in JetBrains",
@@ -1552,8 +1552,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347578",
-      "lastModified": "2025-09-02T09:23:13.347579"
+      "detectionDate": "2025-09-02T11:23:55.633601",
+      "lastModified": "2025-09-02T11:23:55.633602"
     },
     {
       "featureCapability": "Visual Studio August 2025 Update",
@@ -1569,8 +1569,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347603",
-      "lastModified": "2025-09-02T09:23:13.347604"
+      "detectionDate": "2025-09-02T11:23:55.633627",
+      "lastModified": "2025-09-02T11:23:55.633628"
     },
     {
       "featureCapability": "MCP Support for JetBrains/Eclipse/Xcode",
@@ -1586,8 +1586,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347628",
-      "lastModified": "2025-09-02T09:23:13.347629"
+      "detectionDate": "2025-09-02T11:23:55.633652",
+      "lastModified": "2025-09-02T11:23:55.633653"
     },
     {
       "featureCapability": "GPT-5 Mini Cross-IDE Availability",
@@ -1603,8 +1603,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347653",
-      "lastModified": "2025-09-02T09:23:13.347654"
+      "detectionDate": "2025-09-02T11:23:55.633677",
+      "lastModified": "2025-09-02T11:23:55.633678"
     },
     {
       "featureCapability": "Copilot Code Review GA in Xcode",
@@ -1620,8 +1620,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347678",
-      "lastModified": "2025-09-02T09:23:13.347679"
+      "detectionDate": "2025-09-02T11:23:55.633702",
+      "lastModified": "2025-09-02T11:23:55.633703"
     },
     {
       "featureCapability": "Improved C++ Completions in VS Code",
@@ -1637,8 +1637,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.348312",
-      "lastModified": "2025-09-02T09:23:13.348313"
+      "detectionDate": "2025-09-02T11:23:55.634336",
+      "lastModified": "2025-09-02T11:23:55.634337"
     },
     {
       "featureCapability": "Bring Your Own Key (BYOK) in VS Code",
@@ -1654,8 +1654,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347728",
-      "lastModified": "2025-09-02T09:23:13.347729"
+      "detectionDate": "2025-09-02T11:23:55.633752",
+      "lastModified": "2025-09-02T11:23:55.633753"
     },
     {
       "featureCapability": "Eclipse Copilot Chat",
@@ -1671,8 +1671,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T09:23:13.347757",
-      "lastModified": "2025-09-02T09:23:13.347758"
+      "detectionDate": "2025-09-02T11:23:55.633781",
+      "lastModified": "2025-09-02T11:23:55.633782"
     }
   ]
 }
