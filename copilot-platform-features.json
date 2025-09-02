@@ -1,0 +1,1219 @@
+{
+  "metadata": {
+    "platform": "Platform",
+    "lastUpdated": "2025-09-02T09:23:13.351450",
+    "generatedBy": "automated-extraction",
+    "feedSources": [
+      "copilot-feature-matrix.md"
+    ]
+  },
+  "features": [
+    {
+      "featureCapability": "Copilot Extensions Public Beta",
+      "category": "Platform / Extensibility",
+      "firstIntroduced": "Sep 2024",
+      "currentStatus": "Preview",
+      "latestUpdate": "Sep 2024",
+      "keyMilestones": "Public beta extending GitHub Copilot to more development environments with third-party integrations",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350411",
+      "lastModified": "2025-09-02T09:23:13.350412"
+    },
+    {
+      "featureCapability": "Search Across GitHub with Copilot",
+      "category": "Platform / Search",
+      "firstIntroduced": "Sep 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Sep 2024",
+      "keyMilestones": "Copilot Chat can search across repositories, organizations, and teams for comprehensive code discovery",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350436",
+      "lastModified": "2025-09-02T09:23:13.350437"
+    },
+    {
+      "featureCapability": "Content Exclusion for Non-Git Files",
+      "category": "Platform / Security",
+      "firstIntroduced": "Sep 2024",
+      "currentStatus": "Preview",
+      "latestUpdate": "Sep 2024",
+      "keyMilestones": "Content exclusion beta extended to non-Git files for enhanced control over Copilot access",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350461",
+      "lastModified": "2025-09-02T09:23:13.350462"
+    },
+    {
+      "featureCapability": "8k Context Window",
+      "category": "Platform / Performance",
+      "firstIntroduced": "Sep 2023",
+      "currentStatus": "Stable",
+      "latestUpdate": "Sep 2023",
+      "keyMilestones": "Expanded context window for better code completion requests",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.351298",
+      "lastModified": "2025-09-02T09:23:13.351299"
+    },
+    {
+      "featureCapability": "Copilot Chat Beta for Individuals",
+      "category": "Platform / Chat",
+      "firstIntroduced": "Sep 2023",
+      "currentStatus": "Stable",
+      "latestUpdate": "Sep 2023",
+      "keyMilestones": "Free public beta chat functionality for individual subscriptions",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.351325",
+      "lastModified": "2025-09-02T09:23:13.351326"
+    },
+    {
+      "featureCapability": "GitHub Copilot Metrics API Generally Available",
+      "category": "Platform / Analytics",
+      "firstIntroduced": "Oct 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Oct 2024",
+      "keyMilestones": "GA release with new metrics for PR summaries, Chat on GitHub.com, and 28 days historical data",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350386",
+      "lastModified": "2025-09-02T09:23:13.350387"
+    },
+    {
+      "featureCapability": "Multi-line Completions Enhancement",
+      "category": "Platform / Code Completion",
+      "firstIntroduced": "Oct 2023",
+      "currentStatus": "Stable",
+      "latestUpdate": "Oct 2023",
+      "keyMilestones": "Improved multiline suggestions for JavaScript, TypeScript, Python",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.351221",
+      "lastModified": "2025-09-02T09:23:13.351222"
+    },
+    {
+      "featureCapability": "Testing Framework Detection",
+      "category": "Platform / Testing",
+      "firstIntroduced": "Oct 2023",
+      "currentStatus": "Stable",
+      "latestUpdate": "Oct 2023",
+      "keyMilestones": "/test command detects testing framework and generates appropriate tests",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.351246",
+      "lastModified": "2025-09-02T09:23:13.351247"
+    },
+    {
+      "featureCapability": "Enhanced Multi-Turn Conversations",
+      "category": "Platform / Chat",
+      "firstIntroduced": "Oct 2023",
+      "currentStatus": "Stable",
+      "latestUpdate": "Oct 2023",
+      "keyMilestones": "Chat references previous messages for better context",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.351271",
+      "lastModified": "2025-09-02T09:23:13.351272"
+    },
+    {
+      "featureCapability": "GitHub Copilot CLI (Public Beta)",
+      "category": "Platform / CLI",
+      "firstIntroduced": "Nov 2023",
+      "currentStatus": "Stable",
+      "latestUpdate": "Nov 2023",
+      "keyMilestones": "Command line assistance for explaining commands and suggesting tasks",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.351196",
+      "lastModified": "2025-09-02T09:23:13.351197"
+    },
+    {
+      "featureCapability": "Copilot Spaces (GA)",
+      "category": "Platform / Knowledge",
+      "firstIntroduced": "May 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "May 2025",
+      "keyMilestones": "Revolutionary knowledge bases with enhanced context and team collaboration replacing deprecated knowledge bases",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.349684",
+      "lastModified": "2025-09-02T09:23:13.349685"
+    },
+    {
+      "featureCapability": "Copilot Workflow Automation",
+      "category": "Platform / Automation",
+      "firstIntroduced": "May 2025",
+      "currentStatus": "Preview",
+      "latestUpdate": "May 2025",
+      "keyMilestones": "Integration with GitHub Actions for automated code generation, testing, and deployment workflows",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.349995",
+      "lastModified": "2025-09-02T09:23:13.349996"
+    },
+    {
+      "featureCapability": "Enhanced Context Window (32k)",
+      "category": "Platform / Performance",
+      "firstIntroduced": "May 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "May 2025",
+      "keyMilestones": "Significantly expanded context window for better understanding of large codebases and complex projects",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350020",
+      "lastModified": "2025-09-02T09:23:13.350021"
+    },
+    {
+      "featureCapability": "Multi-Language Project Support",
+      "category": "Platform / Code Understanding",
+      "firstIntroduced": "May 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "May 2025",
+      "keyMilestones": "Improved cross-language context awareness for polyglot projects and microservices architectures",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350050",
+      "lastModified": "2025-09-02T09:23:13.350051"
+    },
+    {
+      "featureCapability": "OpenAI GPT-4.1 Model",
+      "category": "Platform / AI Models",
+      "firstIntroduced": "Apr 2025",
+      "currentStatus": "Preview",
+      "latestUpdate": "May 2025",
+      "keyMilestones": "Advanced GPT model variant providing enhanced performance for complex coding tasks",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350075",
+      "lastModified": "2025-09-02T09:23:13.350076"
+    },
+    {
+      "featureCapability": "Copilot Extensions Limited Public Beta",
+      "category": "Platform / Extensibility",
+      "firstIntroduced": "May 2024",
+      "currentStatus": "Preview",
+      "latestUpdate": "May 2024",
+      "keyMilestones": "Create feature flags, check logs, access API docs, deploy apps via natural language across third-party tools",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350752",
+      "lastModified": "2025-09-02T09:23:13.350753"
+    },
+    {
+      "featureCapability": "Copilot Metrics Last Activity Update",
+      "category": "Platform / Analytics",
+      "firstIntroduced": "May 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "May 2024",
+      "keyMilestones": "Improved Last Activity calculation reflecting actual user engagement rather than token generation",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350778",
+      "lastModified": "2025-09-02T09:23:13.350779"
+    },
+    {
+      "featureCapability": "Instant Semantic Code Search Indexing",
+      "category": "Platform / Performance",
+      "firstIntroduced": "Mar 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Mar 2025",
+      "keyMilestones": "Repository indexing reduced from 5 minutes to seconds across all Copilot tiers with unlimited repository support",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350307",
+      "lastModified": "2025-09-02T09:23:13.350308"
+    },
+    {
+      "featureCapability": "Copilot CLI Generally Available",
+      "category": "Platform / CLI",
+      "firstIntroduced": "Mar 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Mar 2024",
+      "keyMilestones": "Command line assistance for all Individual, Business, and Enterprise customers",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350911",
+      "lastModified": "2025-09-02T09:23:13.350912"
+    },
+    {
+      "featureCapability": "Copilot Code Completion Model Update",
+      "category": "Platform / AI Models",
+      "firstIntroduced": "Mar 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Mar 2024",
+      "keyMilestones": "Enhanced instruction following and performance improvements across all IDEs",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350936",
+      "lastModified": "2025-09-02T09:23:13.350937"
+    },
+    {
+      "featureCapability": "Copilot Code Review Bot",
+      "category": "Platform / Quality",
+      "firstIntroduced": "Jun 2025",
+      "currentStatus": "Preview",
+      "latestUpdate": "Jun 2025",
+      "keyMilestones": "Automated code review assistance with suggestions for improvements, security issues, and best practices",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.349941",
+      "lastModified": "2025-09-02T09:23:13.349942"
+    },
+    {
+      "featureCapability": "Advanced Prompt Engineering",
+      "category": "Platform / Chat",
+      "firstIntroduced": "Jun 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Jun 2025",
+      "keyMilestones": "Enhanced prompt customization capabilities for specialized coding workflows and domain-specific tasks",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.349966",
+      "lastModified": "2025-09-02T09:23:13.349966"
+    },
+    {
+      "featureCapability": "Enterprise Copilot Seats API",
+      "category": "Platform / API",
+      "firstIntroduced": "Jun 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Jun 2024",
+      "keyMilestones": "Centralized enterprise endpoint for listing Copilot seats and metadata with read:enterprise scope",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350570",
+      "lastModified": "2025-09-02T09:23:13.350571"
+    },
+    {
+      "featureCapability": "SOC 2 Type I Compliance Report",
+      "category": "Platform / Security",
+      "firstIntroduced": "Jun 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Jun 2024",
+      "keyMilestones": "Published SOC 2 Type I report for Copilot Business showcasing security controls",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350595",
+      "lastModified": "2025-09-02T09:23:13.350596"
+    },
+    {
+      "featureCapability": "ISO 27001 Certification for Copilot",
+      "category": "Platform / Security",
+      "firstIntroduced": "Jun 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Jun 2024",
+      "keyMilestones": "Copilot Business and Enterprise included in GitHub's ISO 27001 certification",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350620",
+      "lastModified": "2025-09-02T09:23:13.350621"
+    },
+    {
+      "featureCapability": "Repository Understanding on GitHub.com",
+      "category": "Platform / Code Understanding",
+      "firstIntroduced": "Jun 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Jun 2024",
+      "keyMilestones": "Copilot Chat can answer questions about repositories, releases, commits, and changes on GitHub.com",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350645",
+      "lastModified": "2025-09-02T09:23:13.350646"
+    },
+    {
+      "featureCapability": "Discussion Summaries in Enterprise",
+      "category": "Platform / Code Understanding",
+      "firstIntroduced": "Jun 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Jun 2024",
+      "keyMilestones": "Copilot can summarize GitHub discussions and identify themes from participant commentary",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350672",
+      "lastModified": "2025-09-02T09:23:13.350673"
+    },
+    {
+      "featureCapability": "Pull Request Context Enhancement",
+      "category": "Platform / Code Review",
+      "firstIntroduced": "Jun 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Jun 2024",
+      "keyMilestones": "Copilot answers questions about Pull Requests and provides overviews of introduced changes",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350698",
+      "lastModified": "2025-09-02T09:23:13.350699"
+    },
+    {
+      "featureCapability": "File Change Analysis",
+      "category": "Platform / Code Understanding",
+      "firstIntroduced": "Jun 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Jun 2024",
+      "keyMilestones": "Copilot can analyze files and retrieve recent changes on any branch for codebase understanding",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350724",
+      "lastModified": "2025-09-02T09:23:13.350725"
+    },
+    {
+      "featureCapability": "Multi-Repository Context",
+      "category": "Platform / Context",
+      "firstIntroduced": "Jul 2025",
+      "currentStatus": "Preview",
+      "latestUpdate": "Jul 2025",
+      "keyMilestones": "Enhanced context awareness across multiple repositories within an organization for better code suggestions",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.349863",
+      "lastModified": "2025-09-02T09:23:13.349864"
+    },
+    {
+      "featureCapability": "Enterprise Analytics Dashboard",
+      "category": "Platform / Analytics",
+      "firstIntroduced": "Jul 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Jul 2025",
+      "keyMilestones": "Comprehensive usage analytics and adoption metrics for enterprise customers with team insights",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.349889",
+      "lastModified": "2025-09-02T09:23:13.349890"
+    },
+    {
+      "featureCapability": "Custom Model Training (Beta)",
+      "category": "Platform / AI Models",
+      "firstIntroduced": "Jul 2025",
+      "currentStatus": "Preview",
+      "latestUpdate": "Jul 2025",
+      "keyMilestones": "Beta program allowing enterprises to fine-tune Copilot on their proprietary codebases",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.349915",
+      "lastModified": "2025-09-02T09:23:13.349916"
+    },
+    {
+      "featureCapability": "Copilot Enterprise Mixed Licensing",
+      "category": "Platform / Licensing",
+      "firstIntroduced": "Jul 2024",
+      "currentStatus": "Preview",
+      "latestUpdate": "Jul 2024",
+      "keyMilestones": "Public beta allowing enterprise customers to select Copilot plans per organization",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350545",
+      "lastModified": "2025-09-02T09:23:13.350546"
+    },
+    {
+      "featureCapability": "Copilot for Business Chat Beta",
+      "category": "Platform / Chat",
+      "firstIntroduced": "Jul 2023",
+      "currentStatus": "Stable",
+      "latestUpdate": "Jul 2023",
+      "keyMilestones": "Limited public beta of conversational coding for business users",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.351429",
+      "lastModified": "2025-09-02T09:23:13.351430"
+    },
+    {
+      "featureCapability": "Content Exclusions Re-deployment",
+      "category": "Platform / Security",
+      "firstIntroduced": "Jan 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Jan 2024",
+      "keyMilestones": "Enhanced content exclusions with performance optimizations and multi-IDE support",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.351043",
+      "lastModified": "2025-09-02T09:23:13.351044"
+    },
+    {
+      "featureCapability": "Copilot Enterprise (GA)",
+      "category": "Platform / Enterprise",
+      "firstIntroduced": "Feb 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Feb 2024",
+      "keyMilestones": "Advanced AI offering with codebase understanding, knowledge bases, PR summaries, and Bing search",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350962",
+      "lastModified": "2025-09-02T09:23:13.350963"
+    },
+    {
+      "featureCapability": "Bing Search Integration",
+      "category": "Platform / Search",
+      "firstIntroduced": "Feb 2024",
+      "currentStatus": "Preview",
+      "latestUpdate": "Feb 2024",
+      "keyMilestones": "Public beta feature allowing Copilot to search Bing for information outside its general knowledge",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350992",
+      "lastModified": "2025-09-02T09:23:13.350993"
+    },
+    {
+      "featureCapability": "Structured Pull Request Summaries",
+      "category": "Platform / Code Review",
+      "firstIntroduced": "Feb 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Feb 2024",
+      "keyMilestones": "Enhanced PR summaries with \"Summary\" and \"Outline\" sections for better code review comprehension",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.351017",
+      "lastModified": "2025-09-02T09:23:13.351018"
+    },
+    {
+      "featureCapability": "Copilot Chat on GitHub.com Generally Available",
+      "category": "Platform / Chat",
+      "firstIntroduced": "Dec 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Dec 2024",
+      "keyMilestones": "Enhanced repository indexing with unlimited repositories for improved chat responses across all Copilot plans",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350333",
+      "lastModified": "2025-09-02T09:23:13.350334"
+    },
+    {
+      "featureCapability": "GitHub Copilot Free Plan",
+      "category": "Platform / Licensing",
+      "firstIntroduced": "Dec 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Dec 2024",
+      "keyMilestones": "2000 monthly code completions and 50 chat messages with Claude 3.5 Sonnet across VS Code, Visual Studio, JetBrains, and GitHub.com",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350360",
+      "lastModified": "2025-09-02T09:23:13.350361"
+    },
+    {
+      "featureCapability": "GPT-4 Chat Model Upgrade",
+      "category": "Platform / AI Models",
+      "firstIntroduced": "Dec 2023",
+      "currentStatus": "Stable",
+      "latestUpdate": "Dec 2023",
+      "keyMilestones": "Copilot Chat upgraded to GPT-4 for more accurate and useful code suggestions",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.351070",
+      "lastModified": "2025-09-02T09:23:13.351071"
+    },
+    {
+      "featureCapability": "Code Referencing Public Beta",
+      "category": "Platform / Security",
+      "firstIntroduced": "Dec 2023",
+      "currentStatus": "Preview",
+      "latestUpdate": "Dec 2023",
+      "keyMilestones": "Public beta of code matching across billions of GitHub files with license information in console log",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.351096",
+      "lastModified": "2025-09-02T09:23:13.351096"
+    },
+    {
+      "featureCapability": "Chat Agents (@workspace, @vscode)",
+      "category": "Platform / Chat",
+      "firstIntroduced": "Dec 2023",
+      "currentStatus": "Stable",
+      "latestUpdate": "Dec 2023",
+      "keyMilestones": "Specialized expert agents with @ symbol for specific tasks, replacing slash commands",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.351121",
+      "lastModified": "2025-09-02T09:23:13.351122"
+    },
+    {
+      "featureCapability": "Commit Message Generation",
+      "category": "Platform / Git Integration",
+      "firstIntroduced": "Dec 2023",
+      "currentStatus": "Stable",
+      "latestUpdate": "Dec 2023",
+      "keyMilestones": "AI-generated commit messages based on pending changes via sparkle action in VS Code",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.351146",
+      "lastModified": "2025-09-02T09:23:13.351147"
+    },
+    {
+      "featureCapability": "Improved Explanation Context",
+      "category": "Platform / Code Understanding",
+      "firstIntroduced": "Dec 2023",
+      "currentStatus": "Stable",
+      "latestUpdate": "Dec 2023",
+      "keyMilestones": "Enhanced code explanations with symbol implementation integration for better precision",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.351171",
+      "lastModified": "2025-09-02T09:23:13.351172"
+    },
+    {
+      "featureCapability": "AGENTS.md Custom Instructions",
+      "category": "Platform / Agent",
+      "firstIntroduced": "Aug 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "Support for AGENTS.md files alongside existing .github/copilot-instructions.md format for agent customization",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.349503",
+      "lastModified": "2025-09-02T09:23:13.349506"
+    },
+    {
+      "featureCapability": "Raycast Integration for Coding Agent",
+      "category": "Platform / Integration",
+      "firstIntroduced": "Aug 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "Create and track Copilot coding agent tasks directly from Raycast launcher on macOS",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.349542",
+      "lastModified": "2025-09-02T09:23:13.349543"
+    },
+    {
+      "featureCapability": "Sub-Issues Creation",
+      "category": "Platform / Project Management",
+      "firstIntroduced": "Aug 2025",
+      "currentStatus": "Preview",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "AI-powered creation and management of issue hierarchies with parent-child relationships",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.349573",
+      "lastModified": "2025-09-02T09:23:13.349574"
+    },
+    {
+      "featureCapability": "GPT-4.1 Copilot Completion Model",
+      "category": "Platform / AI Models",
+      "firstIntroduced": "Aug 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "Enhanced GPT-4.1 model specifically tuned for code completions with improved relevance",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.349600",
+      "lastModified": "2025-09-02T09:23:13.349601"
+    },
+    {
+      "featureCapability": "Enterprise Cloud Data Residency",
+      "category": "Platform / Enterprise",
+      "firstIntroduced": "Aug 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "Copilot coding agent support in GitHub Enterprise Cloud with data residency compliance",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.349629",
+      "lastModified": "2025-09-02T09:23:13.349630"
+    },
+    {
+      "featureCapability": "Grok Code Fast 1 Preview",
+      "category": "Platform / AI Models",
+      "firstIntroduced": "Aug 2025",
+      "currentStatus": "Preview",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "xAI's Grok model available in public preview for VS Code with BYOK support",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.349658",
+      "lastModified": "2025-09-02T09:23:13.349659"
+    },
+    {
+      "featureCapability": "Knowledge Bases (Deprecated)",
+      "category": "Platform / Context",
+      "firstIntroduced": "Feb 2024",
+      "currentStatus": "Deprecated",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "Sunset in favor of Copilot Spaces with enhanced functionality and improved user experience",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.349710",
+      "lastModified": "2025-09-02T09:23:13.349711"
+    },
+    {
+      "featureCapability": "Claude Opus 4.1 Model",
+      "category": "Platform / AI Models",
+      "firstIntroduced": "Aug 2025",
+      "currentStatus": "Preview",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "Anthropic's flagship model with enhanced reasoning capabilities for complex programming tasks",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.349741",
+      "lastModified": "2025-09-02T09:23:13.349742"
+    },
+    {
+      "featureCapability": "Copilot Generated Commit Messages",
+      "category": "Platform / Automation",
+      "firstIntroduced": "Aug 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "AI-powered commit message generation integrated into GitHub workflow for improved developer productivity",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.349767",
+      "lastModified": "2025-09-02T09:23:13.349768"
+    },
+    {
+      "featureCapability": "Advanced Security Scanning Integration",
+      "category": "Platform / Security",
+      "firstIntroduced": "Aug 2025",
+      "currentStatus": "Preview",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "Deep integration with GitHub Advanced Security for vulnerability detection and remediation suggestions",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.349807",
+      "lastModified": "2025-09-02T09:23:13.349808"
+    },
+    {
+      "featureCapability": "Copilot Mobile App Preview",
+      "category": "Platform / Mobile",
+      "firstIntroduced": "Aug 2025",
+      "currentStatus": "Preview",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "Early access mobile application for code review, chat, and basic editing capabilities on iOS and Android",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.349834",
+      "lastModified": "2025-09-02T09:23:13.349835"
+    },
+    {
+      "featureCapability": "Custom Models Limited Beta",
+      "category": "Platform / AI Models",
+      "firstIntroduced": "Aug 2024",
+      "currentStatus": "Preview",
+      "latestUpdate": "Aug 2024",
+      "keyMilestones": "Fine-tune Copilot on proprietary libraries, specialized languages, and internal coding patterns for Enterprise",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350487",
+      "lastModified": "2025-09-02T09:23:13.350488"
+    },
+    {
+      "featureCapability": "Copilot Metrics API Team Support",
+      "category": "Platform / Analytics",
+      "firstIntroduced": "Aug 2024",
+      "currentStatus": "Preview",
+      "latestUpdate": "Aug 2024",
+      "keyMilestones": "Usage metrics for GitHub Organization Teams with five or more Copilot license holders",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350516",
+      "lastModified": "2025-09-02T09:23:13.350517"
+    },
+    {
+      "featureCapability": "Copilot Trust Center",
+      "category": "Platform / Security",
+      "firstIntroduced": "Aug 2023",
+      "currentStatus": "Stable",
+      "latestUpdate": "Aug 2023",
+      "keyMilestones": "Comprehensive security, privacy, compliance, and transparency hub",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.351350",
+      "lastModified": "2025-09-02T09:23:13.351351"
+    },
+    {
+      "featureCapability": "Code Referencing (Private Beta)",
+      "category": "Platform / Security",
+      "firstIntroduced": "Aug 2023",
+      "currentStatus": "Preview",
+      "latestUpdate": "Aug 2023",
+      "keyMilestones": "Shows repositories and licenses when suggestions match public code",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.351377",
+      "lastModified": "2025-09-02T09:23:13.351378"
+    },
+    {
+      "featureCapability": "User Management API (Beta)",
+      "category": "Platform / API",
+      "firstIntroduced": "Aug 2023",
+      "currentStatus": "Stable",
+      "latestUpdate": "Aug 2023",
+      "keyMilestones": "REST API for managing Copilot for Business subscriptions",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.351404",
+      "lastModified": "2025-09-02T09:23:13.351405"
+    },
+    {
+      "featureCapability": "Code Review Bot GA",
+      "category": "Platform / Quality",
+      "firstIntroduced": "Apr 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Apr 2025",
+      "keyMilestones": "Official graduation from beta with C, C++, Kotlin, and Swift support",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350101",
+      "lastModified": "2025-09-02T09:23:13.350101"
+    },
+    {
+      "featureCapability": "Shareable Conversations",
+      "category": "Platform / Collaboration",
+      "firstIntroduced": "Apr 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Apr 2025",
+      "keyMilestones": "Share Copilot chat sessions via links instead of screenshots",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350128",
+      "lastModified": "2025-09-02T09:23:13.350129"
+    },
+    {
+      "featureCapability": "GitHub Desktop Commit Messages",
+      "category": "Platform / Automation",
+      "firstIntroduced": "Apr 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Apr 2025",
+      "keyMilestones": "AI-generated commit messages integrated into GitHub Desktop workflow",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350154",
+      "lastModified": "2025-09-02T09:23:13.350155"
+    },
+    {
+      "featureCapability": "OpenAI O4-mini Model",
+      "category": "Platform / AI Models",
+      "firstIntroduced": "Apr 2025",
+      "currentStatus": "Preview",
+      "latestUpdate": "Apr 2025",
+      "keyMilestones": "Lightweight reasoning model providing faster performance for GitHub Copilot and GitHub Models",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350180",
+      "lastModified": "2025-09-02T09:23:13.350181"
+    },
+    {
+      "featureCapability": "Vision Support Expansion",
+      "category": "Platform / AI Models",
+      "firstIntroduced": "Apr 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Apr 2025",
+      "keyMilestones": "Screenshots and diagrams support for Claude and Gemini models across VS Code, Visual Studio, github.com",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350206",
+      "lastModified": "2025-09-02T09:23:13.350207"
+    },
+    {
+      "featureCapability": "Organization Custom Instructions",
+      "category": "Platform / Enterprise",
+      "firstIntroduced": "Apr 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Apr 2025",
+      "keyMilestones": "Enterprise customers can set default instructions for all organization users",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350231",
+      "lastModified": "2025-09-02T09:23:13.350232"
+    },
+    {
+      "featureCapability": "OpenAI O3-mini Model",
+      "category": "Platform / AI Models",
+      "firstIntroduced": "Jan 2025",
+      "currentStatus": "Preview",
+      "latestUpdate": "Apr 2025",
+      "keyMilestones": "Advanced reasoning model surpassing O1 on coding benchmarks, graduated from preview to GA with IP indemnification",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350256",
+      "lastModified": "2025-09-02T09:23:13.350257"
+    },
+    {
+      "featureCapability": "Claude 3.7 Sonnet and Gemini Flash 2.0 Generally Available",
+      "category": "Platform / AI Models",
+      "firstIntroduced": "Apr 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Apr 2025",
+      "keyMilestones": "Advanced models graduated from preview with IP indemnification for Copilot Chat and agent mode usage",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350282",
+      "lastModified": "2025-09-02T09:23:13.350283"
+    },
+    {
+      "featureCapability": "Copilot Workspace Technical Preview",
+      "category": "Platform / Development Environment",
+      "firstIntroduced": "Apr 2024",
+      "currentStatus": "Preview",
+      "latestUpdate": "Apr 2024",
+      "keyMilestones": "AI-native development environment from idea to code using natural language with task-to-spec-to-plan workflow",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350814",
+      "lastModified": "2025-09-02T09:23:13.350815"
+    },
+    {
+      "featureCapability": "Copilot Metrics API Public Beta",
+      "category": "Platform / Analytics",
+      "firstIntroduced": "Apr 2024",
+      "currentStatus": "Preview",
+      "latestUpdate": "Apr 2024",
+      "keyMilestones": "Usage insights API for Business and Enterprise customers with historical data and team-level aggregates",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.350884",
+      "lastModified": "2025-09-02T09:23:13.350885"
+    }
+  ]
+}

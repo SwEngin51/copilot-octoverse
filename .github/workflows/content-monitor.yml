@@ -1,0 +1,282 @@
+name: Content Monitor & Issue Creator
+
+on:
+  schedule:
+    # Run on the 1st of every month at 9:00 AM UTC
+    - cron: '0 9 1 * *'
+  workflow_dispatch:  # Allow manual trigger
+    inputs:
+      output_format:
+        description: 'Output format for feature data'
+        required: false
+        default: 'markdown'
+        type: choice
+        options:
+        - markdown
+        - json
+
+env:
+  # Repository to monitor (format: owner/repo) - stored as repository variable
+  MONITORED_REPO: ${{ vars.MONITORED_REPO || 'microsoft/vscode' }}
+  # Directory within the monitored repo to check for changes - stored as repository variable
+  MONITORED_DIRECTORY: ${{ vars.MONITORED_DIRECTORY || 'release-notes' }}
+  # RSS feeds to monitor (JSON array) - stored as repository variable
+  RSS_FEEDS: ${{ vars.RSS_FEEDS || '["https://code.visualstudio.com/api/releases.json"]' }}
+  # Local directory to store downloaded content
+  LOCAL_CONTENT_DIR: 'monitored-content'
+  # Copilot GitHub username to assign issues to (using GitHub CLI)
+  COPILOT_ASSIGNEE: 'copilot-swe-agent'
+  # Optional: Custom action items template content (overrides default template file)
+  # COPILOT_ACTION_ITEMS_TEMPLATE: ${{ vars.COPILOT_TEMPLATE_CONTENT }}
+  # Optional: Email for notifications when manual action is needed
+  # NOTIFICATION_EMAIL: 'your-email@example.com'
+
+jobs:
+  setup:
+    name: "Setup Environment & Dependencies"
+    runs-on: ubuntu-latest
+    container: python:3.12-slim
+    outputs:
+      monitored_repo: ${{ env.MONITORED_REPO }}
+      monitored_directory: ${{ env.MONITORED_DIRECTORY }}
+      rss_feeds: ${{ env.RSS_FEEDS }}
+      local_content_dir: ${{ env.LOCAL_CONTENT_DIR }}
+      python_cache_key: ${{ steps.cache-deps.outputs.cache-hit }}
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Cache Python dependencies
+      id: cache-deps
+      uses: actions/cache@v4
+      with:
+        path: /usr/local/lib/python3.12/site-packages
+        key: pip-container-${{ hashFiles('.github/scripts/requirements.txt') }}
+        restore-keys: |
+          pip-container-
+
+    - name: Install dependencies
+      if: steps.cache-deps.outputs.cache-hit != 'true'
+      run: |
+        pip install --upgrade pip
+        pip install -r .github/scripts/requirements.txt
+
+    - name: Create local content directory
+      run: |
+        mkdir -p ${{ env.LOCAL_CONTENT_DIR }}/repo-content
+        mkdir -p ${{ env.LOCAL_CONTENT_DIR }}/rss-content
+
+  monitor-repository:
+    name: "Monitor Repository Changes"
+    runs-on: ubuntu-latest
+    container: python:3.12-slim
+    needs: setup
+    outputs:
+      changes_detected: ${{ steps.monitor-repo.outputs.changes_detected }}
+      changes_summary: ${{ steps.monitor-repo.outputs.changes_summary }}
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Restore Python dependencies
+      uses: actions/cache@v4
+      with:
+        path: /usr/local/lib/python3.12/site-packages
+        key: pip-container-${{ hashFiles('.github/scripts/requirements.txt') }}
+        restore-keys: |
+          pip-container-
+
+    - name: Create content directories
+      run: |
+        mkdir -p ${{ env.LOCAL_CONTENT_DIR }}/repo-content
+        mkdir -p ${{ env.LOCAL_CONTENT_DIR }}/rss-content
+
+    - name: Monitor repository directory
+      id: monitor-repo
+      run: |
+        python .github/scripts/monitor_repo_directory.py
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        MONITORED_REPO: ${{ env.MONITORED_REPO }}
+        MONITORED_DIRECTORY: ${{ env.MONITORED_DIRECTORY }}
+        LOCAL_CONTENT_DIR: ${{ env.LOCAL_CONTENT_DIR }}
+
+    - name: Upload repository monitoring results
+      if: steps.monitor-repo.outputs.changes_detected == 'true'
+      uses: actions/upload-artifact@v4
+      with:
+        name: repo-monitoring-results
+        path: ${{ env.LOCAL_CONTENT_DIR }}/repo-content/
+        retention-days: 1
+
+  monitor-rss:
+    name: "Monitor RSS Feed Changes"
+    runs-on: ubuntu-latest
+    container: python:3.12-slim
+    needs: setup
+    outputs:
+      changes_detected: ${{ steps.monitor-rss.outputs.changes_detected }}
+      changes_summary: ${{ steps.monitor-rss.outputs.changes_summary }}
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Restore Python dependencies
+      uses: actions/cache@v4
+      with:
+        path: /usr/local/lib/python3.12/site-packages
+        key: pip-container-${{ hashFiles('.github/scripts/requirements.txt') }}
+        restore-keys: |
+          pip-container-
+
+    - name: Create content directories
+      run: |
+        mkdir -p ${{ env.LOCAL_CONTENT_DIR }}/repo-content
+        mkdir -p ${{ env.LOCAL_CONTENT_DIR }}/rss-content
+
+    - name: Monitor RSS feed
+      id: monitor-rss
+      run: |
+        python .github/scripts/monitor_rss_feed.py
+      env:
+        RSS_FEEDS: ${{ env.RSS_FEEDS }}
+        LOCAL_CONTENT_DIR: ${{ env.LOCAL_CONTENT_DIR }}
+
+    - name: Upload RSS monitoring results
+      if: steps.monitor-rss.outputs.changes_detected == 'true'
+      uses: actions/upload-artifact@v4
+      with:
+        name: rss-monitoring-results
+        path: ${{ env.LOCAL_CONTENT_DIR }}/rss-content/
+        retention-days: 1
+
+  commit-changes:
+    name: "Commit Content Changes"
+    runs-on: ubuntu-latest
+    needs: [monitor-repository, monitor-rss]
+    if: needs.monitor-repository.outputs.changes_detected == 'true' || needs.monitor-rss.outputs.changes_detected == 'true'
+    permissions:
+      contents: write
+    outputs:
+      commit_success: ${{ steps.commit.outputs.commit_success }}
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Download repository monitoring results
+      if: needs.monitor-repository.outputs.changes_detected == 'true'
+      uses: actions/download-artifact@v4
+      with:
+        name: repo-monitoring-results
+        path: ${{ env.LOCAL_CONTENT_DIR }}/repo-content/
+
+    - name: Download RSS monitoring results
+      if: needs.monitor-rss.outputs.changes_detected == 'true'
+      uses: actions/download-artifact@v4
+      with:
+        name: rss-monitoring-results
+        path: ${{ env.LOCAL_CONTENT_DIR }}/rss-content/
+
+    - name: Commit and push changes
+      id: commit
+      run: |
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        
+        # Add files and commit if changes exist
+        if [ -d "${{ env.LOCAL_CONTENT_DIR }}" ]; then
+          echo "Adding files from ${{ env.LOCAL_CONTENT_DIR }}/"
+          git add ${{ env.LOCAL_CONTENT_DIR }}/
+          if ! git diff --staged --quiet; then
+            git commit -m "📊 Content monitor: Update tracked content [$(date +'%Y-%m-%d')]"
+            git push
+            echo "commit_success=true" >> $GITHUB_OUTPUT
+            echo "✅ Content changes committed and pushed"
+          else
+            echo "commit_success=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ No changes to commit"
+          fi
+        else
+          echo "Directory ${{ env.LOCAL_CONTENT_DIR }} not found"
+          echo "commit_success=false" >> $GITHUB_OUTPUT
+        fi
+
+  create-issue:
+    name: "Create Copilot Issue"
+    runs-on: ubuntu-latest
+    container: python:3.12-slim
+    needs: [monitor-repository, monitor-rss, commit-changes]
+    if: needs.commit-changes.outputs.commit_success == 'true'
+    permissions:
+      contents: read
+      issues: write
+      repository-projects: read
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Restore Python dependencies
+      uses: actions/cache@v4
+      with:
+        path: /usr/local/lib/python3.12/site-packages
+        key: pip-container-${{ hashFiles('.github/scripts/requirements.txt') }}
+        restore-keys: |
+          pip-container-
+
+    - name: Install GitHub CLI
+      run: |
+        apt-get update
+        apt-get install -y curl
+        curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+        chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg
+        echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+        apt-get update
+        apt-get install -y gh
+
+    - name: Download repository monitoring results
+      if: needs.monitor-repository.outputs.changes_detected == 'true'
+      uses: actions/download-artifact@v4
+      with:
+        name: repo-monitoring-results
+        path: ${{ env.LOCAL_CONTENT_DIR }}/repo-content/
+
+    - name: Download RSS monitoring results
+      if: needs.monitor-rss.outputs.changes_detected == 'true'
+      uses: actions/download-artifact@v4
+      with:
+        name: rss-monitoring-results
+        path: ${{ env.LOCAL_CONTENT_DIR }}/rss-content/
+
+    - name: Create GitHub issue
+      run: |
+        python .github/scripts/create_update_issue.py
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_REPOSITORY: ${{ github.repository }}
+        PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        REPO_CHANGES: ${{ needs.monitor-repository.outputs.changes_detected }}
+        RSS_CHANGES: ${{ needs.monitor-rss.outputs.changes_detected }}
+        REPO_CHANGES_SUMMARY: ${{ needs.monitor-repository.outputs.changes_summary }}
+        RSS_CHANGES_SUMMARY: ${{ needs.monitor-rss.outputs.changes_summary }}
+        COPILOT_ASSIGNEE: ${{ env.COPILOT_ASSIGNEE }}
+        LOCAL_CONTENT_DIR: ${{ env.LOCAL_CONTENT_DIR }}
+        OUTPUT_FORMAT: ${{ inputs.output_format || 'markdown' }}

@@ -1,0 +1,208 @@
+name: Generate and Validate Copilot Feature JSON
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: 'Commit the generated JSON files'
+        required: false
+        default: false
+        type: boolean
+  push:
+    branches: [ main ]
+    paths:
+      - 'copilot-feature-matrix.md'
+
+jobs:
+  # Job 1: Generate JSON files from markdown
+  generate-json:
+    name: Generate JSON Features
+    runs-on: ubuntu-latest
+    outputs:
+      ide-features-count: ${{ steps.generate.outputs.ide-features-count }}
+      platform-features-count: ${{ steps.generate.outputs.platform-features-count }}
+      generation-status: ${{ steps.generate.outputs.status }}
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Generate JSON files
+      id: generate
+      run: |
+        echo "🔧 Running JSON extraction script..."
+        python3 .github/scripts/extract_json_from_md.py
+        
+        # Capture feature counts
+        IDE_COUNT=$(python3 -c "import json; data=json.load(open('copilot-ide-features.json')); print(len(data['features']))")
+        PLATFORM_COUNT=$(python3 -c "import json; data=json.load(open('copilot-platform-features.json')); print(len(data['features']))")
+        
+        echo "ide-features-count=$IDE_COUNT" >> $GITHUB_OUTPUT
+        echo "platform-features-count=$PLATFORM_COUNT" >> $GITHUB_OUTPUT
+        echo "status=success" >> $GITHUB_OUTPUT
+        
+        echo "✅ Generated $IDE_COUNT IDE features and $PLATFORM_COUNT platform features"
+        
+    - name: Upload generated JSON files
+      uses: actions/upload-artifact@v4
+      with:
+        name: generated-json-files
+        path: |
+          copilot-ide-features.json
+          copilot-platform-features.json
+        retention-days: 5
+
+  # Job 2: Validate JSON against schema
+  validate-schema:
+    name: Validate JSON Schema
+    runs-on: ubuntu-latest
+    needs: generate-json
+    outputs:
+      validation-status: ${{ steps.validate.outputs.status }}
+      validation-errors: ${{ steps.validate.outputs.errors }}
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        pip install -r .github/scripts/requirements.txt
+        
+    - name: Download generated JSON files
+      uses: actions/download-artifact@v4
+      with:
+        name: generated-json-files
+        
+    - name: Validate JSON against schema
+      id: validate
+      run: |
+        echo "🔍 Running JSON schema validation..."
+        python3 .github/scripts/validate_json_schema.py
+        
+        # Set outputs based on validation result
+        if [ $? -eq 0 ]; then
+          echo "status=success" >> $GITHUB_OUTPUT
+          echo "errors=" >> $GITHUB_OUTPUT
+        else
+          echo "status=failed" >> $GITHUB_OUTPUT
+          echo "errors=Schema validation failed - check logs" >> $GITHUB_OUTPUT
+        fi
+
+  # Job 3: Commit changes (conditional)
+  commit-changes:
+    name: Commit JSON Files
+    runs-on: ubuntu-latest
+    needs: [generate-json, validate-schema]
+    permissions:
+      contents: write
+      actions: read
+    if: |
+      needs.validate-schema.outputs.validation-status == 'success' && 
+      (github.event.inputs.commit_changes == 'true' || github.event_name == 'push')
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+        
+    - name: Download validated JSON files
+      uses: actions/download-artifact@v4
+      with:
+        name: generated-json-files
+        
+    - name: Configure Git
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+    - name: Check for changes
+      id: changes
+      run: |
+        # Check if files have changed
+        git add copilot-ide-features.json copilot-platform-features.json
+        
+        if git diff --staged --quiet; then
+          echo "No changes detected in JSON files"
+          echo "has-changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "Changes detected in JSON files"
+          echo "has-changes=true" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Commit and push changes
+      if: steps.changes.outputs.has-changes == 'true'
+      run: |
+        echo "🔄 Committing changes..."
+        git commit -m "🤖 Auto-update: Regenerated Copilot feature JSON files
+        
+        - IDE Features: ${{ needs.generate-json.outputs.ide-features-count }} features
+        - Platform Features: ${{ needs.generate-json.outputs.platform-features-count }} features
+        - Generated: $(date -u +'%Y-%m-%d %H:%M:%S UTC')
+        - Validation: ✅ Passed schema validation"
+        
+        echo "📤 Pushing changes to repository..."
+        git push origin ${{ github.ref_name }}
+        
+        echo "✅ Successfully pushed changes to repository"
+        
+    - name: Create summary
+      run: |
+        echo "## 📊 JSON Generation Summary" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### Generation Results" >> $GITHUB_STEP_SUMMARY
+        echo "- **IDE Features**: ${{ needs.generate-json.outputs.ide-features-count }} features" >> $GITHUB_STEP_SUMMARY
+        echo "- **Platform Features**: ${{ needs.generate-json.outputs.platform-features-count }} features" >> $GITHUB_STEP_SUMMARY
+        echo "- **Validation Status**: ${{ needs.validate-schema.outputs.validation-status }}" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        
+        if [ "${{ steps.changes.outputs.has-changes }}" == "true" ]; then
+          echo "### ✅ Changes Committed" >> $GITHUB_STEP_SUMMARY
+          echo "JSON files have been updated and committed to the repository." >> $GITHUB_STEP_SUMMARY
+        else
+          echo "### ℹ️  No Changes" >> $GITHUB_STEP_SUMMARY
+          echo "No changes detected in the generated JSON files." >> $GITHUB_STEP_SUMMARY
+        fi
+
+  # Summary job to show overall status
+  summary:
+    name: Workflow Summary
+    runs-on: ubuntu-latest
+    needs: [generate-json, validate-schema, commit-changes]
+    if: always()
+    
+    steps:
+    - name: Display workflow results
+      run: |
+        echo "🔄 JSON Generation Workflow Complete"
+        echo ""
+        echo "📊 Results:"
+        echo "  - Generation: ${{ needs.generate-json.outputs.generation-status }}"
+        echo "  - Validation: ${{ needs.validate-schema.outputs.validation-status }}"
+        echo "  - IDE Features: ${{ needs.generate-json.outputs.ide-features-count }}"
+        echo "  - Platform Features: ${{ needs.generate-json.outputs.platform-features-count }}"
+        echo ""
+        
+        if [ "${{ needs.validate-schema.outputs.validation-status }}" != "success" ]; then
+          echo "❌ Validation Errors:"
+          echo "${{ needs.validate-schema.outputs.validation-errors }}"
+          exit 1
+        fi
+        
+        if [ "${{ needs.commit-changes.result }}" == "success" ]; then
+          echo "✅ Changes committed successfully"
+        elif [ "${{ needs.commit-changes.result }}" == "skipped" ]; then
+          echo "ℹ️  Commit skipped (manual trigger or validation failed)"
+        fi

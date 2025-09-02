@@ -1,0 +1,59 @@
+name: Content Cleanup
+
+on:
+  workflow_dispatch:  # Manual trigger only
+    inputs:
+      cleanup_age_days:
+        description: 'Remove files/entries older than X days'
+        required: false
+        default: '90'
+        type: string
+      dry_run:
+        description: 'Dry run (show what would be deleted without actually deleting)'
+        required: false
+        default: true
+        type: boolean
+
+env:
+  LOCAL_CONTENT_DIR: 'monitored-content'
+
+jobs:
+  cleanup-content:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write      # Required to commit and push changes
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+        
+    - name: Install dependencies
+      run: |
+        pip install -r .github/scripts/requirements.txt
+        
+    - name: Analyze content for cleanup
+      run: |
+        python .github/scripts/cleanup_content.py
+      env:
+        CLEANUP_AGE_DAYS: ${{ github.event.inputs.cleanup_age_days }}
+        DRY_RUN: ${{ github.event.inputs.dry_run }}
+        
+    - name: Commit cleanup changes
+      if: github.event.inputs.dry_run == 'false'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        if [[ -n $(git status --porcelain) ]]; then
+          git add ${{ env.LOCAL_CONTENT_DIR }}/
+          git commit -m "🧹 Cleanup old content files (older than ${{ github.event.inputs.cleanup_age_days }} days)"
+          git push
+          echo "✅ Cleanup changes committed and pushed"
+        else
+          echo "✅ No cleanup changes to commit"
+        fi

@@ -1,0 +1,11 @@
+# Python dependencies for Content Monitor and JSON Generation
+# Install with: pip install -r requirements.txt
+
+# Core dependencies for content monitoring
+requests>=2.32.0
+feedparser>=6.0.11
+beautifulsoup4>=4.12.0
+PyGithub>=2.4.0
+
+# JSON schema validation
+jsonschema>=4.17.0

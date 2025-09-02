@@ -1,0 +1,104 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Copilot Feature Schema",
+  "description": "Schema for tracking Copilot features across IDE and Agent platforms",
+  "type": "object",
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "platform": {
+          "type": "string",
+          "enum": ["IDE", "Agent", "Platform"],
+          "description": "Platform type: IDE (Visual Studio Code), Agent (Copilot Coding Agent), or Platform (GitHub Copilot Platform)"
+        },
+        "lastUpdated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO timestamp of last update"
+        },
+        "generatedBy": {
+          "type": "string",
+          "description": "Source of the data generation (e.g., 'automated-workflow')"
+        },
+        "feedSources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of monitored feed sources"
+        }
+      },
+      "required": ["platform", "lastUpdated", "generatedBy"]
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "featureCapability": {
+            "type": "string",
+            "description": "Name and brief description of the feature"
+          },
+          "category": {
+            "type": "string",
+            "description": "Feature category (e.g., 'Chat / AI Models', 'Integration / Protocol')"
+          },
+          "firstIntroduced": {
+            "type": "string",
+            "description": "Version or date when feature was first introduced"
+          },
+          "currentStatus": {
+            "type": "string",
+            "enum": ["Stable", "Preview", "Experimental", "Rolling Out", "Deprecated", "Unknown"],
+            "description": "Current feature status: Stable, Preview, Experimental, Rolling Out, Deprecated, or Unknown"
+          },
+          "latestUpdate": {
+            "type": "string",
+            "description": "Most recent version or update information"
+          },
+          "keyMilestones": {
+            "type": "string",
+            "description": "Important milestones, changes, and timeline information"
+          },
+          "sourceLinks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "feedSource": {
+                  "type": "string",
+                  "description": "Which feed this link originated from"
+                }
+              },
+              "required": ["url"]
+            },
+            "description": "Source links and references for the feature"
+          },
+          "detectionDate": {
+            "type": "string",
+            "format": "date-time",
+            "description": "When this feature was first detected by the monitoring system"
+          },
+          "lastModified": {
+            "type": "string",
+            "format": "date-time",
+            "description": "When this feature entry was last modified"
+          }
+        },
+        "required": [
+          "featureCapability",
+          "category"
+        ]
+      }
+    }
+  },
+  "required": ["metadata", "features"]
+}

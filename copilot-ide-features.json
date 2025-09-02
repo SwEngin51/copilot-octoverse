@@ -1,0 +1,1678 @@
+{
+  "metadata": {
+    "platform": "IDE",
+    "lastUpdated": "2025-09-02T09:23:13.351433",
+    "generatedBy": "automated-extraction",
+    "feedSources": [
+      "copilot-feature-matrix.md"
+    ]
+  },
+  "features": [
+    {
+      "featureCapability": "Copilot Vision",
+      "category": "Chat / Multimodal",
+      "firstIntroduced": "v1.98",
+      "currentStatus": "Preview",
+      "latestUpdate": "v1.98",
+      "keyMilestones": "End-to-end vision support with image attachments in chat, supports screenshots and UI mockups",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346569",
+      "lastModified": "2025-09-02T09:23:13.346570"
+    },
+    {
+      "featureCapability": "Custom Instructions GA",
+      "category": "Chat / Customization",
+      "firstIntroduced": "v1.98",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.98",
+      "keyMilestones": "General availability of .github/copilot-instructions.md files for workspace-specific instructions",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346595",
+      "lastModified": "2025-09-02T09:23:13.346596"
+    },
+    {
+      "featureCapability": "Advanced Codebase Search",
+      "category": "Chat / Context",
+      "firstIntroduced": "v1.98",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.98",
+      "keyMilestones": "Enhanced #codebase tool with text search, file search, and workspace symbol search",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346620",
+      "lastModified": "2025-09-02T09:23:13.346621"
+    },
+    {
+      "featureCapability": "Next Edit Suggestions Collapsed Mode",
+      "category": "Editor / UX",
+      "firstIntroduced": "v1.98",
+      "currentStatus": "Preview",
+      "latestUpdate": "v1.98",
+      "keyMilestones": "Collapsed view showing only margin indicators, revealed on navigation",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346646",
+      "lastModified": "2025-09-02T09:23:13.346647"
+    },
+    {
+      "featureCapability": "Problems Attachment",
+      "category": "Chat / Context",
+      "firstIntroduced": "v1.98",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.98",
+      "keyMilestones": "Attach problems from Problems panel as chat context",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346671",
+      "lastModified": "2025-09-02T09:23:13.346672"
+    },
+    {
+      "featureCapability": "Folder Attachments",
+      "category": "Chat / Context",
+      "firstIntroduced": "v1.98",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.98",
+      "keyMilestones": "Attach folders as context via paperclip or #folder: syntax",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346695",
+      "lastModified": "2025-09-02T09:23:13.346696"
+    },
+    {
+      "featureCapability": "Completion Model Selection",
+      "category": "Editor / AI Models",
+      "firstIntroduced": "v1.98",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.98",
+      "keyMilestones": "Change model for inline code completions, separate from chat models",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346724",
+      "lastModified": "2025-09-02T09:23:13.346725"
+    },
+    {
+      "featureCapability": "GPT-4.5 Model Support",
+      "category": "Chat / AI Models",
+      "firstIntroduced": "v1.98",
+      "currentStatus": "Preview",
+      "latestUpdate": "v1.98",
+      "keyMilestones": "OpenAI's GPT-4.5 available for Copilot Enterprise users in preview",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346750",
+      "lastModified": "2025-09-02T09:23:13.346751"
+    },
+    {
+      "featureCapability": "Claude 3.7 Sonnet",
+      "category": "Chat / AI Models",
+      "firstIntroduced": "v1.98",
+      "currentStatus": "Preview",
+      "latestUpdate": "v1.98",
+      "keyMilestones": "Advanced Sonnet model with thinking/non-thinking modes for all paid plans",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346775",
+      "lastModified": "2025-09-02T09:23:13.346776"
+    },
+    {
+      "featureCapability": "Copilot Edits Limits Removed",
+      "category": "Chat / Editing",
+      "firstIntroduced": "v1.98",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.98",
+      "keyMilestones": "Removed 10-file limit and client-side rate limiting for Copilot Edits",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346838",
+      "lastModified": "2025-09-02T09:23:13.346841"
+    },
+    {
+      "featureCapability": "Smoother Authentication Flows",
+      "category": "Chat / UX",
+      "firstIntroduced": "v1.98",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.98",
+      "keyMilestones": "In-chat authentication confirmation replacing modal dialogs",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346870",
+      "lastModified": "2025-09-02T09:23:13.346874"
+    },
+    {
+      "featureCapability": "Notebook Support in Copilot Edits",
+      "category": "Notebooks / Editing",
+      "firstIntroduced": "v1.98",
+      "currentStatus": "Preview",
+      "latestUpdate": "v1.98",
+      "keyMilestones": "Copilot Edits support for Jupyter notebooks in preview",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346900",
+      "lastModified": "2025-09-02T09:23:13.346901"
+    },
+    {
+      "featureCapability": "Copilot Next Edit Suggestions (NES)",
+      "category": "Editor / Suggestions",
+      "firstIntroduced": "v1.97",
+      "currentStatus": "Preview",
+      "latestUpdate": "v1.97",
+      "keyMilestones": "AI-powered next edit predictions with Tab navigation and gutter indicators",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346926",
+      "lastModified": "2025-09-02T09:23:13.346927"
+    },
+    {
+      "featureCapability": "Copilot Edits General Availability",
+      "category": "Chat / Editing",
+      "firstIntroduced": "v1.97",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.97",
+      "keyMilestones": "Multi-file workspace editing optimized for code changes, moved from preview to GA",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346952",
+      "lastModified": "2025-09-02T09:23:13.346953"
+    },
+    {
+      "featureCapability": "GitHub Copilot Free Plan",
+      "category": "Platform / Licensing",
+      "firstIntroduced": "v1.96",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.96+",
+      "keyMilestones": "Free tier with monthly completions and chat interactions",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346977",
+      "lastModified": "2025-09-02T09:23:13.346978"
+    },
+    {
+      "featureCapability": "Debug with Copilot",
+      "category": "Chat / Debugging",
+      "firstIntroduced": "v1.96",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.96+",
+      "keyMilestones": "copilot-debug terminal command to start debugging sessions",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347002",
+      "lastModified": "2025-09-02T09:23:13.347003"
+    },
+    {
+      "featureCapability": "Copilot Edits Integration",
+      "category": "Chat / Editing",
+      "firstIntroduced": "v1.96",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.96+",
+      "keyMilestones": "Move from chat to Copilot Edits for applying code suggestions",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347027",
+      "lastModified": "2025-09-02T09:23:13.347028"
+    },
+    {
+      "featureCapability": "@remote-ssh Chat Participant",
+      "category": "Remote Development",
+      "firstIntroduced": "v1.96",
+      "currentStatus": "Experimental",
+      "latestUpdate": "v1.96",
+      "keyMilestones": "SSH troubleshooting and configuration assistance",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347053",
+      "lastModified": "2025-09-02T09:23:13.347054"
+    },
+    {
+      "featureCapability": "GPT-4o Model Upgrade",
+      "category": "Chat / AI Models",
+      "firstIntroduced": "v1.92",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.92+",
+      "keyMilestones": "Upgraded from GPT-4-Turbo to GPT-4o for enhanced performance",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347078",
+      "lastModified": "2025-09-02T09:23:13.347079"
+    },
+    {
+      "featureCapability": "Public Code Matching",
+      "category": "Chat / Security",
+      "firstIntroduced": "v1.92",
+      "currentStatus": "Preview",
+      "latestUpdate": "v1.92+",
+      "keyMilestones": "Code references detection and matching with publicly available code",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347102",
+      "lastModified": "2025-09-02T09:23:13.347103"
+    },
+    {
+      "featureCapability": "Chat Attachments",
+      "category": "Chat / Context",
+      "firstIntroduced": "v1.92",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.92+",
+      "keyMilestones": "Explicit file attachments support in chat requests",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347130",
+      "lastModified": "2025-09-02T09:23:13.347131"
+    },
+    {
+      "featureCapability": "Full Repository Context in Visual Studio",
+      "category": "Chat / Context",
+      "firstIntroduced": "v1.92",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.92+",
+      "keyMilestones": "Visual Studio 17.11 Preview 2 enhanced chat with entire repository understanding beyond open tabs",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347189",
+      "lastModified": "2025-09-02T09:23:13.347190"
+    },
+    {
+      "featureCapability": "Bing Search in VS Code Chat",
+      "category": "Chat / Search",
+      "firstIntroduced": "v1.92",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.92+",
+      "keyMilestones": "@github web search integration in VS Code for information beyond codebase and general knowledge",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347214",
+      "lastModified": "2025-09-02T09:23:13.347215"
+    },
+    {
+      "featureCapability": "Rename Suggestions",
+      "category": "Editor / AI",
+      "firstIntroduced": "v1.87",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.91+",
+      "keyMilestones": "Copilot-powered symbol rename suggestions",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347239",
+      "lastModified": "2025-09-02T09:23:13.347240"
+    },
+    {
+      "featureCapability": "Chat and Language Model API",
+      "category": "Extension / API",
+      "firstIntroduced": "v1.87",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.91+",
+      "keyMilestones": "Extensions can access Copilot Chat language models",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347264",
+      "lastModified": "2025-09-02T09:23:13.347265"
+    },
+    {
+      "featureCapability": "Chat Agents (@workspace, @vscode)",
+      "category": "Chat / Agents",
+      "firstIntroduced": "v1.84",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.91+",
+      "keyMilestones": "Subject matter expert agents, replaces slash commands",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347345",
+      "lastModified": "2025-09-02T09:23:13.347346"
+    },
+    {
+      "featureCapability": "Streaming Inline Chat",
+      "category": "Chat / Performance",
+      "firstIntroduced": "v1.84",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.91+",
+      "keyMilestones": "Progressive text edits with real-time streaming response",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347371",
+      "lastModified": "2025-09-02T09:23:13.347372"
+    },
+    {
+      "featureCapability": "Test Generation",
+      "category": "Chat / Testing",
+      "firstIntroduced": "v1.83",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.91+",
+      "keyMilestones": "Test generation based on current framework and project conventions",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347396",
+      "lastModified": "2025-09-02T09:23:13.347397"
+    },
+    {
+      "featureCapability": "Chat Editors",
+      "category": "Chat / UX",
+      "firstIntroduced": "v1.78",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.91+",
+      "keyMilestones": "Chat view as customizable editor, moveable between editor groups",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347425",
+      "lastModified": "2025-09-02T09:23:13.347426"
+    },
+    {
+      "featureCapability": "Codeblock Commands",
+      "category": "Chat / Actions",
+      "firstIntroduced": "v1.78",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.91+",
+      "keyMilestones": "Insert into New File, Run in Terminal commands in codeblock toolbar",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347452",
+      "lastModified": "2025-09-02T09:23:13.347453"
+    },
+    {
+      "featureCapability": "Code Actions Integration",
+      "category": "Chat / Quick Fixes",
+      "firstIntroduced": "v1.78",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.91+",
+      "keyMilestones": "Copilot integration with Quick Fixes light bulb",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347477",
+      "lastModified": "2025-09-02T09:23:13.347478"
+    },
+    {
+      "featureCapability": "GitHub Copilot Chat (Initial)",
+      "category": "Chat / AI",
+      "firstIntroduced": "v1.77",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.91+",
+      "keyMilestones": "Deep Copilot integration: inline chat, chat view, inline suggestions",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347502",
+      "lastModified": "2025-09-02T09:23:13.347503"
+    },
+    {
+      "featureCapability": "Dev Container Copilot Integration",
+      "category": "Containers / AI",
+      "firstIntroduced": "v1.87",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.87+",
+      "keyMilestones": "AI-suggested templates and features for dev containers",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347292",
+      "lastModified": "2025-09-02T09:23:13.347293"
+    },
+    {
+      "featureCapability": "GitHub Copilot Extension Auto-Install",
+      "category": "Extension Management",
+      "firstIntroduced": "v1.85",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.85+",
+      "keyMilestones": "Automatic installation of Copilot and Copilot Chat extensions",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347317",
+      "lastModified": "2025-09-02T09:23:13.347318"
+    },
+    {
+      "featureCapability": "GitHub Copilot Extension Support",
+      "category": "AI / Code Completion",
+      "firstIntroduced": "v1.75",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.75+",
+      "keyMilestones": "AI-powered code completion tool, generally available for businesses",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347528",
+      "lastModified": "2025-09-02T09:23:13.347529"
+    },
+    {
+      "featureCapability": "Inline Completions API",
+      "category": "Extension / API",
+      "firstIntroduced": "v1.68",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.68+",
+      "keyMilestones": "Finalized API for inline completions, enables GitHub Copilot extension integration",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347552",
+      "lastModified": "2025-09-02T09:23:13.347553"
+    },
+    {
+      "featureCapability": "GPT-5 Integration",
+      "category": "Chat / AI Models",
+      "firstIntroduced": "v1.103",
+      "currentStatus": "Preview",
+      "latestUpdate": "v1.103.1",
+      "keyMilestones": "Public preview for all paid Copilot plans, prompt improvements in v1.103.1",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.345700",
+      "lastModified": "2025-09-02T09:23:13.345707"
+    },
+    {
+      "featureCapability": "Chat Checkpoints",
+      "category": "Chat / Session Management",
+      "firstIntroduced": "v1.103",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "Restore chat and workspace to previous states, enabled by default",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.345743",
+      "lastModified": "2025-09-02T09:23:13.345745"
+    },
+    {
+      "featureCapability": "Claude Opus 4.1 Model Support",
+      "category": "Chat / AI Models",
+      "firstIntroduced": "v1.103",
+      "currentStatus": "Preview",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "Advanced Anthropic model with enhanced reasoning available in Visual Studio Code for Enterprise/Pro+ users",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.345774",
+      "lastModified": "2025-09-02T09:23:13.345775"
+    },
+    {
+      "featureCapability": "Tool Picker (Quick Tree)",
+      "category": "Chat / UX",
+      "firstIntroduced": "v1.103",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "Revamped UI with expand/collapse, sticky scrolling, icon rendering",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.345820",
+      "lastModified": "2025-09-02T09:23:13.345821"
+    },
+    {
+      "featureCapability": "Tool Grouping",
+      "category": "Chat / Scale",
+      "firstIntroduced": "v1.103",
+      "currentStatus": "Experimental",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "Support for >128 tools via automatic grouping and activation",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.345850",
+      "lastModified": "2025-09-02T09:23:13.345851"
+    },
+    {
+      "featureCapability": "Task/Todo Lists",
+      "category": "Chat / Project Management",
+      "firstIntroduced": "v1.103",
+      "currentStatus": "Experimental",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "Agent tracks progress and displays task completion status",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.345878",
+      "lastModified": "2025-09-02T09:23:13.345879"
+    },
+    {
+      "featureCapability": "Azure DevOps Remote Index",
+      "category": "Chat / Context",
+      "firstIntroduced": "v1.103",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "#codebase tool support for Azure DevOps repos (gradual rollout)",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.345909",
+      "lastModified": "2025-09-02T09:23:13.345910"
+    },
+    {
+      "featureCapability": "Output Polling",
+      "category": "Chat / Reliability",
+      "firstIntroduced": "v1.103",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "Agent waits for task completion, prompts for long-running processes",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.345940",
+      "lastModified": "2025-09-02T09:23:13.345941"
+    },
+    {
+      "featureCapability": "Task Awareness",
+      "category": "Chat / Monitoring",
+      "firstIntroduced": "v1.103",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "Track both active and completed tasks, including failed ones",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.345967",
+      "lastModified": "2025-09-02T09:23:13.345968"
+    },
+    {
+      "featureCapability": "Terminal Awareness",
+      "category": "Chat / Context",
+      "firstIntroduced": "v1.103",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "Agent awareness of all user-created terminals",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.345994",
+      "lastModified": "2025-09-02T09:23:13.345995"
+    },
+    {
+      "featureCapability": "Terminal Inline Chat",
+      "category": "Terminal / AI",
+      "firstIntroduced": "v1.103",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "Better shell detection including subshells",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346019",
+      "lastModified": "2025-09-02T09:23:13.346020"
+    },
+    {
+      "featureCapability": "Chat Sessions View",
+      "category": "Chat / Management",
+      "firstIntroduced": "v1.103",
+      "currentStatus": "Experimental",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "Manage chat/coding agent sessions in sidebar or quick pick",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346048",
+      "lastModified": "2025-09-02T09:23:13.346049"
+    },
+    {
+      "featureCapability": "Math Support in Chat",
+      "category": "Chat / Rendering",
+      "firstIntroduced": "v1.103",
+      "currentStatus": "Preview",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "KaTeX-powered mathematical expressions",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346074",
+      "lastModified": "2025-09-02T09:23:13.346075"
+    },
+    {
+      "featureCapability": "Context7 Integration",
+      "category": "Chat / MCP",
+      "firstIntroduced": "v1.103",
+      "currentStatus": "Experimental",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "Project scaffolding via #new command with Context7 MCP server",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346100",
+      "lastModified": "2025-09-02T09:23:13.346101"
+    },
+    {
+      "featureCapability": "Accessible Chat Elicitations",
+      "category": "Accessibility",
+      "firstIntroduced": "v1.103",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "Screen reader accessible prompts for user input",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346125",
+      "lastModified": "2025-09-02T09:23:13.346126"
+    },
+    {
+      "featureCapability": "AI Settings Search",
+      "category": "Settings / AI",
+      "firstIntroduced": "v1.103",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "AI-powered semantic search for VS Code settings",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346153",
+      "lastModified": "2025-09-02T09:23:13.346154"
+    },
+    {
+      "featureCapability": "AI Statistics",
+      "category": "Editor / Analytics",
+      "firstIntroduced": "v1.103",
+      "currentStatus": "Preview",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "Track % AI-inserted vs typed characters, accepted suggestions",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346178",
+      "lastModified": "2025-09-02T09:23:13.346179"
+    },
+    {
+      "featureCapability": "Notebook Inline Chat",
+      "category": "Notebooks / AI",
+      "firstIntroduced": "v1.103",
+      "currentStatus": "Experimental",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "Agent tools support in notebook inline chat",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346206",
+      "lastModified": "2025-09-02T09:23:13.346207"
+    },
+    {
+      "featureCapability": "Voice Dictation (Terminal)",
+      "category": "Terminal / Input",
+      "firstIntroduced": "v1.103",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "Natural language input support reintroduced",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346233",
+      "lastModified": "2025-09-02T09:23:13.346234"
+    },
+    {
+      "featureCapability": "Model Management",
+      "category": "Chat / Providers",
+      "firstIntroduced": "v1.103",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "Custom model picker, API for extension ecosystem",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346262",
+      "lastModified": "2025-09-02T09:23:13.346263"
+    },
+    {
+      "featureCapability": "Agent Mode",
+      "category": "Chat / Automation",
+      "firstIntroduced": "v1.102",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "Delegate tasks to Copilot coding agent for background execution",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346288",
+      "lastModified": "2025-09-02T09:23:13.346289"
+    },
+    {
+      "featureCapability": "Chat Mode Customization",
+      "category": "Chat / Customization",
+      "firstIntroduced": "v1.102",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "Custom chat modes with specific instructions and tool sets",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346313",
+      "lastModified": "2025-09-02T09:23:13.346314"
+    },
+    {
+      "featureCapability": "MCP Support (General Availability)",
+      "category": "Integration / Protocol",
+      "firstIntroduced": "v1.102",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "Model Context Protocol for tool integration, server management",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346363",
+      "lastModified": "2025-09-02T09:23:13.346364"
+    },
+    {
+      "featureCapability": "Terminal Auto-Approve",
+      "category": "Chat / Terminal",
+      "firstIntroduced": "v1.102",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "Regex support, unified settings, command line matching",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346388",
+      "lastModified": "2025-09-02T09:23:13.346389"
+    },
+    {
+      "featureCapability": "Edit Previous Requests",
+      "category": "Chat / UX",
+      "firstIntroduced": "v1.102",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.103",
+      "keyMilestones": "Inline editing of chat history, enabled by default in v1.103",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346441",
+      "lastModified": "2025-09-02T09:23:13.346442"
+    },
+    {
+      "featureCapability": "Open Source Copilot Chat",
+      "category": "Extension / Community",
+      "firstIntroduced": "v1.102",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.102",
+      "keyMilestones": "MIT licensed at microsoft/vscode-copilot-chat",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346338",
+      "lastModified": "2025-09-02T09:23:13.346339"
+    },
+    {
+      "featureCapability": "Custom Instructions Generator",
+      "category": "Chat / Customization",
+      "firstIntroduced": "v1.102",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.102",
+      "keyMilestones": "Generate project-specific conventions and guidelines",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346414",
+      "lastModified": "2025-09-02T09:23:13.346415"
+    },
+    {
+      "featureCapability": "Custom Instructions & Prompts",
+      "category": "Chat / Customization",
+      "firstIntroduced": "v1.100",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.100+",
+      "keyMilestones": "Markdown-based instructions and reusable prompt files",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346466",
+      "lastModified": "2025-09-02T09:23:13.346467"
+    },
+    {
+      "featureCapability": "Enhanced MCP Support",
+      "category": "Integration / Protocol",
+      "firstIntroduced": "v1.100",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.100+",
+      "keyMilestones": "Image and Streamable HTTP support, GitHub repository tools",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346491",
+      "lastModified": "2025-09-02T09:23:13.346492"
+    },
+    {
+      "featureCapability": "Conversation Caching",
+      "category": "Chat / Performance",
+      "firstIntroduced": "v1.100",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.100+",
+      "keyMilestones": "Faster responses on repeat chat requests with prompt caching",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346518",
+      "lastModified": "2025-09-02T09:23:13.346519"
+    },
+    {
+      "featureCapability": "Multi-window Chat Support",
+      "category": "Chat / UX",
+      "firstIntroduced": "v1.100",
+      "currentStatus": "Stable",
+      "latestUpdate": "v1.100+",
+      "keyMilestones": "Improved multi-window support for chat and editors",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.346544",
+      "lastModified": "2025-09-02T09:23:13.346545"
+    },
+    {
+      "featureCapability": "Knowledge Base Access in VS Code",
+      "category": "Chat / Context",
+      "firstIntroduced": "v1.92",
+      "currentStatus": "Deprecated",
+      "latestUpdate": "Sep 2025",
+      "keyMilestones": "@github #kb integration for accessing organizational knowledge bases in VS Code Enterprise - DEPRECATED: Replaced by Copilot Spaces",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347163",
+      "lastModified": "2025-09-02T09:23:13.347164"
+    },
+    {
+      "featureCapability": "Larger Context Windows in VS Code",
+      "category": "Chat / Context",
+      "firstIntroduced": "Sep 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Sep 2024",
+      "keyMilestones": "Enhanced context window size for better codebase understanding and improved test generation in VS Code",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.348260",
+      "lastModified": "2025-09-02T09:23:13.348261"
+    },
+    {
+      "featureCapability": "Inline Chat in JetBrains IDEs",
+      "category": "Chat / IDE Integration",
+      "firstIntroduced": "Sep 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Sep 2024",
+      "keyMilestones": "Direct interaction with Copilot through inline chat in JetBrains IDEs without leaving the code editor",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.348285",
+      "lastModified": "2025-09-02T09:23:13.348286"
+    },
+    {
+      "featureCapability": "Multi-file Editing in VS Code",
+      "category": "Chat / Editing",
+      "firstIntroduced": "Oct 2024",
+      "currentStatus": "Preview",
+      "latestUpdate": "Oct 2024",
+      "keyMilestones": "AI-assisted edits across multiple files in one session with github.copilot.chat.edits.enabled setting",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.348078",
+      "lastModified": "2025-09-02T09:23:13.348079"
+    },
+    {
+      "featureCapability": "OpenAI O1 Models Public Preview",
+      "category": "Chat / AI Models",
+      "firstIntroduced": "Oct 2024",
+      "currentStatus": "Preview",
+      "latestUpdate": "Oct 2024",
+      "keyMilestones": "O1-preview and O1-mini models available in VS Code, Visual Studio, GitHub.com, and GitHub Models playground",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.348103",
+      "lastModified": "2025-09-02T09:23:13.348104"
+    },
+    {
+      "featureCapability": "Web Search in Copilot Individual",
+      "category": "Chat / Search",
+      "firstIntroduced": "Oct 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Oct 2024",
+      "keyMilestones": "Web search support in VS Code, Visual Studio, and GitHub.com for Copilot Individual users",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.348131",
+      "lastModified": "2025-09-02T09:23:13.348132"
+    },
+    {
+      "featureCapability": "Enhanced C++ Completions in Visual Studio",
+      "category": "Code Completion / Language",
+      "firstIntroduced": "Oct 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Oct 2024",
+      "keyMilestones": "Leverages related files and headers for contextually relevant suggestions in Visual Studio 2022 v17.12+",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.348156",
+      "lastModified": "2025-09-02T09:23:13.348157"
+    },
+    {
+      "featureCapability": "Terminal Chat in Windows Terminal",
+      "category": "Chat / CLI Integration",
+      "firstIntroduced": "Oct 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Oct 2024",
+      "keyMilestones": "Real-time command suggestions and explanations in Windows Terminal Canary",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.348181",
+      "lastModified": "2025-09-02T09:23:13.348182"
+    },
+    {
+      "featureCapability": "Enhanced .NET Completions in Visual Studio",
+      "category": "Code Completion / Language",
+      "firstIntroduced": "Oct 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Oct 2024",
+      "keyMilestones": "Semantically relevant file analysis for more precise C# completions in Visual Studio 2022 v17.11+",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.348209",
+      "lastModified": "2025-09-02T09:23:13.348210"
+    },
+    {
+      "featureCapability": "Copilot for Xcode Generally Available",
+      "category": "Code Completion / IDE Integration",
+      "firstIntroduced": "Oct 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Oct 2024",
+      "keyMilestones": "AI-powered code completion for Swift and Objective-C with multiline suggestions and content filters",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.348235",
+      "lastModified": "2025-09-02T09:23:13.348236"
+    },
+    {
+      "featureCapability": "Claude 3.5 Sonnet Model Support",
+      "category": "Chat / AI Models",
+      "firstIntroduced": "Nov 2024",
+      "currentStatus": "Preview",
+      "latestUpdate": "Nov 2024",
+      "keyMilestones": "Advanced Anthropic model available to all GitHub Copilot customers in public preview",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.348053",
+      "lastModified": "2025-09-02T09:23:13.348054"
+    },
+    {
+      "featureCapability": "Java App Modernization in VS Code",
+      "category": "Agent / Platform Integration",
+      "firstIntroduced": "May 2025",
+      "currentStatus": "Preview",
+      "latestUpdate": "May 2025",
+      "keyMilestones": "AI-powered Java 8 to 21 upgrades and Azure migration through agent mode in VS Code",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347703",
+      "lastModified": "2025-09-02T09:23:13.347704"
+    },
+    {
+      "featureCapability": "Next Edit Suggestions Generally Available",
+      "category": "Editor / AI",
+      "firstIntroduced": "Mar 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Mar 2025",
+      "keyMilestones": "Graduated from preview to GA in VS Code, providing intelligent recommendations for next code edits",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347784",
+      "lastModified": "2025-09-02T09:23:13.347785"
+    },
+    {
+      "featureCapability": "Copilot Chat in JetBrains IDEs",
+      "category": "Chat / IDE Integration",
+      "firstIntroduced": "Mar 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Mar 2024",
+      "keyMilestones": "Generally available GPT-4 powered chat in PyCharm, IntelliJ IDEA, WebStorm, Rider with file referencing",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.348336",
+      "lastModified": "2025-09-02T09:23:13.348337"
+    },
+    {
+      "featureCapability": "Context Variables in Visual Studio",
+      "category": "Chat / Context",
+      "firstIntroduced": "Jan 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Jan 2024",
+      "keyMilestones": "#file context variables in Visual Studio Copilot Chat for targeted file-specific assistance",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347979",
+      "lastModified": "2025-09-02T09:23:13.347980"
+    },
+    {
+      "featureCapability": "Slash Commands in Visual Studio",
+      "category": "Chat / Commands",
+      "firstIntroduced": "Jan 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Jan 2024",
+      "keyMilestones": "/doc, /explain, /fix, /generate, /help, /optimize, /tests commands in Visual Studio Chat",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.348004",
+      "lastModified": "2025-09-02T09:23:13.348005"
+    },
+    {
+      "featureCapability": "Copilot Edits Generally Available in VS Code",
+      "category": "Chat / Editing",
+      "firstIntroduced": "Feb 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Feb 2025",
+      "keyMilestones": "Multi-file editing capabilities graduated from preview to GA in VS Code, with preview availability in Visual Studio 2022",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347825",
+      "lastModified": "2025-09-02T09:23:13.347826"
+    },
+    {
+      "featureCapability": "Copilot Chat for Xcode Generally Available",
+      "category": "Chat / IDE Integration",
+      "firstIntroduced": "Feb 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Feb 2025",
+      "keyMilestones": "Full-featured Copilot Chat with model selector, slash commands, and file referencing in Xcode",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347853",
+      "lastModified": "2025-09-02T09:23:13.347854"
+    },
+    {
+      "featureCapability": "Agent Mode in VS Code (Public Preview)",
+      "category": "Chat / Automation",
+      "firstIntroduced": "Feb 2025",
+      "currentStatus": "Preview",
+      "latestUpdate": "Feb 2025",
+      "keyMilestones": "Self-iterating agent mode with error recognition, terminal command suggestions, and self-healing capabilities in VS Code Insiders",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347879",
+      "lastModified": "2025-09-02T09:23:13.347880"
+    },
+    {
+      "featureCapability": "Prompt Files in VS Code",
+      "category": "Chat / Customization",
+      "firstIntroduced": "Feb 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Feb 2025",
+      "keyMilestones": "Reusable prompt files for standardized instructions across development teams in VS Code",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347904",
+      "lastModified": "2025-09-02T09:23:13.347905"
+    },
+    {
+      "featureCapability": "Vision Support in VS Code Insiders",
+      "category": "Chat / AI Models",
+      "firstIntroduced": "Feb 2025",
+      "currentStatus": "Experimental",
+      "latestUpdate": "Feb 2025",
+      "keyMilestones": "Advanced visual insights with GPT-4o support for image analysis in VS Code Insiders",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347929",
+      "lastModified": "2025-09-02T09:23:13.347930"
+    },
+    {
+      "featureCapability": "GPT-4o Code Completion Model",
+      "category": "Code Completion / AI Models",
+      "firstIntroduced": "Feb 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Feb 2025",
+      "keyMilestones": "Enhanced completion model trained on 275,000+ repositories across 30+ languages in VS Code and JetBrains IDEs",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347954",
+      "lastModified": "2025-09-02T09:23:13.347955"
+    },
+    {
+      "featureCapability": "JetBrains Partial Acceptance",
+      "category": "Code Completion / IDE Integration",
+      "firstIntroduced": "Dec 2023",
+      "currentStatus": "Stable",
+      "latestUpdate": "Dec 2023",
+      "keyMilestones": "Word-by-word and line-by-line code suggestion acceptance in JetBrains IDEs",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.348028",
+      "lastModified": "2025-09-02T09:23:13.348029"
+    },
+    {
+      "featureCapability": "Next Edit Suggestions (NES) in JetBrains",
+      "category": "Editor / Suggestions",
+      "firstIntroduced": "Aug 2025",
+      "currentStatus": "Preview",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "Copilot NES feature available in public preview across JetBrains IDEs with inline edit indicators",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347578",
+      "lastModified": "2025-09-02T09:23:13.347579"
+    },
+    {
+      "featureCapability": "Visual Studio August 2025 Update",
+      "category": "Chat / IDE Integration",
+      "firstIntroduced": "Aug 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "GPT-5 support, MCP GA, smarter context, BYOM, Google sign-up, enhanced completion controls",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347603",
+      "lastModified": "2025-09-02T09:23:13.347604"
+    },
+    {
+      "featureCapability": "MCP Support for JetBrains/Eclipse/Xcode",
+      "category": "Integration / Multi-IDE",
+      "firstIntroduced": "Aug 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "Generally available MCP support across all major IDEs beyond VS Code",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347628",
+      "lastModified": "2025-09-02T09:23:13.347629"
+    },
+    {
+      "featureCapability": "GPT-5 Mini Cross-IDE Availability",
+      "category": "AI Models / Cross-IDE",
+      "firstIntroduced": "Aug 2025",
+      "currentStatus": "Preview",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "OpenAI's efficient GPT-5 mini model available in Visual Studio, JetBrains, Xcode, and Eclipse",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347653",
+      "lastModified": "2025-09-02T09:23:13.347654"
+    },
+    {
+      "featureCapability": "Copilot Code Review GA in Xcode",
+      "category": "Code Review / IDE Integration",
+      "firstIntroduced": "Aug 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "Code review capabilities now generally available in Xcode with new enterprise admin controls",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347678",
+      "lastModified": "2025-09-02T09:23:13.347679"
+    },
+    {
+      "featureCapability": "Improved C++ Completions in VS Code",
+      "category": "Code Completion / Language",
+      "firstIntroduced": "Aug 2024",
+      "currentStatus": "Stable",
+      "latestUpdate": "Aug 2024",
+      "keyMilestones": "Enhanced GitHub Copilot code completions specifically optimized for C++ developers in VS Code",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.348312",
+      "lastModified": "2025-09-02T09:23:13.348313"
+    },
+    {
+      "featureCapability": "Bring Your Own Key (BYOK) in VS Code",
+      "category": "Chat / Customization",
+      "firstIntroduced": "Apr 2025",
+      "currentStatus": "Preview",
+      "latestUpdate": "Apr 2025",
+      "keyMilestones": "API key integration for Anthropic, Azure, Google Cloud, OpenAI models in VS Code with preview availability",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347728",
+      "lastModified": "2025-09-02T09:23:13.347729"
+    },
+    {
+      "featureCapability": "Eclipse Copilot Chat",
+      "category": "Chat / IDE Integration",
+      "firstIntroduced": "Apr 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Apr 2025",
+      "keyMilestones": "Full-featured Copilot Chat officially available for Eclipse IDE",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - IDE Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-02T09:23:13.347757",
+      "lastModified": "2025-09-02T09:23:13.347758"
+    }
+  ]
+}
