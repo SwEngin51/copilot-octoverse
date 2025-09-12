@@ -1,7 +1,7 @@
 {
   "metadata": {
     "platform": "Platform",
-    "lastUpdated": "2025-09-02T11:23:55.637542",
+    "lastUpdated": "2025-09-12T07:30:53.669888",
     "generatedBy": "automated-extraction",
     "feedSources": [
       "copilot-feature-matrix.md"
@@ -22,8 +22,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636512",
-      "lastModified": "2025-09-02T11:23:55.636513"
+      "detectionDate": "2025-09-12T07:30:53.668840",
+      "lastModified": "2025-09-12T07:30:53.668841"
     },
     {
       "featureCapability": "Search Across GitHub with Copilot",
@@ -39,8 +39,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636537",
-      "lastModified": "2025-09-02T11:23:55.636538"
+      "detectionDate": "2025-09-12T07:30:53.668867",
+      "lastModified": "2025-09-12T07:30:53.668868"
     },
     {
       "featureCapability": "Content Exclusion for Non-Git Files",
@@ -56,8 +56,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636563",
-      "lastModified": "2025-09-02T11:23:55.636564"
+      "detectionDate": "2025-09-12T07:30:53.668892",
+      "lastModified": "2025-09-12T07:30:53.668893"
     },
     {
       "featureCapability": "8k Context Window",
@@ -73,8 +73,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.637393",
-      "lastModified": "2025-09-02T11:23:55.637394"
+      "detectionDate": "2025-09-12T07:30:53.669734",
+      "lastModified": "2025-09-12T07:30:53.669735"
     },
     {
       "featureCapability": "Copilot Chat Beta for Individuals",
@@ -90,8 +90,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.637419",
-      "lastModified": "2025-09-02T11:23:55.637420"
+      "detectionDate": "2025-09-12T07:30:53.669759",
+      "lastModified": "2025-09-12T07:30:53.669760"
     },
     {
       "featureCapability": "GitHub Copilot Metrics API Generally Available",
@@ -107,8 +107,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636487",
-      "lastModified": "2025-09-02T11:23:55.636487"
+      "detectionDate": "2025-09-12T07:30:53.668815",
+      "lastModified": "2025-09-12T07:30:53.668816"
     },
     {
       "featureCapability": "Multi-line Completions Enhancement",
@@ -124,8 +124,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.637318",
-      "lastModified": "2025-09-02T11:23:55.637319"
+      "detectionDate": "2025-09-12T07:30:53.669655",
+      "lastModified": "2025-09-12T07:30:53.669656"
     },
     {
       "featureCapability": "Testing Framework Detection",
@@ -141,8 +141,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.637343",
-      "lastModified": "2025-09-02T11:23:55.637344"
+      "detectionDate": "2025-09-12T07:30:53.669683",
+      "lastModified": "2025-09-12T07:30:53.669684"
     },
     {
       "featureCapability": "Enhanced Multi-Turn Conversations",
@@ -158,8 +158,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.637368",
-      "lastModified": "2025-09-02T11:23:55.637369"
+      "detectionDate": "2025-09-12T07:30:53.669709",
+      "lastModified": "2025-09-12T07:30:53.669710"
     },
     {
       "featureCapability": "GitHub Copilot CLI (Public Beta)",
@@ -175,8 +175,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.637292",
-      "lastModified": "2025-09-02T11:23:55.637293"
+      "detectionDate": "2025-09-12T07:30:53.669630",
+      "lastModified": "2025-09-12T07:30:53.669631"
     },
     {
       "featureCapability": "Copilot Workflow Automation",
@@ -192,8 +192,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636073",
-      "lastModified": "2025-09-02T11:23:55.636074"
+      "detectionDate": "2025-09-12T07:30:53.668409",
+      "lastModified": "2025-09-12T07:30:53.668410"
     },
     {
       "featureCapability": "Enhanced Context Window (32k)",
@@ -209,8 +209,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636099",
-      "lastModified": "2025-09-02T11:23:55.636100"
+      "detectionDate": "2025-09-12T07:30:53.668436",
+      "lastModified": "2025-09-12T07:30:53.668437"
     },
     {
       "featureCapability": "Multi-Language Project Support",
@@ -226,8 +226,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636125",
-      "lastModified": "2025-09-02T11:23:55.636126"
+      "detectionDate": "2025-09-12T07:30:53.668461",
+      "lastModified": "2025-09-12T07:30:53.668462"
     },
     {
       "featureCapability": "OpenAI GPT-4.1 Model",
@@ -243,8 +243,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636150",
-      "lastModified": "2025-09-02T11:23:55.636151"
+      "detectionDate": "2025-09-12T07:30:53.668486",
+      "lastModified": "2025-09-12T07:30:53.668487"
     },
     {
       "featureCapability": "Copilot Extensions Limited Public Beta",
@@ -260,8 +260,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636852",
-      "lastModified": "2025-09-02T11:23:55.636853"
+      "detectionDate": "2025-09-12T07:30:53.669190",
+      "lastModified": "2025-09-12T07:30:53.669191"
     },
     {
       "featureCapability": "Copilot Metrics Last Activity Update",
@@ -277,8 +277,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636877",
-      "lastModified": "2025-09-02T11:23:55.636878"
+      "detectionDate": "2025-09-12T07:30:53.669218",
+      "lastModified": "2025-09-12T07:30:53.669219"
     },
     {
       "featureCapability": "Instant Semantic Code Search Indexing",
@@ -294,8 +294,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636409",
-      "lastModified": "2025-09-02T11:23:55.636410"
+      "detectionDate": "2025-09-12T07:30:53.668737",
+      "lastModified": "2025-09-12T07:30:53.668738"
     },
     {
       "featureCapability": "Copilot CLI Generally Available",
@@ -311,8 +311,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636957",
-      "lastModified": "2025-09-02T11:23:55.636958"
+      "detectionDate": "2025-09-12T07:30:53.669334",
+      "lastModified": "2025-09-12T07:30:53.669335"
     },
     {
       "featureCapability": "Copilot Code Completion Model Update",
@@ -328,8 +328,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636982",
-      "lastModified": "2025-09-02T11:23:55.636983"
+      "detectionDate": "2025-09-12T07:30:53.669360",
+      "lastModified": "2025-09-12T07:30:53.669360"
     },
     {
       "featureCapability": "Copilot Code Review Bot",
@@ -345,8 +345,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636022",
-      "lastModified": "2025-09-02T11:23:55.636022"
+      "detectionDate": "2025-09-12T07:30:53.668356",
+      "lastModified": "2025-09-12T07:30:53.668357"
     },
     {
       "featureCapability": "Advanced Prompt Engineering",
@@ -362,8 +362,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636047",
-      "lastModified": "2025-09-02T11:23:55.636048"
+      "detectionDate": "2025-09-12T07:30:53.668382",
+      "lastModified": "2025-09-12T07:30:53.668382"
     },
     {
       "featureCapability": "Enterprise Copilot Seats API",
@@ -379,8 +379,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636666",
-      "lastModified": "2025-09-02T11:23:55.636667"
+      "detectionDate": "2025-09-12T07:30:53.668996",
+      "lastModified": "2025-09-12T07:30:53.668997"
     },
     {
       "featureCapability": "SOC 2 Type I Compliance Report",
@@ -396,8 +396,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636692",
-      "lastModified": "2025-09-02T11:23:55.636693"
+      "detectionDate": "2025-09-12T07:30:53.669022",
+      "lastModified": "2025-09-12T07:30:53.669023"
     },
     {
       "featureCapability": "ISO 27001 Certification for Copilot",
@@ -413,8 +413,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636719",
-      "lastModified": "2025-09-02T11:23:55.636720"
+      "detectionDate": "2025-09-12T07:30:53.669047",
+      "lastModified": "2025-09-12T07:30:53.669048"
     },
     {
       "featureCapability": "Repository Understanding on GitHub.com",
@@ -430,8 +430,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636747",
-      "lastModified": "2025-09-02T11:23:55.636748"
+      "detectionDate": "2025-09-12T07:30:53.669072",
+      "lastModified": "2025-09-12T07:30:53.669073"
     },
     {
       "featureCapability": "Discussion Summaries in Enterprise",
@@ -447,8 +447,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636774",
-      "lastModified": "2025-09-02T11:23:55.636775"
+      "detectionDate": "2025-09-12T07:30:53.669099",
+      "lastModified": "2025-09-12T07:30:53.669100"
     },
     {
       "featureCapability": "Pull Request Context Enhancement",
@@ -464,8 +464,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636799",
-      "lastModified": "2025-09-02T11:23:55.636800"
+      "detectionDate": "2025-09-12T07:30:53.669133",
+      "lastModified": "2025-09-12T07:30:53.669135"
     },
     {
       "featureCapability": "File Change Analysis",
@@ -481,8 +481,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636826",
-      "lastModified": "2025-09-02T11:23:55.636827"
+      "detectionDate": "2025-09-12T07:30:53.669165",
+      "lastModified": "2025-09-12T07:30:53.669166"
     },
     {
       "featureCapability": "Multi-Repository Context",
@@ -498,8 +498,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.635915",
-      "lastModified": "2025-09-02T11:23:55.635916"
+      "detectionDate": "2025-09-12T07:30:53.668278",
+      "lastModified": "2025-09-12T07:30:53.668279"
     },
     {
       "featureCapability": "Enterprise Analytics Dashboard",
@@ -515,8 +515,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.635963",
-      "lastModified": "2025-09-02T11:23:55.635965"
+      "detectionDate": "2025-09-12T07:30:53.668303",
+      "lastModified": "2025-09-12T07:30:53.668304"
     },
     {
       "featureCapability": "Custom Model Training (Beta)",
@@ -532,8 +532,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.635995",
-      "lastModified": "2025-09-02T11:23:55.635996"
+      "detectionDate": "2025-09-12T07:30:53.668331",
+      "lastModified": "2025-09-12T07:30:53.668332"
     },
     {
       "featureCapability": "Copilot Enterprise Mixed Licensing",
@@ -549,8 +549,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636641",
-      "lastModified": "2025-09-02T11:23:55.636642"
+      "detectionDate": "2025-09-12T07:30:53.668971",
+      "lastModified": "2025-09-12T07:30:53.668972"
     },
     {
       "featureCapability": "Copilot for Business Chat Beta",
@@ -566,8 +566,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.637522",
-      "lastModified": "2025-09-02T11:23:55.637523"
+      "detectionDate": "2025-09-12T07:30:53.669868",
+      "lastModified": "2025-09-12T07:30:53.669869"
     },
     {
       "featureCapability": "Content Exclusions Re-deployment",
@@ -583,8 +583,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.637120",
-      "lastModified": "2025-09-02T11:23:55.637121"
+      "detectionDate": "2025-09-12T07:30:53.669467",
+      "lastModified": "2025-09-12T07:30:53.669468"
     },
     {
       "featureCapability": "Copilot Enterprise (GA)",
@@ -600,8 +600,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.637007",
-      "lastModified": "2025-09-02T11:23:55.637008"
+      "detectionDate": "2025-09-12T07:30:53.669387",
+      "lastModified": "2025-09-12T07:30:53.669388"
     },
     {
       "featureCapability": "Bing Search Integration",
@@ -617,8 +617,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.637032",
-      "lastModified": "2025-09-02T11:23:55.637033"
+      "detectionDate": "2025-09-12T07:30:53.669414",
+      "lastModified": "2025-09-12T07:30:53.669415"
     },
     {
       "featureCapability": "Structured Pull Request Summaries",
@@ -634,8 +634,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.637094",
-      "lastModified": "2025-09-02T11:23:55.637095"
+      "detectionDate": "2025-09-12T07:30:53.669439",
+      "lastModified": "2025-09-12T07:30:53.669440"
     },
     {
       "featureCapability": "Copilot Chat on GitHub.com Generally Available",
@@ -651,8 +651,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636435",
-      "lastModified": "2025-09-02T11:23:55.636436"
+      "detectionDate": "2025-09-12T07:30:53.668764",
+      "lastModified": "2025-09-12T07:30:53.668765"
     },
     {
       "featureCapability": "GitHub Copilot Free Plan",
@@ -668,8 +668,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636461",
-      "lastModified": "2025-09-02T11:23:55.636462"
+      "detectionDate": "2025-09-12T07:30:53.668789",
+      "lastModified": "2025-09-12T07:30:53.668790"
     },
     {
       "featureCapability": "GPT-4 Chat Model Upgrade",
@@ -685,8 +685,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.637146",
-      "lastModified": "2025-09-02T11:23:55.637147"
+      "detectionDate": "2025-09-12T07:30:53.669492",
+      "lastModified": "2025-09-12T07:30:53.669493"
     },
     {
       "featureCapability": "Code Referencing Public Beta",
@@ -702,8 +702,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.637171",
-      "lastModified": "2025-09-02T11:23:55.637172"
+      "detectionDate": "2025-09-12T07:30:53.669517",
+      "lastModified": "2025-09-12T07:30:53.669518"
     },
     {
       "featureCapability": "Chat Agents (@workspace, @vscode)",
@@ -719,8 +719,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.637211",
-      "lastModified": "2025-09-02T11:23:55.637212"
+      "detectionDate": "2025-09-12T07:30:53.669542",
+      "lastModified": "2025-09-12T07:30:53.669543"
     },
     {
       "featureCapability": "Commit Message Generation",
@@ -736,8 +736,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.637237",
-      "lastModified": "2025-09-02T11:23:55.637238"
+      "detectionDate": "2025-09-12T07:30:53.669567",
+      "lastModified": "2025-09-12T07:30:53.669567"
     },
     {
       "featureCapability": "Improved Explanation Context",
@@ -753,8 +753,110 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.637263",
-      "lastModified": "2025-09-02T11:23:55.637264"
+      "detectionDate": "2025-09-12T07:30:53.669591",
+      "lastModified": "2025-09-12T07:30:53.669592"
+    },
+    {
+      "featureCapability": "AGENTS.md Custom Instructions",
+      "category": "Platform / Agent Customization",
+      "firstIntroduced": "Aug 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "Copilot coding agent now supports AGENTS.md custom instructions alongside existing .github/copilot-instructions.md formats for enhanced project-specific guidance",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-12T07:30:53.667924",
+      "lastModified": "2025-09-12T07:30:53.667927"
+    },
+    {
+      "featureCapability": "Raycast Integration for Coding Agent",
+      "category": "Platform / External Integration",
+      "firstIntroduced": "Aug 2025",
+      "currentStatus": "Preview",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "macOS Raycast extension enabling task delegation to Copilot coding agent with progress tracking, supporting Pro/Pro+, Business, and Enterprise plans",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-12T07:30:53.667958",
+      "lastModified": "2025-09-12T07:30:53.667959"
+    },
+    {
+      "featureCapability": "Sub-issues Creation with Copilot",
+      "category": "Platform / Issue Management",
+      "firstIntroduced": "Aug 2025",
+      "currentStatus": "Preview",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "Public preview feature enabling creation of parent issues with sub-issues, breaking down complex work into component parts via natural language prompts",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-12T07:30:53.667984",
+      "lastModified": "2025-09-12T07:30:53.667985"
+    },
+    {
+      "featureCapability": "Enterprise Cloud Data Residency for Coding Agent",
+      "category": "Platform / Enterprise",
+      "firstIntroduced": "Aug 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "Copilot coding agent now available in GitHub Enterprise Cloud with data residency, supporting autonomous background development tasks",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-12T07:30:53.668013",
+      "lastModified": "2025-09-12T07:30:53.668015"
+    },
+    {
+      "featureCapability": "GPT-4.1 Code Completion Model",
+      "category": "Platform / AI Models",
+      "firstIntroduced": "Aug 2025",
+      "currentStatus": "Stable",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "Enhanced code completion model with expanded knowledge cutoff, additional training data, and reinforcement learning improvements for better suggestion relevance",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-12T07:30:53.668042",
+      "lastModified": "2025-09-12T07:30:53.668043"
+    },
+    {
+      "featureCapability": "Grok Code Fast 1 Model",
+      "category": "Platform / AI Models",
+      "firstIntroduced": "Aug 2025",
+      "currentStatus": "Preview",
+      "latestUpdate": "Aug 2025",
+      "keyMilestones": "xAI's Grok Code Fast 1 available in public preview for VS Code with complimentary access through September 2, 2025, supporting BYOK integration",
+      "sourceLinks": [
+        {
+          "url": "https://github.com/SwEngin51/copilot-octoverse-vault/blob/main/copilot-feature-matrix.md",
+          "title": "Copilot Feature Matrix - Platform Features",
+          "feedSource": "feature-matrix"
+        }
+      ],
+      "detectionDate": "2025-09-12T07:30:53.668070",
+      "lastModified": "2025-09-12T07:30:53.668071"
     },
     {
       "featureCapability": "Copilot Spaces (GA)",
@@ -770,8 +872,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.635516",
-      "lastModified": "2025-09-02T11:23:55.635520"
+      "detectionDate": "2025-09-12T07:30:53.668096",
+      "lastModified": "2025-09-12T07:30:53.668097"
     },
     {
       "featureCapability": "Knowledge Bases (Deprecated)",
@@ -787,8 +889,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.635576",
-      "lastModified": "2025-09-02T11:23:55.635579"
+      "detectionDate": "2025-09-12T07:30:53.668122",
+      "lastModified": "2025-09-12T07:30:53.668123"
     },
     {
       "featureCapability": "Claude Opus 4.1 Model",
@@ -804,8 +906,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.635639",
-      "lastModified": "2025-09-02T11:23:55.635642"
+      "detectionDate": "2025-09-12T07:30:53.668148",
+      "lastModified": "2025-09-12T07:30:53.668149"
     },
     {
       "featureCapability": "Copilot Generated Commit Messages",
@@ -821,8 +923,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.635697",
-      "lastModified": "2025-09-02T11:23:55.635700"
+      "detectionDate": "2025-09-12T07:30:53.668176",
+      "lastModified": "2025-09-12T07:30:53.668177"
     },
     {
       "featureCapability": "Premium Request Overage Policy",
@@ -838,8 +940,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.635759",
-      "lastModified": "2025-09-02T11:23:55.635763"
+      "detectionDate": "2025-09-12T07:30:53.668201",
+      "lastModified": "2025-09-12T07:30:53.668202"
     },
     {
       "featureCapability": "Advanced Security Scanning Integration",
@@ -855,8 +957,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.635822",
-      "lastModified": "2025-09-02T11:23:55.635826"
+      "detectionDate": "2025-09-12T07:30:53.668227",
+      "lastModified": "2025-09-12T07:30:53.668228"
     },
     {
       "featureCapability": "Copilot Mobile App Preview",
@@ -872,8 +974,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.635883",
-      "lastModified": "2025-09-02T11:23:55.635887"
+      "detectionDate": "2025-09-12T07:30:53.668252",
+      "lastModified": "2025-09-12T07:30:53.668253"
     },
     {
       "featureCapability": "Custom Models Limited Beta",
@@ -889,8 +991,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636590",
-      "lastModified": "2025-09-02T11:23:55.636591"
+      "detectionDate": "2025-09-12T07:30:53.668920",
+      "lastModified": "2025-09-12T07:30:53.668921"
     },
     {
       "featureCapability": "Copilot Metrics API Team Support",
@@ -906,8 +1008,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636616",
-      "lastModified": "2025-09-02T11:23:55.636617"
+      "detectionDate": "2025-09-12T07:30:53.668946",
+      "lastModified": "2025-09-12T07:30:53.668947"
     },
     {
       "featureCapability": "Copilot Trust Center",
@@ -923,8 +1025,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.637444",
-      "lastModified": "2025-09-02T11:23:55.637445"
+      "detectionDate": "2025-09-12T07:30:53.669791",
+      "lastModified": "2025-09-12T07:30:53.669792"
     },
     {
       "featureCapability": "Code Referencing (Private Beta)",
@@ -940,8 +1042,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.637470",
-      "lastModified": "2025-09-02T11:23:55.637471"
+      "detectionDate": "2025-09-12T07:30:53.669818",
+      "lastModified": "2025-09-12T07:30:53.669819"
     },
     {
       "featureCapability": "User Management API (Beta)",
@@ -957,8 +1059,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.637497",
-      "lastModified": "2025-09-02T11:23:55.637498"
+      "detectionDate": "2025-09-12T07:30:53.669843",
+      "lastModified": "2025-09-12T07:30:53.669844"
     },
     {
       "featureCapability": "Code Review Bot GA",
@@ -974,8 +1076,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636175",
-      "lastModified": "2025-09-02T11:23:55.636176"
+      "detectionDate": "2025-09-12T07:30:53.668513",
+      "lastModified": "2025-09-12T07:30:53.668514"
     },
     {
       "featureCapability": "Shareable Conversations",
@@ -991,8 +1093,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636221",
-      "lastModified": "2025-09-02T11:23:55.636223"
+      "detectionDate": "2025-09-12T07:30:53.668541",
+      "lastModified": "2025-09-12T07:30:53.668542"
     },
     {
       "featureCapability": "GitHub Desktop Commit Messages",
@@ -1008,8 +1110,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636252",
-      "lastModified": "2025-09-02T11:23:55.636253"
+      "detectionDate": "2025-09-12T07:30:53.668567",
+      "lastModified": "2025-09-12T07:30:53.668568"
     },
     {
       "featureCapability": "OpenAI O4-mini Model",
@@ -1025,8 +1127,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636277",
-      "lastModified": "2025-09-02T11:23:55.636278"
+      "detectionDate": "2025-09-12T07:30:53.668593",
+      "lastModified": "2025-09-12T07:30:53.668593"
     },
     {
       "featureCapability": "Vision Support Expansion",
@@ -1042,8 +1144,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636302",
-      "lastModified": "2025-09-02T11:23:55.636303"
+      "detectionDate": "2025-09-12T07:30:53.668632",
+      "lastModified": "2025-09-12T07:30:53.668633"
     },
     {
       "featureCapability": "Organization Custom Instructions",
@@ -1059,8 +1161,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636328",
-      "lastModified": "2025-09-02T11:23:55.636329"
+      "detectionDate": "2025-09-12T07:30:53.668657",
+      "lastModified": "2025-09-12T07:30:53.668658"
     },
     {
       "featureCapability": "OpenAI O3-mini Model",
@@ -1076,8 +1178,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636355",
-      "lastModified": "2025-09-02T11:23:55.636356"
+      "detectionDate": "2025-09-12T07:30:53.668683",
+      "lastModified": "2025-09-12T07:30:53.668684"
     },
     {
       "featureCapability": "Claude 3.7 Sonnet and Gemini Flash 2.0 Generally Available",
@@ -1093,8 +1195,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636383",
-      "lastModified": "2025-09-02T11:23:55.636384"
+      "detectionDate": "2025-09-12T07:30:53.668711",
+      "lastModified": "2025-09-12T07:30:53.668712"
     },
     {
       "featureCapability": "Copilot Workspace Technical Preview",
@@ -1110,8 +1212,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636903",
-      "lastModified": "2025-09-02T11:23:55.636903"
+      "detectionDate": "2025-09-12T07:30:53.669282",
+      "lastModified": "2025-09-12T07:30:53.669283"
     },
     {
       "featureCapability": "Copilot Metrics API Public Beta",
@@ -1127,8 +1229,8 @@
           "feedSource": "feature-matrix"
         }
       ],
-      "detectionDate": "2025-09-02T11:23:55.636930",
-      "lastModified": "2025-09-02T11:23:55.636931"
+      "detectionDate": "2025-09-12T07:30:53.669309",
+      "lastModified": "2025-09-12T07:30:53.669310"
     }
   ]
 }
