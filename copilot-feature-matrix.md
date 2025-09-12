@@ -209,6 +209,12 @@ The analysis reveals significant acceleration in AI feature development, particu
 
 | Feature / Capability | Category | First Introduced | Current Status | Latest Update | Key Milestones |
 |---------------------|----------|------------------|----------------|---------------|---------------|
+| **AGENTS.md Custom Instructions** | Platform / Agent Customization | Aug 2025 | 🟢 | Aug 2025 | Copilot coding agent now supports AGENTS.md custom instructions alongside existing .github/copilot-instructions.md formats for enhanced project-specific guidance |
+| **Raycast Integration for Coding Agent** | Platform / External Integration | Aug 2025 | 🟡 | Aug 2025 | macOS Raycast extension enabling task delegation to Copilot coding agent with progress tracking, supporting Pro/Pro+, Business, and Enterprise plans |
+| **Sub-issues Creation with Copilot** | Platform / Issue Management | Aug 2025 | 🟡 | Aug 2025 | Public preview feature enabling creation of parent issues with sub-issues, breaking down complex work into component parts via natural language prompts |
+| **Enterprise Cloud Data Residency for Coding Agent** | Platform / Enterprise | Aug 2025 | 🟢 | Aug 2025 | Copilot coding agent now available in GitHub Enterprise Cloud with data residency, supporting autonomous background development tasks |
+| **GPT-4.1 Code Completion Model** | Platform / AI Models | Aug 2025 | 🟢 | Aug 2025 | Enhanced code completion model with expanded knowledge cutoff, additional training data, and reinforcement learning improvements for better suggestion relevance |
+| **Grok Code Fast 1 Model** | Platform / AI Models | Aug 2025 | 🟡 | Aug 2025 | xAI's Grok Code Fast 1 available in public preview for VS Code with complimentary access through September 2, 2025, supporting BYOK integration |
 | **Copilot Spaces (GA)** | Platform / Knowledge | Aug 2025 | 🟢 | Aug 2025 | Revolutionary knowledge bases with enhanced context and team collaboration replacing deprecated knowledge bases |
 | **Knowledge Bases (Deprecated)** | Platform / Context | Feb 2024 | 🔴 | Aug 2025 | Sunset in favor of Copilot Spaces with enhanced functionality and improved user experience |
 | **Claude Opus 4.1 Model** | Platform / AI Models | Aug 2025 | 🟡 | Aug 2025 | Anthropic's flagship model with enhanced reasoning capabilities for complex programming tasks |
@@ -283,8 +289,8 @@ The analysis reveals significant acceleration in AI feature development, particu
 
 **Key Data Points**:
 - **IDE Integration**: 81 major Copilot features tracked across all IDEs and versions
-- **Platform & Agent**: 61 platform features covering enterprise, security, AI models, and core services
-- **Total Coverage**: 142 comprehensive features across the complete Copilot ecosystem
+- **Platform & Agent**: 67 platform features covering enterprise, security, AI models, and core services
+- **Total Coverage**: 148 comprehensive features across the complete Copilot ecosystem
 - **3 distinct maturity phases** for feature development
 - **Multi-IDE integration**: VS Code, Visual Studio, JetBrains, Eclipse, Xcode, Windows Terminal
 - **Monthly release cadence** with quarterly major feature introductions
