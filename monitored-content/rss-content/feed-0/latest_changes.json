@@ -1,112 +1,117 @@
 {
   "new_entries": [
     {
-      "id": "https://github.blog/changelog/2025-08-29-copilots-next-edit-suggestion-nes-in-public-preview-in-jetbrains",
-      "title": "Copilot\u2019s next edit suggestion (NES) in public preview in JetBrains",
-      "link": "https://github.blog/changelog/2025-08-29-copilots-next-edit-suggestion-nes-in-public-preview-in-jetbrains",
-      "published": "Fri, 29 Aug 2025 17:32:16 +0000",
-      "content": "Next edit suggestions (NES) is now available in public preview for JetBrains IDEs. With NES, Copilot extends its capabilities to editing your existing code, proactively suggesting improvements and refinements as you work, making your coding experience more efficient and helping you maintain cleaner, more consistent codebases. \u2728 What\u2019s new NES identifies opportunities to improve, update, or fix your existing code as you work. Inline edit indicators automatically appear, showing available suggestions. Simply hover over the suggested text to view details, preview changes, and apply them directly. Suggestions adapt to your needs, ranging from single symbols to multiple lines. Whether catching typos, adjusting logic, refactoring code, or propagating variable name changes, NES understands your edits and offers intelligent follow-up improvements without manual file searching. \ud83d\udee0 Try it out To start using NES in JetBrains IDEs, follow these steps: Enable NES in your JetBrains IDE: Go to Settings \u2192 GitHub Copilot \u2192 Completions \u2192 Check Enable Next Edit Suggestions(NES). Start coding: No special commands are needed. NES suggestions appear automatically. Review and accept suggestions: Navigate to a suggestion using your caret or keyboard shortcuts. Accept with the Tab key (default) or apply via the gutter menu. \ud83d\udcac Share your feedback Your feedback drives improvements. Let us know what you think using the in-product feedback option or share your thoughts in GitHub Copilot for JetBrains feedback. Disclaimer: The UI for features in public preview is subject to change. The post Copilot\u2019s next edit suggestion (NES) in public preview in JetBrains appeared first on The GitHub Blog.",
-      "content_hash": "60a6e9a6df140337f74512758f1701dfc29acf8d2911f96fe5b8dc424843d79f",
+      "id": "https://github.blog/changelog/2025-09-11-bring-your-own-key-byok-support-for-jetbrains-ides-and-xcode-in-public-preview",
+      "title": "Bring Your Own Key (BYOK) support for JetBrains IDEs and Xcode in public preview",
+      "link": "https://github.blog/changelog/2025-09-11-bring-your-own-key-byok-support-for-jetbrains-ides-and-xcode-in-public-preview",
+      "published": "Fri, 12 Sep 2025 00:20:55 +0000",
+      "content": "Bring Your Own Key (BYOK) support is now in public preview for GitHub Copilot Chat in JetBrains IDEs and Xcode! If you already have an API key from a supported model provider, you can connect it in just a minute and start using their models directly in JetBrains IDEs or Xcode. Supported providers include Anthropic, Azure, Google Gemini, Groq, OpenAI, and OpenRouter. BYOK support for GitHub Copilot Chat in Eclipse is coming soon. What BYOK unlocks Using your own language model API key offers several advantages: Model flexibility: Access a wide range of models beyond the built-in options. Experimentation: Try out new models and features as they become available. Greater control: Choose the models you prefer, with fewer limitations on rate limits or usage policies. Try it out To use BYOK, install the latest GitHub Copilot plugin for JetBrains or Xcode. You will also need to have a valid Copilot license. In JetBrains IDEs: Open the Copilot chat and click Manage Models in the model picker. Choose your provider and click Add Models. Enter your API key and required details, then click Save. Select the models under your key and save again \u2014 they\u2019ll appear in the model picker. Enable the ones you want to use in Copilot chat. In Xcode: Open the Copilot chat and select Manage Models from the Model picker. Choose your provider (e.g., Anthropic, OpenAI, Azure). Enter the API key and endpoint URL (if needed). Click Add to continue. Once saved, it will list available AI models in the \u201cModel Settings\u201d page. Enable the ones you want to use. Share your feedback We value your feedback! Share your experience through the following channels: GitHub Copilot for JetBrains IDEs GitHub Copilot for Xcode Feedback The post Bring Your Own Key (BYOK) support for JetBrains IDEs and Xcode in public preview appeared first on The GitHub Blog.",
+      "content_hash": "9f13900b4242fcc809514c9d893c87b4add404165afbf73915a0bb00cdd195e5",
       "feed_index": 0,
-      "detected_date": "2025-09-02T11:27:17.858308"
+      "detected_date": "2025-09-12T07:33:00.870280"
     },
     {
-      "id": "https://github.blog/changelog/2025-08-27-copilot-coding-agent-now-supports-agents-md-custom-instructions",
-      "title": "Copilot coding agent now supports AGENTS.md custom instructions",
-      "link": "https://github.blog/changelog/2025-08-28-copilot-coding-agent-now-supports-agents-md-custom-instructions",
-      "published": "Thu, 28 Aug 2025 18:00:58 +0000",
-      "content": "With custom instructions, you can guide Copilot on how to understand your project as well as how to build, test, and validate its changes. Copilot coding agent, our autonomous background agent, now supports AGENTS.md custom instructions. You can create a single AGENTS.md file in the root of your repository. You can also create nested AGENTS.md files which apply to specific parts of your project. Alongside AGENTS.md, the agent continues to support GitHub\u2019s .github/copilot-instructions.md and .github/instructions/.instructions.md formats, plus CLAUDE.md and GEMINI.md files. To learn more about custom instructions and other best practices for Copilot coding agent, head to our documentation. The post Copilot coding agent now supports AGENTS.md custom instructions appeared first on The GitHub Blog.",
-      "content_hash": "e8fee0ae329ca5ecb91d8d99fe32c07ce5f9e90c8225ad60de3e03710160cb6c",
+      "id": "https://github.blog/changelog/2025-09-10-copilot-code-review-independent-repository-rule-for-automatic-reviews",
+      "title": "Copilot code review: Independent repository rule for automatic reviews",
+      "link": "https://github.blog/changelog/2025-09-10-copilot-code-review-independent-repository-rule-for-automatic-reviews",
+      "published": "Wed, 10 Sep 2025 20:08:07 +0000",
+      "content": "You can now enable automatic Copilot code review with its own standalone repository rule. It\u2019s generally available for Copilot users today \u2728. Previously, triggering an automatic Copilot code review on pull request creation was only available as a subsetting of the Require a pull request before merging protection. Now you can adopt automatic reviews without adding merge gating policies, with subsettings for more control over your automatic review flow! What\u2019s new The new rule includes subsettings to keep feedback up to date as your pull request evolves: Run on each push (reruns automatically when new commits are pushed to the pull request) Run on drafts (triggers for draft pull requests so authors can iterate before requesting human review) With these changes, you can enable only what matches your or your team\u2019s signal-to-noise preferences. For example, you might start with automatic reviews on creation only, then add on-push reviews for critical branches. Or you might include on-draft reviews in repositories when you want to iterate with Copilot code review before publishing your pull request. Demo of Copilot code review highlighting an issue and providing a suggestion to apply in Xcode editor Getting started Go to Settings > Rules > Rulesets in a repository you have admin access to. Add or edit a ruleset and select the new automatic Copilot code review rule. Choose the subsettings you want (on-push, on-draft). Save the rule and open a new pull request to see Copilot code review run automatically. Learn more in the documentation. Join the discussion within GitHub Community. The post Copilot code review: Independent repository rule for automatic reviews appeared first on The GitHub Blog.",
+      "content_hash": "40a3d3321c7fefa461c22a968db2c3c74c2cc259ce82955f489aa4df5b80848d",
       "feed_index": 0,
-      "detected_date": "2025-09-02T11:27:17.858313"
+      "detected_date": "2025-09-12T07:33:00.870286"
     },
     {
-      "id": "https://github.blog/changelog/2025-08-27-start-and-track-copilot-coding-agent-tasks-from-raycast",
-      "title": "Start and track Copilot coding agent tasks from Raycast",
-      "link": "https://github.blog/changelog/2025-08-28-start-and-track-copilot-coding-agent-tasks-from-raycast",
-      "published": "Thu, 28 Aug 2025 17:55:41 +0000",
-      "content": "Raycast is a powerful free launcher for macOS. It can launch apps, search files, control your system, and leverage community-built extensions. Now, it can also interact with AI agents. With the new GitHub Copilot extension for Raycast, you can hand tasks to Copilot coding agent and track progress from anywhere on your Mac. To start a new task, open Raycast with Command+Space, then find and select the Create Task command. From there, pick the repository and enter your prompt, then hit Command+Return. Copilot will create a draft pull request, work in the background, and then tag you for review when ready. You can also track running Copilot tasks from Raycast, whether you started them from Raycast, the agents panel on every page on GitHub, or an issue. To monitor your tasks, open Raycast and select the View Tasks command. Learn more about Copilot coding agent Copilot coding agent and the Raycast extension are available in public preview for all users with Copilot Pro or Copilot Pro+, as well as Copilot Business and Copilot Enterprise users where an administrator has enabled the relevant policy. To learn more about Copilot coding agent, head to our documentation. Disclaimer: The UI for features in public preview is subject to change. The post Start and track Copilot coding agent tasks from Raycast appeared first on The GitHub Blog.",
-      "content_hash": "ea91ffbf775a6723747194bc5f53675d98a07d6d3bf4305ac8ef004211d55c2c",
+      "id": "https://github.blog/changelog/2025-09-09-openai-gpt-5-and-gpt-5-mini-are-now-generally-available-in-github-copilot",
+      "title": "OpenAI GPT-5 and GPT-5 mini are now generally available in GitHub Copilot",
+      "link": "https://github.blog/changelog/2025-09-09-openai-gpt-5-and-gpt-5-mini-are-now-generally-available-in-github-copilot",
+      "published": "Tue, 09 Sep 2025 20:02:16 +0000",
+      "content": "OpenAI\u2019s GPT-5 and GPT-5 mini are now generally available in GitHub Copilot. Availability in GitHub Copilot GPT-5 mini is available to all GitHub Copilot plans, including Copilot Free, while GPT-5 is available only to paid Copilot plans. You can access both models in GitHub Copilot Chat on github.com, VS Code, Visual Studio, JetBrains IDEs, Xcode, Eclipse, and in GitHub Mobile through the chat model picker. Enabling access Copilot Enterprise and Business administrators must opt in by enabling the new GPT-5 and GPT-5 mini policy in Copilot settings. Once enabled, users in that organization will see the models in the model picker across all supported IDEs. For individual paid plans, enable either model by selecting it in the model picker in any supported IDE and confirming the one-time prompt. Share your feedback To learn more about the models available in Copilot, see our documentation on models and get started with Copilot today. Have feedback or questions? Join the discussion within GitHub Community. The post OpenAI GPT-5 and GPT-5 mini are now generally available in GitHub Copilot appeared first on The GitHub Blog.",
+      "content_hash": "719578f786fa685b671f397f29e20a42850ddae354225c721ae882ab7a2c704b",
       "feed_index": 0,
-      "detected_date": "2025-09-02T11:27:17.858316"
+      "detected_date": "2025-09-12T07:33:00.870288"
     },
     {
-      "id": "https://github.blog/changelog/2025-08-28-openai-gpt-5-mini-is-now-available-in-public-preview-in-visual-studio-jetbrains-ides-xcode-and-eclipse",
-      "title": "OpenAI GPT-5 mini is now available in public preview in Visual Studio, JetBrains IDEs, Xcode, and Eclipse",
-      "link": "https://github.blog/changelog/2025-08-28-openai-gpt-5-mini-is-now-available-in-public-preview-in-visual-studio-jetbrains-ides-xcode-and-eclipse",
-      "published": "Thu, 28 Aug 2025 17:40:59 +0000",
-      "content": "GPT-5 mini is now available in public preview to users of GitHub Copilot in Visual Studio, JetBrains IDEs, Xcode, and Eclipse. Availability in GitHub Copilot GPT-5 mini is now available to all Copilot plans, including Copilot Free. You will be able to access the model in GitHub Copilot Chat on github.com, GitHub Mobile, VS Code, Visual Studio, JetBrains IDEs, Xcode, and Eclipse through the chat model picker (Agent, Ask, and Edit modes). If you do not yet have access, please continue to check back. Enabling access Copilot Enterprise and Business administrators must opt in by enabling the new GPT-5 mini policy in Copilot settings. Once enabled, users in that organization will see GPT-5 mini in the model picker. To learn more about the models available in Copilot, see our documentation on models and get started with Copilot today. Share your feedback Have feedback or questions? Join the community discussion to share feedback and tips. The post OpenAI GPT-5 mini is now available in public preview in Visual Studio, JetBrains IDEs, Xcode, and Eclipse appeared first on The GitHub Blog.",
-      "content_hash": "12ad1eb26939ec1b11d90ec7315f7aafd7a1a800cc477d394fa3b93e356f32ea",
+      "id": "https://github.blog/changelog/2025-09-05-new-features-in-github-copilot-in-eclipse",
+      "title": "New features in GitHub Copilot in Eclipse",
+      "link": "https://github.blog/changelog/2025-09-05-new-features-in-github-copilot-in-eclipse",
+      "published": "Sat, 06 Sep 2025 02:56:23 +0000",
+      "content": "We\u2019ve just shipped a new set of improvements to make GitHub Copilot in Eclipse smarter and easier to use. These updates bring more context options, smoother workflows, and better customization for your development experience. \u2728 What\u2019s new Custom instructions You can now use custom instructions to provide Copilot with additional context tailored to your work. This helps Copilot deliver more relevant and personalized assistance. Learn more in our documentation about custom instructions. Note: The custom instructions feature is currently available only in Chat and Agent mode. Image support in chat context You can now add images directly to the chat context to generate code snippets. For example, you can upload a hand-drawn layout page, and Copilot will generate corresponding HTML code. Note: Some models do not support vision capabilities. In such cases, Copilot displays a warning. Richer context with folders and resources You can now enrich Copilot chat by referencing context with folders and resources. This makes it easier to share structured project content and collaborate more effectively: Attach folders directly into chat to provide broader project context. Drag and drop resources into referenced files for quick additions. Add resources via context menu in Package Explorer and Project Explorer. Improved user experience We\u2019ve refined both the Agent Mode workflow and the chat view to make them more intuitive and user-friendly: A confirmation dialog now appears when starting a new Agent mode conversation if there are unhandled files in context, preventing accidental data loss. The chat view banner now displays the conversation title and includes a shortcut to Edit Preferences\u2026 A refreshed color design improves readability and provides a cleaner look. The Copilot Chat view is now included in JEE-related perspectives by default, improving integration across development workflows. A new configuration scope controls whether to show the What\u2019s New page. This option is now also exposed in the Preferences dialog. Enhanced colors and layout for chat view with dark theme and light theme improvements. Reduced plugin size By splitting platform-specific binaries into separate fragments, the overall plugin size has been greatly reduced. This means faster downloads and updates. New public API to programmatically start a chat session We\u2019ve introduced a new public API that allows other plugins to seamlessly start a new ask session in the Copilot Chat view. Plugins can now invoke the com.microsoft.copilot.eclipse.commands.openChatView command with two optional parameters: com.microsoft.copilot.eclipse.commands.openChatView.inputValue: A string representing the initial content of the chat. com.microsoft.copilot.eclipse.commands.openChatView.autoSend: A boolean indicating whether to automatically submit the content. This opens up exciting possibilities for plugin developers to trigger contextual Copilot interactions directly from their tools. Here\u2019s how the Spring Tools plugin leverages the new API to launch a chat session: \ud83d\udee0 Try it out Get started by checking out our official documentation. \ud83d\udcac Share your feedback Your feedback drives improvements. Let us know what you think using the in-product feedback option, or share your thoughts in the following channels: GitHub Copilot for Eclipse discussions GitHub Copilot for Eclipse issues The post New features in GitHub Copilot in Eclipse appeared first on The GitHub Blog.",
+      "content_hash": "5d49143480a13f11293658ad1e67661cc3fa2b8971c40d5ee7dfb5d5ca008b3e",
       "feed_index": 0,
-      "detected_date": "2025-09-02T11:27:17.858317"
+      "detected_date": "2025-09-12T07:33:00.870290"
     },
     {
-      "id": "https://github.blog/changelog/2025-08-28-github-copilot-in-visual-studio-august-update",
-      "title": "GitHub Copilot in Visual Studio \u2014 August update",
-      "link": "https://github.blog/changelog/2025-08-28-github-copilot-in-visual-studio-august-update",
-      "published": "Thu, 28 Aug 2025 17:18:55 +0000",
-      "content": "The August 2025 update to Visual Studio brings a smarter Copilot, MCP general availability, and more control. Highlights Here\u2019s what\u2019s new with GitHub Copilot in Visual Studio 2022 (v17.14): GPT-5 model support: Use GPT-5 to leverage more powerful, accurate, and context-aware code suggestions and chat experiences directly in Visual Studio. MCP support is now generally available: Connect your entire stack with MCP. Get started with one-click server installation and secure integrated sign in. Smarter Copilot Chat with better context: Access a smarter Copilot Chat that retrieves your most relevant code snippets and understands your Git history Bring your own model: Connect your own models to Visual Studio Chat using API keys from OpenAI, Google, or Anthropic. Sign up with Google: Sign up for GitHub Copilot directly from Visual Studio \u2014 now with your Google account. Greater control over Copilot suggestions: Choose when Copilot completions should appear, decide when to access next edit suggestions, and accept completions partially word-by-word or line-by-line. Download Visual Studio to experience all the new Copilot features today. To learn more about what\u2019s new, check out the Visual Studio blog and release notes. Next in Visual Studio Copilot Here\u2019s a sneak peek of what\u2019s coming next for Copilot in Visual Studio: New modes for Debugging and Profiling Enhanced agent mode performance and functionality MCP prompt, resources, sampling, and registry support Copilot-powered all-in-one search And this is just a small sample of upcoming improvements. Explore our full roadmap for all the upcoming features and share your feedback with us! The post GitHub Copilot in Visual Studio \u2014 August update appeared first on The GitHub Blog.",
-      "content_hash": "4a74138883922eaec51bf41f29e407f26d935452e517362470aa1fe691917379",
+      "id": "https://github.blog/changelog/2025-09-05-new-spark-sharing-option-and-improved-local-dev-experience",
+      "title": "New Spark sharing option and improved local dev experience",
+      "link": "https://github.blog/changelog/2025-09-05-new-spark-sharing-option-and-improved-local-dev-experience",
+      "published": "Fri, 05 Sep 2025 18:14:35 +0000",
+      "content": "We\u2019ve launched a new way to share your sparks, an improved local development experience, smoother workflows, and a handful of handy fixes. Here\u2019s what\u2019s new. \u2728 Features Organization sharing: You can now share sparks with a specific GitHub organization to keep your sparks secure while making collaboration with teammates easier. Pick your organization from the Publish modal to give all users of that organization access to your spark. Improved local development experience: Create a repository for your spark, open it in a Codespace, and run npm run dev to expand on your spark. Better visibility into deployments: We now clearly show which version of your spark is deployed and indicate when you\u2019ve iterated past your deployed state. Improved link displays in Discord: Sharing spark links on Discord now automatically display a branded preview of your app, making it easier for others to see what you\u2019re sharing. IME language support in text input fields: Users leveraging IME-based languages (e.g., Japanese, Chinese) can now iterate more easily in GitHub Spark without premature field submission. More obvious reverts: We added a Restore button in the iterate panel to make the ability to revert to previous versions more obvious and visible. \ud83d\udc1e Notable fixes We fixed flickering in the Data Panel during high-rate Spark KV store interactions. *.pid files from background processes no longer appear as manual edits in the iteration panel. Stay tuned for more updates, and keep sparking new ideas! \u2728 Try out these improvements today Visit github.com/spark to build your next app. The post New Spark sharing option and improved local dev experience appeared first on The GitHub Blog.",
+      "content_hash": "0f292040be240bc198c9886af4f84a8f2d7cbaef13d4dd5eeaa270f0fa3735dd",
       "feed_index": 0,
-      "detected_date": "2025-09-02T11:27:17.858318"
+      "detected_date": "2025-09-12T07:33:00.870291"
     },
     {
-      "id": "https://github.blog/changelog/2025-08-27-create-sub-issues-with-copilot-in-public-preview",
-      "title": "Create sub-issues with Copilot in public preview",
-      "link": "https://github.blog/changelog/2025-08-27-create-sub-issues-with-copilot-in-public-preview",
-      "published": "Wed, 27 Aug 2025 23:37:22 +0000",
-      "content": "Following the previous release of Copilot Creates Issues, you can now create sub-issues and manage issue relationships by chatting with Copilot on github.com/copilot. You can now: Create an issue with multiple sub-issues \u2014 ideal for when you want to create a whole new epic. Add sub-issues to existing issues \u2014 perfect for breaking down complex work into component parts. Add parent issues to existing issues \u2014 best for organizing scattered issues under a main tracking issue. Getting Started Navigate to github.com/copilot. Try prompts like: Create me a parent issue and sub-issues for YOUR-IDEA-HERE. Add a sub-issue to issue YOUR-ISSUE-URL-HERE. Break down YOUR-ISSUE-URL-HERE issue into sub-issues. Review the issues and their relationships within the chat. Make updates to issues as needed. Click Review + Create to create all issues in one go. Helpful tips Have a clear structure in mind and include it when using this feature. Copilot uses the details you provide and will make helpful inferences when needed. To make modifications to the issues you have created, ask Copilot to add or remove sub-issues. When reviewing a draft sub-issue, click on the \u201cParent:\u201d drop down next to the \u201cReview & Create\u201d button to view the hierarchy at a glance Leverage pasting issues as references to enrich your prompt when updating relationships between existing issues. With this update, we hope breaking down complex work feels natural, so you can spend more time coding and less time coordinating. Disclaimer: The UI for features in public preview is subject to change. The post Create sub-issues with Copilot in public preview appeared first on The GitHub Blog.",
-      "content_hash": "2da3437628d4e9b55114e31e60ee9b42b9737d73ec3f14fac906208d93f5f82a",
+      "id": "https://github.blog/changelog/2025-09-03-remote-github-mcp-server-is-now-generally-available",
+      "title": "Remote GitHub MCP Server is now generally available",
+      "link": "https://github.blog/changelog/2025-09-04-remote-github-mcp-server-is-now-generally-available",
+      "published": "Thu, 04 Sep 2025 15:00:49 +0000",
+      "content": "The remote GitHub MCP Server is now generally available. We\u2019ve introduced OAuth-based authentication, expanded tooling, and improved security guardrails. Improvements & updates \ud83d\udd10 Production authentication The GitHub MCP Server now supports OAuth 2.1 + PKCE with integration into all first-party Copilot IDEs (VS Code, Visual Studio, JetBrains, Eclipse, Xcode) as well as Cursor, providing a simpler and faster alternative to using personal access tokens (PATs). It\u2019s also more secure than PATs with automatic token refresh and short-lived credentials. More third-party host apps are coming soon. Additionally, the single \u201cMCP servers in Copilot\u201d policy now provides centralized control over MCP access across all Copilot environments. Note: With general availability, the \u201cCopilot editor preview policy\u201d no longer controls OAuth access to the remote GitHub MCP Server. \ud83d\ude80 Premium tools The GitHub MCP server has added powerful capabilities that integrate deeply with GitHub\u2019s advanced features, available with the appropriate paid licenses. The Copilot Coding Agent tool brings autonomous development to your MCP workflows. Delegate tasks like bug fixes, feature implementations, or test improvements, and Copilot works independently in its own development environment behind the scenes. Coding Agent will create branches, write and edit code, run tests, and then open a pull request when the workflow is complete. Secret scanning with push protection is now available for all public repositories at no cost, automatically detecting and blocking secrets in tool call inputs, with the option to bypass if needed. Coming soon, this same protection will extend to private GHAS-enabled repositories. Code scanning alerts are now integrated, giving you direct access to security findings in GHAS-enabled repositories. This helps ensure vulnerabilities are caught early in the development process. \ud83d\udee0\ufe0f New & improved tools We\u2019ve expanded the remote GitHub MCP Server\u2019s capabilities to cover more of your daily GitHub workflows: Security advisories (org, repo, and global levels) Sub-issue management (add, list, remove, reprioritize) Pull request workflow improvements (draft toggle, reviewer requests) Enhanced gists and discussions support Improved session management and pagination Why it matters Reduce context switching between GitHub and your AI tools. The remote GitHub MCP Server enables AI assistants to work directly with your GitHub data through structured tool interactions. Whether you\u2019re using GitHub Copilot, Claude Code, Cursor, or any MCP-compatible host, your agents can search repositories, manage issues, review pull requests, and more. Get started \ud83d\udc49 Install the GitHub MCP Server \ud83d\udcda Read the documentation \ud83d\udcac Join the discussion The post Remote GitHub MCP Server is now generally available appeared first on The GitHub Blog.",
+      "content_hash": "34ab5f87186596248b0b1595548775c50912ce7980889aaff724d65b4d5d118a",
       "feed_index": 0,
-      "detected_date": "2025-09-02T11:27:17.858320"
+      "detected_date": "2025-09-12T07:33:00.870292"
     },
     {
-      "id": "https://github.blog/changelog/2025-08-27-copilot-code-review-generally-available-in-xcode-and-new-admin-control",
-      "title": "Copilot code review: Generally available in Xcode and new admin control",
-      "link": "https://github.blog/changelog/2025-08-27-copilot-code-review-generally-available-in-xcode-and-new-admin-control",
-      "published": "Wed, 27 Aug 2025 18:03:54 +0000",
-      "content": "In the latest improvements with Copilot code review, we\u2019ve added a new Copilot code review enterprise and organization setting and Copilot code review is now generally available in Xcode \ud83c\udf89. Support for Visual Studio, JetBrains, and Eclipse is coming soon! Copilot code review generally available in Xcode Use Copilot code review in Xcode to quickly self-review an open file, a selection, or staged changes before you create a pull request. This helps you catch logic, security, performance, or test gaps early \u2014 all without leaving your editor. Request a review from the Copilot chat panel in Xcode to get started. Demo of Copilot code review highlighting an issue and providing a suggestion to apply in Xcode editor New enterprise and organization control We\u2019ve introduced a new setting that gives enterprises and organizations dedicated control over Copilot code review (CCR). You now have clearer, more predictable controls for managing Copilot code review across your enterprise, whether you use it on GitHub, in VS Code, or as part of a standalone Copilot setup. What\u2019s new Independent control: Turn Copilot code review on or off separately from other Copilot features like Copilot chat. Seamless transition: By default, CCR follows your existing Copilot setup, so there\u2019s no disruption. Public preview option: Users can opt in to try new CCR features early. VS Code included: This setting also applies to Copilot code review in Visual Studio Code. Available everywhere: The new control is available for both organizations and standalone enterprises (including Copilot-only enterprises without organizations or repositories). New block policy: Enterprises can now enforce \u201cBlock Copilot code review in all enterprise repositories\u201d to fully disable CCR for all users, including individually licensed Copilot users. If your enterprise has enabled the Copilot on GitHub.com policy (or sub-policies for preview features), CCR remains on by default. Going forward, it must be managed separately from those policies. For questions about these changes, join the conversation in our GitHub Community discussion. The post Copilot code review: Generally available in Xcode and new admin control appeared first on The GitHub Blog.",
-      "content_hash": "03904e02de9e3ea37df5956ee6d741f5f67289113ce0eeb21aeebf2cef936c63",
+      "id": "https://github.blog/changelog/2025-09-03-copilot-code-review-path-scoped-custom-instruction-file-support",
+      "title": "Copilot code review: Path-scoped custom instruction file support",
+      "link": "https://github.blog/changelog/2025-09-03-copilot-code-review-path-scoped-custom-instruction-file-support",
+      "published": "Wed, 03 Sep 2025 20:41:26 +0000",
+      "content": "Copilot code review is becoming even more customizable! You can now use your existing path-scoped instruction files to provide targeted guidance for specific parts of your repository. Plus we have a few other important updates for you to know about. \ud83d\udc47 Path-scoped instruction files now supported in Copilot code review Copilot code review now recognizes *.instructions.md files with an applyTo section, making it easier to give code review guidance for specific files or directories in your repository. Path-scoped instruction files have been supported for other Copilot features for a while. Now Copilot code review will also use these files in addition to your repository-wide copilot-instructions.md to deliver more focused, relevant feedback in pull requests. This means you can: Scope guidance to individual areas, like frontend or security, with separate *.instructions.md files. Use an applyTo section with path globs to target exactly where each instruction applies \u2014 files without applyTo are ignored. Maintain concise, purpose-driven instructions for each part of your codebase. Quick start Create or update a file such as frontend.instructions.md within the .github/instructions directory in a repository. Add an applyTo: section with one or more path globs (e.g., webapp/src/). Add concise, self-contained guidance. Commit and open or update a pull request that touches a matching path \u2014 Copilot code review will use the relevant instructions. Example: frontend.instructions.md applyTo: webapp/src/ ui/components/ --- Emphasize accessibility (ARIA, focus management). Prefer design tokens. Flag deprecated components under legacy/. For more details, check the documentation for Copilot custom instructions. More customization updates Organization-level instructions now supported in Copilot code review Organization-level instructions are now also considered by Copilot code review. If your organization already maintains org-level instructions, these will now be automatically included when generating review feedback for pull requests. This helps ensure your coding standards and best practices are consistently applied across all your repositories. Coding guidelines deprecation Earlier, we announced that the coding guidelines feature (previously in private preview for Copilot Enterprise) was being partially deprecated. Today, we\u2019re completely deprecating the feature. Going forward, add all your customization specifications to copilot-instructions.md or *.instructions.md files. Join the discussion within GitHub Community. The post Copilot code review: Path-scoped custom instruction file support appeared first on The GitHub Blog.",
+      "content_hash": "e603c3ec145825d2ac13c3a35efa4feb94a240f9e784c1524210ac3bb60a7d02",
       "feed_index": 0,
-      "detected_date": "2025-09-02T11:27:17.858321"
-    },
-    {
-      "id": "https://github.blog/changelog/2025-08-27-copilot-code-completion-now-uses-the-gpt-4-1-copilot-model",
-      "title": "Copilot code completion now uses the GPT-4.1 Copilot model",
-      "link": "https://github.blog/changelog/2025-08-27-copilot-code-completion-now-uses-the-gpt-4-1-copilot-model",
-      "published": "Wed, 27 Aug 2025 15:59:03 +0000",
-      "content": "GitHub Copilot code completion now uses the GPT-4.1 Copilot model. The new model expands on GPT-4.1\u2019s coding capabilities and extends its knowledge cutoff with additional high-quality training data. It has been refined with reinforcement learning to improve suggestion relevance based on your feedback. The model will automatically become available to users on all plans. You\u2019ll see it in the code completion model picker. To learn more about working with code completion, see the code suggestions documentation. Let us know your feedback on the new model in the GitHub Community. The post Copilot code completion now uses the GPT-4.1 Copilot model appeared first on The GitHub Blog.",
-      "content_hash": "47d71a967308a2443ed1650462aa61da3cd7a0aad38ad2184f1d8ae346f38185",
-      "feed_index": 0,
-      "detected_date": "2025-09-02T11:27:17.858322"
-    },
-    {
-      "id": "https://github.blog/changelog/2025-08-27-copilot-coding-agent-is-now-available-in-github-enterprise-cloud-with-data-residency",
-      "title": "Copilot coding agent is now available in GitHub Enterprise Cloud with data residency",
-      "link": "https://github.blog/changelog/2025-08-27-copilot-coding-agent-is-now-available-in-github-enterprise-cloud-with-data-residency",
-      "published": "Wed, 27 Aug 2025 14:55:10 +0000",
-      "content": "GitHub Copilot coding agent, our autonomous developer agent currently in public preview, is now also available in GitHub Enterprise Cloud with data residency. You can delegate tasks to Copilot by assigning an issue to Copilot, or using the new agents panel available on every page on GitHub. Copilot will work in the background, open a pull request, and then tag you for review once it has finished. To get started, you\u2019ll need to have a Copilot Business or Copilot Enterprise subscription, and an administrator must have enabled Copilot coding agent. To find out more about Copilot coding agent, head to our documentation. The post Copilot coding agent is now available in GitHub Enterprise Cloud with data residency appeared first on The GitHub Blog.",
-      "content_hash": "b2a2d22b53e622f9541bec30e6be765cb26afdcf947bd346fd0172805a7d5b16",
-      "feed_index": 0,
-      "detected_date": "2025-09-02T11:27:17.858323"
-    },
-    {
-      "id": "https://github.blog/changelog/2025-08-25-grok-code-fast-1-is-rolling-out-in-public-preview-for-github-copilot",
-      "title": "Grok Code Fast 1 is rolling out in public preview for GitHub Copilot",
-      "link": "https://github.blog/changelog/2025-08-26-grok-code-fast-1-is-rolling-out-in-public-preview-for-github-copilot",
-      "published": "Tue, 26 Aug 2025 21:00:52 +0000",
-      "content": "Grok Code Fast 1 will be available as an opt-in public preview for GitHub Copilot Pro, Pro+, Business, and Enterprise plans in Visual Studio Code. Rollout will be gradual \u2014 check back soon if you don\u2019t see it yet. xAI models are also available in GitHub Copilot individual plans via Bring Your Own Key (BYOK), which lets you use your own xAI API key to access them. Enabling access For Copilot Business and Enterprise plans, an administrator must first enable the Grok Code Fast 1 policy in Copilot settings. Once enabled, it becomes visible in the Visual Studio Code model picker for all users in that organization. For individual paid plans, enable Grok Code Fast 1 by selecting it in the Visual Studio Code model picker and confirming the one-time prompt. To enable access via Bring Your Own Key (BYOK), select Manage Models from the model picker, choose xAI, enter your API key when prompted, and select Grok Code Fast 1. Complimentary access (excluding BYOK) is available until 2 p.m. PDT on Tuesday, September 2, 2025. Regular pricing applies after that point. To learn more about the models available in Copilot, see our documentation on models and get started with Copilot today. The post Grok Code Fast 1 is rolling out in public preview for GitHub Copilot appeared first on The GitHub Blog.",
-      "content_hash": "28e2d28feb3a795058f5494ad0f6bed9c25d1515e83e6e30d5196e857ac3ae36",
-      "feed_index": 0,
-      "detected_date": "2025-09-02T11:27:17.858324"
+      "detected_date": "2025-09-12T07:33:00.870294"
     }
   ],
-  "total_new": 10,
+  "total_new": 7,
   "cleanup_analysis": {
     "total_entries": 10,
-    "total_stored": 0,
-    "entry_growth": 10,
+    "total_stored": 10,
+    "entry_growth": 0,
     "oldest_entries": [
+      {
+        "id": "https://github.blog/changelog/2025-09-11-bring-your-own-key-byok-support-for-jetbrains-ides-and-xcode-in-public-preview",
+        "title": "Bring Your Own Key (BYOK) support for JetBrains ID",
+        "days_old": 0
+      },
+      {
+        "id": "https://github.blog/changelog/2025-09-10-copilot-code-review-independent-repository-rule-for-automatic-reviews",
+        "title": "Copilot code review: Independent repository rule f",
+        "days_old": 0
+      },
+      {
+        "id": "https://github.blog/changelog/2025-09-09-openai-gpt-5-and-gpt-5-mini-are-now-generally-available-in-github-copilot",
+        "title": "OpenAI GPT-5 and GPT-5 mini are now generally avai",
+        "days_old": 0
+      },
+      {
+        "id": "https://github.blog/changelog/2025-09-05-new-features-in-github-copilot-in-eclipse",
+        "title": "New features in GitHub Copilot in Eclipse",
+        "days_old": 0
+      },
+      {
+        "id": "https://github.blog/changelog/2025-09-05-new-spark-sharing-option-and-improved-local-dev-experience",
+        "title": "New Spark sharing option and improved local dev ex",
+        "days_old": 0
+      },
+      {
+        "id": "https://github.blog/changelog/2025-09-03-remote-github-mcp-server-is-now-generally-available",
+        "title": "Remote GitHub MCP Server is now generally availabl",
+        "days_old": 0
+      },
+      {
+        "id": "https://github.blog/changelog/2025-09-03-copilot-code-review-path-scoped-custom-instruction-file-support",
+        "title": "Copilot code review: Path-scoped custom instructio",
+        "days_old": 0
+      },
       {
         "id": "https://github.blog/changelog/2025-08-29-copilots-next-edit-suggestion-nes-in-public-preview-in-jetbrains",
         "title": "Copilot\u2019s next edit suggestion (NES) in public pre",
@@ -120,41 +125,6 @@
       {
         "id": "https://github.blog/changelog/2025-08-27-start-and-track-copilot-coding-agent-tasks-from-raycast",
         "title": "Start and track Copilot coding agent tasks from Ra",
-        "days_old": 0
-      },
-      {
-        "id": "https://github.blog/changelog/2025-08-28-openai-gpt-5-mini-is-now-available-in-public-preview-in-visual-studio-jetbrains-ides-xcode-and-eclipse",
-        "title": "OpenAI GPT-5 mini is now available in public previ",
-        "days_old": 0
-      },
-      {
-        "id": "https://github.blog/changelog/2025-08-28-github-copilot-in-visual-studio-august-update",
-        "title": "GitHub Copilot in Visual Studio \u2014 August update",
-        "days_old": 0
-      },
-      {
-        "id": "https://github.blog/changelog/2025-08-27-create-sub-issues-with-copilot-in-public-preview",
-        "title": "Create sub-issues with Copilot in public preview",
-        "days_old": 0
-      },
-      {
-        "id": "https://github.blog/changelog/2025-08-27-copilot-code-review-generally-available-in-xcode-and-new-admin-control",
-        "title": "Copilot code review: Generally available in Xcode ",
-        "days_old": 0
-      },
-      {
-        "id": "https://github.blog/changelog/2025-08-27-copilot-code-completion-now-uses-the-gpt-4-1-copilot-model",
-        "title": "Copilot code completion now uses the GPT-4.1 Copil",
-        "days_old": 0
-      },
-      {
-        "id": "https://github.blog/changelog/2025-08-27-copilot-coding-agent-is-now-available-in-github-enterprise-cloud-with-data-residency",
-        "title": "Copilot coding agent is now available in GitHub En",
-        "days_old": 0
-      },
-      {
-        "id": "https://github.blog/changelog/2025-08-25-grok-code-fast-1-is-rolling-out-in-public-preview-for-github-copilot",
-        "title": "Grok Code Fast 1 is rolling out in public preview ",
         "days_old": 0
       }
     ],

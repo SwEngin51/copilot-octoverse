@@ -1,265 +1,65 @@
 {
   "new_entries": [
     {
-      "id": "tag:github.com,2008:8655291",
-      "title": "OpenAI GPT-5 and GPT-5 mini are now generally available in GitHub Copilot",
-      "link": "https://github.com/orgs/community/discussions/168107",
-      "published": "2025-07-30T10:28:24+00:00",
-      "content": "OpenAI's GPT-5 and GPT-5 mini are now generally available in GitHub Copilot, bringing advanced reasoning, high\u2011quality code generation, and fast, cost\u2011efficient assistance to more developers. Availability in GitHub Copilot GPT-5 mini is rolling out to all Copilot plans, including Copilot Free. GPT-5 is available to paid plans. You can access both models in GitHub Copilot Chat via the model picker on: github.com Visual Studio Code Visual Studio JetBrains IDEs Xcode Eclipse GitHub Mobile Enabling access For Copilot Enterprise and Business: Administrators must opt in by enabling the new GPT-5 and GPT-5 mini policy in Copilot settings. Once enabled, users in that organization will see GPT-5 mini in the model picker. For individual paid plans: Enable either model by selecting it in the Visual Studio Code model picker and confirming the one-time prompt. Share your feedback Join us in the comments below to share your feedback. To learn more about the models available in Copilot, see our documentation on models and get started with Copilot today.",
-      "content_hash": "26c65d6fa38d971a1404c8af21bda4476af216a7767118cb995cae40a7673475",
+      "id": "tag:github.com,2008:7300429",
+      "title": "\ud83d\ude80GitHub Copilot Metrics API GA release now available",
+      "link": "https://github.com/orgs/community/discussions/141071",
+      "published": "2024-10-10T13:18:24+00:00",
+      "content": "\ud83c\udd95 Update: Feb 2025 Beginning February 2025, the beta Copilot /usage endpoints will be deprecated. See details \ud83d\ude80 Now Available: GitHub Copilot Metrics API in General Availability! \ud83d\ude80 We\u2019re thrilled to introduce the GA release of the GitHub Copilot Metrics API, now open to all GitHub Copilot Business and GitHub Copilot Enterprise users. This release is packed with features to give you greater visibility into Copilot's impact across your development workflow. Ready to dive into the data? \ud83d\udcca What\u2019s the GitHub Copilot Metrics API? Imagine having detailed insights into how Copilot is being used across your enterprise. The Metrics API brings this to life by providing you with data on Copilot's usage\u2014across teams, organizations, and individual features. Perfect for tracking trends, understanding usage patterns, and integrating with your own dashboards, the Metrics API helps you see where Copilot is adding value and how you can optimize its use. \ud83c\udf89 What's New in the GA Release? Here\u2019s a peek at what\u2019s included: New metrics for Pull Request summaries and Copilot Chat on GitHub.com. Clarity on code completions and Copilot Chat usage in IDEs. User engagement summaries updated daily. Custom model slicing support, coming soon! Data is aggregated by enterprise, organization, and team. Up to 28 days of historical data available for trend analysis. With data loaded daily (UTC) and summarized by day, you can view patterns in real-time and make more data-informed decisions. \ud83e\udd14 Will My Current Reporting Be Affected? To make the transition smooth, we\u2019ve kept the Beta route online through the end of the year. This means any current reporting tied to the Beta API will continue without interruption, while you explore the newly revised schema and expanded metrics in the GA version. \ud83d\udcda Resources to Get Started Docs: Ready to get started? Explore the API documentation for the full breakdown of metrics and schema. \ud83d\udcac Your Turn! How are you planning to use the Copilot Metrics API? What specific metrics would give you the best insight into Copilot's impact on your projects? Whether it\u2019s tracking usage, surfacing adoption trends, or something else entirely, we\u2019d love to hear your ideas. Drop your thoughts below and let\u2019s shape the future of Copilot analytics together! \ud83d\udc47",
+      "content_hash": "fd03c363b0df501576f73ecd672a6b99fa457bb31be4af811989262a3bde98b9",
       "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.579997"
+      "detected_date": "2025-09-12T07:33:01.505342"
     },
     {
-      "id": "tag:github.com,2008:8383912",
-      "title": "Introducing Copilot Spaces: A new way to work with context \u2728",
-      "link": "https://github.com/orgs/community/discussions/160840",
-      "published": "2025-05-28T10:26:51+00:00",
-      "content": "Copilot Spaces is a new feature within GitHub Copilot. You can organize and centralize relevant content\u2014like code, docs, files, and (soon) issues\u2014into \u201cSpaces\u201d that ground Copilot\u2019s responses in the right context for a specific task. Key Features \u2728 Create a space Organize code, docs, files, and other project context into a space. Add custom instructions to help guide responses. We\u2019ve made some adjustments to how Copilot works with context in Spaces, so context groundedness should be very high. Context is always based on the latest state of your main branch. Chat with a space Ask Copilot questions grounded in the context of your Space for more accurate and relevant answers. Share it with teammates You can share spaces with other members of your organization. Some of our favorite use cases \u2b50 Answering questions about code: Chris Westra is an engineer on the Spaces team. He grouped all of the code associated with Spaces and added video transcripts from a recorded Spaces session. We use this Space to answer questions about how Spaces works under-the-hood (very meta). \ud83d\ude42 Standardizing coding standards and best practices: Rahul Zhade works on a team that advises engineers on secure coding practices. He often answers the same questions over-and-over again in Slack, so he set up a Space. It contains the documentation for our standard auth model, how to do cryptography as well as instructions on how to go through the security review process. Writing SQL/KQL queries: Kelly Henckel is a product manager who is very good at writing SQL and KQL queries. She\u2019s created spaces designed to help people self-service writing data queries and creating dashboards. These helpers contain the code for our telemetry schemas as well as example queries. Updating documentation: Holly Kassel is a product manager working on billing and licensing. She\u2019s been updating GitHub\u2019s documentation to be more user-friendly based on questions arriving through our customer support channels and discussion posts. She creates spaces for each new batch of documentation which needs to be updated, links the existing code and documentation hosted in GitHub, and adds instructions and frequently asked questions as context. The space generates updated versions of the documentation which can be easily copied into our docs repo. And more We\u2019ve also been having fun with them. Hubbers created a personal finance space for answering questions about vesting and other benefits, an offsite space for consolidating travel information, and a wombat Space for, uh, wombats? Anyways\u2026 Please share feedback with us \ud83e\udd1d This is an early preview, so we appreciate your feedback. Give spaces a try and let us know what you think either in this discussion post or through the inline feedback button. Go to Spaces \ud83d\ude80 See the detailed changelog post. Learn more about spaces in our documentation on Copilot Spaces.",
-      "content_hash": "dab286bbf8d0f1a4680199664b6769e4792bbdabc7bfb8b0064681522eaaadd8",
+      "id": "tag:github.com,2008:8835797",
+      "title": "Copilot Monthly Digest: August Edition",
+      "link": "https://github.com/orgs/community/discussions/172170",
+      "published": "2025-09-03T13:35:36+00:00",
+      "content": "August pushed Copilot toward truly agentic, everywhere workflows. New brains (GPT-5, Gemini 2.5 Pro), MCP wired into your IDEs, and agents on github.com that turn issues into real PRs while you sip your coffee \u2615.. Here's your quick-hit recap to carry that momentum into September. \u26a1 This Month in Copilot Copilot\u2019s next edit suggestion (NES) in public preview in JetBrains \u2014 Accept multi-step edits in one go, right inside JetBrains. Copilot coding agent now supports AGENTS.md custom instructions \u2014 Define repo-specific rules and prompts in AGENTS.md so the agent behaves how your team works. Copilot code completion now uses the GPT-4.1 Copilot model \u2014 Faster, more accurate suggestions powered by the newest Copilot completion model. Copilot code review: Generally available in Xcode and new admin control \u2014 AI reviews for Swift/iOS plus org-level toggles so admins can manage rollout. Create sub-issues with Copilot in public preview \u2014 Break big issues into bite-size tasks Copilot can help plan and execute. Copilot coding agent is now available in GitHub Enterprise Cloud with data residency \u2014 Enterprise rollout with regional data controls to meet compliance needs. Grok Code Fast 1 is rolling out in public preview for GitHub Copilot \u2014 A speed-focused coding model you can try as an optional preview. Copilot generated commit messages on github.com is in public preview \u2014 Draft clear, context-aware commit messages without leaving your browser. Premium request overage policy is generally available for Copilot Business and Enterprise \u2014 Predictable billing when teams go over included premium requests. Model Context Protocol (MCP) support for JetBrains, Eclipse, and Xcode is now generally available \u2014 Plug external tools and data sources into Copilot across more IDEs. OpenAI GPT-5 is now available in public preview in Visual Studio, JetBrains IDEs, Xcode, and Eclipse \u2014 Try the newest model directly in your editor for coding, chat, and reviews. \ud83d\uddfa\ufe0f Upcoming Copilot events GitHub Universe 2025 \u2014 Oct 28\u201329, San Francisco + virtual. Keynotes on AI agents/automation, hands-on workshops, and optional on-site Copilot certification (Oct 30). Microsoft AI Tour: Osaka \u2014 Sep 10 (JST), Osaka. Copilot demos and AI sessions with GitHub + Microsoft. Microsoft AI Tour: Chicago \u2014 Sep 25 (CDT), Chicago. How teams ship with Copilot and AI in the stack. GitHub Latest Updates Webinar (Japanese) \u2014 Sep 29, 10:00 UTC. Monthly recap across Copilot, Actions, and more. Microsoft AI Tour: Toronto \u2014 Oct 1 (EDT), Toronto. Live sessions and demos on GitHub Copilot and AI best practices. \ud83d\udcda Noteworthy Reads (August picks) Under the hood: Exploring the AI models powering GitHub Copilot \u2014 How Copilot\u2019s evolving models and infra power agentic workflows. How to use GitHub Copilot on github.com: A power user\u2019s guide \u2014 Automate tasks, assign agents, and prototype\u2014no IDE required. Building your first MCP server: How to extend AI tools with custom capabilities \u2014 Extend Copilot with custom tools, resources, and prompts. \ud83d\udcac Community Buzz Copilot Limit reached \u2014 You\u2019ve hit the monthly premium request cap: check Usage/Billing; on Business/Enterprise ask an admin to enable Premium Request Overage; favor inline completions over long chats/reviews; otherwise wait for the monthly reset. Copilot Can't Read Images \u2014 Enable a multimodal chat model, attach images via the paperclip, update your IDE/extension, then reload the window. Bad Request when using CXML comment completion \u2014 Update Visual Studio and the Copilot extension, clear caches/restart; if it persists, post a minimal repro and Activity Log while the fix rolls out. Keep the momentum rolling! We announce all our latest ships in the Copilot News and Announcements category. See something we should feature next month? Drop it in the comments and we\u2019ll amplify the best insights\u2014September\u2019s already lining up big.",
+      "content_hash": "4afba202d71992aac991acf5a00ebe6499f0998563805ff33051e623cf7bb509",
       "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580003"
-    },
-    {
-      "id": "tag:github.com,2008:8773468",
-      "title": "Copilot generated commit messages on github.com is in public preview",
-      "link": "https://github.com/orgs/community/discussions/170558",
-      "published": "2025-08-21T15:47:36+00:00",
-      "content": "GitHub Copilot now offers contextual commit message suggestions for github.com file changes, making documentation an effortless part of your workflow. With this enhancement, Copilot automatically suggests a concise summary of changes made through the file editor on github.com. Deleting a file continues to use the existing default: Delete <filename> Adding a new file without any contents continues to use the existing default: Add <filename> commitmessagedemo2.mp4 Availability and usage Copilot commit message generation is available to all public preview enabled paid Copilot subscribers. It does not consume usage quota. Enabling the feature for organizations and enterprises Organizations and enterprises can enable this and other features in public preview by selecting Opt in to preview features in the Copilot in github.com setting. If your Enterprise has rulesets for commit metadata enabled, you will still see a default commit message in commits made in organization-related files. This feature is also available in GitHub Enterprise Cloud with data residency. Share your feedback \u27a1\ufe0f Give us feedback on this feature or let us know what you think in the comments below!",
-      "content_hash": "2ce72632174a7eb6be29838e12883cbf60c32ad9530cc3d1b9ed601a22694bae",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580004"
-    },
-    {
-      "id": "tag:github.com,2008:8755442",
-      "title": "Premium request overage policy is generally available for Copilot Business and Enterprise",
-      "link": "https://github.com/orgs/community/discussions/170205",
-      "published": "2025-08-18T13:40:21+00:00",
-      "content": "GitHub is introducing a premium request overage policy for GitHub Copilot Business and GitHub Copilot Enterprise customers. This will provide you with simplified control over how your enterprise or organization handles premium request usage beyond your account's included usage. What's changing Instead of an automatically-created $0 budget that blocks usage when your premium requests are exhausted, you can now manage overages through a dedicated policy in your Copilot settings. The policy offers you two options: Enabled (default) - Allow charges for usage beyond your account's included premium requests Disabled - Block usage when your included premium requests are exhausted If you have an existing $0 premium request budget in your account, it will not be removed. You can remove or modify this budget at any time. What's not changing Copilot for individuals (Pro/Pro+) plans are not affected at this time. If you have a premium request budget in your account, it remains unchanged. Your included premium requests and seat pricing remain the same. Your current budgets continue to work as before. Learn more Managing your Copilot premium request policy About billing for GitHub Copilot Have feedback or questions? Join us below in the comments to share feedback and tips.",
-      "content_hash": "7b067179c1fe95f11b146f2d40834315ef636ee2a305386d9dd4bd90133c7d11",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580005"
-    },
-    {
-      "id": "tag:github.com,2008:8810697",
-      "title": "Placeholder Discussion",
-      "link": "https://github.com/orgs/community/discussions/171425",
-      "published": "2025-08-28T10:42:22+00:00",
-      "content": "Stay tuned for something exciting!!",
-      "content_hash": "694654a0dc0e251b0f3a899bc5879beebfc20284ce4f979f24bf0f97e91ec6b7",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580006"
-    },
-    {
-      "id": "tag:github.com,2008:6282414",
-      "title": "Copilot Enterprise - Feedback",
-      "link": "https://github.com/orgs/community/discussions/110314",
-      "published": "2024-02-27T16:12:12+00:00",
-      "content": "Who: Customers using Copilot Enterprise. What: We want to hear from you! Provide feedback on the Copilot Enterprise in this Discussion As of 27th February 2024, GitHub Copilot Enterprise is now generally available \ud83d\ude80. Read more about Copilot Enterprise on our recent blog post. This thread is just for product feedback. We are responding to general Questions & Answers related to Copilot Enterprise in another discussion: Copilot Enterprise Q & A",
-      "content_hash": "5085e39b91778cdb713a0d8df43cb10b11c2fbf942d8cdcdb773643dbee64ea8",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580008"
-    },
-    {
-      "id": "tag:github.com,2008:8317177",
-      "title": "Speed up your Issue Creation with Copilot: Feedback",
-      "link": "https://github.com/orgs/community/discussions/159075",
-      "published": "2025-05-13T11:01:02+00:00",
-      "content": "To help you create higher quality issues with greater ease, you can now create issues by chatting with Copilot. This experience is currently in public preview. Key Features Prompt to create an Issue: Create an issue by prompting Copilot. Copilot will transform your prompt into a fully created issue. Simply review and refine it before clicking create. Start with an image: Create an issue starting with an image. Copilot uploads the issue to the image. Review template guidance: View Copilot\u2019s suggested templates based on your prompt. Make changes and Copilot will reformat the issue. Still to come... As this experience is in public preview, you may run into some bugs and missing features (let us know when you do). Some of areas we are working on include: Multi Issue Creation: Creating multiple issues with greater ease, rather than needing to click the Create button for each individual issue that Copilot drafts. Sub Issues: Nesting sub issues into parent issues. Updating Issues: Leveraging Copilot to update existing issues. Try it out To get started, go to https://github.com/copilot and try a prompt like \u2026 Create me an issue for.. Create me a bug for .. Feedback We want to hear from you! Post your comments, questions, likes, and dislikes below.",
-      "content_hash": "11104bac3d671a2598c82515a685dae176604f703b454d490a5dc379271eda16",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580009"
-    },
-    {
-      "id": "tag:github.com,2008:8316761",
-      "title": "GitHub Copilot Coding Agent Has Arrived! \ud83d\ude80",
-      "link": "https://github.com/orgs/community/discussions/159068",
-      "published": "2025-05-13T09:29:00+00:00",
-      "content": "\ud83d\ude80 Say Goodbye to Backlog Burnout Let's be honest \u2013 we've all felt that sinking feeling when looking at a growing pile of issues. Technical debt creeping up? Features waiting to be implemented? Bugs that need squashing? Enter Copilot Coding Agent \u2013 your new AI teammate that doesn't need coffee breaks or complain about fixing that legacy code everyone avoids! Let's roll! Read the detailed post from the GitHub CEO: GitHub Copilot: Meet the new coding agent \u2728 \ud83d\udcaa How It Works (It's Ridiculously Simple) Just assign issues to Copilot the same way you'd assign them to any team member \u2013 through: github.com GitHub Mobile GitHub CLI ...or by simply asking Copilot in chat! Then watch the magic \ud83e\ude84 happen! Copilot takes it from there: Works in its own secure cloud environment (powered by GitHub Actions) Explores your repository to understand context Makes appropriate code changes Runs tests and linters to validate its work Creates and pushes a pull request \ud83c\udf1f Perfect for Those \"Important But Not Urgent\" Tasks Copilot Coding Agent shines with: Adding features described in issues Fixing those pesky bugs Extending test coverage (yes, really!) Refactoring and cleaning up code Improving documentation The best part? You can assign multiple issues simultaneously and let Copilot multitask while you focus on the complex, creative work that requires your human touch. \ud83d\udd11 Getting Started Copilot Coding Agent is available now for: Copilot Pro+ subscribers Copilot Enterprise subscribers (admins need to enable the \"Copilot coding agent\" policy) Using the agent will consume GitHub Actions minutes and Copilot premium requests from your plan's included entitlements. Ready to supercharge your productivity? Check out our comprehensive GitHub Docs for pro tips on getting the best results! \ud83d\udcad We Want Your Feedback! This is just the beginning of an exciting journey. Have you tried the Coding Agent yet? What tasks are you delegating? Any feature requests or questions? In addition to this discussion post, if you encounter any bugs or have feature requests, please file them in our user feedback repository. Share your thoughts, wins, and even your wildest ideas below! Let's shape the future of AI-human collaboration together! \ud83d\ude80\ud83d\udcbb\u2728",
-      "content_hash": "c2163082c9b63e6d94754f4babae37a13f3cddd19c6913b98e1d4dc69920d220",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580010"
-    },
-    {
-      "id": "tag:github.com,2008:8687365",
-      "title": "Anthropic Claude Opus 4.1 Now Available in GitHub Copilot!",
-      "link": "https://github.com/orgs/community/discussions/168820",
-      "published": "2025-08-05T09:27:46+00:00",
-      "content": "Powerful New AI Capabilities at Your Fingertips We're thrilled to announce that Anthropic's latest and most advanced model, Claude Opus 4.1, is now available in public preview for GitHub Copilot users! This powerful successor to Claude Opus 4 brings enhanced capabilities to your development workflow, supporting extended thinking with tool use and logical summaries to help you solve complex coding challenges more efficiently. Who Gets Access? Claude Opus 4.1 is available to Copilot Enterprise and Pro+ subscribers. You can start using this cutting-edge model today through GitHub Copilot Chat across multiple platforms: github.com Visual Studio Code GitHub Mobile We're conducting a gradual rollout over the next few hours, so if you don't see it immediately in your model picker, don't worry\u2014keep checking back! Important: Claude Opus 4 will remain available in the model picker for a limited time but will be deprecated in 15 days. Now is the perfect time to upgrade your experience. For Copilot Enterprise Administrators If you're a Copilot Enterprise administrator, you'll need to take action to enable access to these models for your organization: Navigate to Copilot settings Enable the new policy for Claude Opus 4.1 Verify availability by checking your individual Copilot settings Confirm the policy is enabled for this specific model Once enabled, your team will see the new model in the Copilot Chat model selector. Learn More About Pricing and Getting Started For detailed information about pricing and model multipliers, check out our pricing documentation. New to Copilot? Get started today and experience how these advanced AI capabilities can transform your development workflow! We Want Your Feedback! Have questions or want to share your experience with Claude Opus 4.1? Join us in the comments below \ud83d\udc47 Start exploring Claude Opus 4.1 in GitHub Copilot today and take your coding to the next level!",
-      "content_hash": "0f2f57c6654477fa43d6385204c86e91eb8a2557789e932c4788dc778c142b05",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580011"
-    },
-    {
-      "id": "tag:github.com,2008:8181180",
-      "title": "Gemini 2.5 Pro is now generally available in GitHub Copilot",
-      "link": "https://github.com/orgs/community/discussions/156172",
-      "published": "2025-04-08T22:49:44+00:00",
-      "content": "A powerful new model for complex work Gemini 2.5 Pro is now generally available to GitHub Copilot customers. As Google\u2019s latest and most advanced Gemini model for complex tasks, it demonstrates strong reasoning and coding capabilities and leads on common coding, math, and science benchmarks. Get started today! Copilot Pro/Pro+ users You can start using the new Gemini 2.5 Pro model today via the model selectors in Copilot Chat across these modes and platforms: Modes: Agent, Ask, and Edit IDEs and apps: VS Code, Visual Studio, JetBrains IDEs, Xcode, Eclipse, github.com/copilot, and the GitHub mobile apps Copilot Business or Enterprise users Organization administrators will need to grant access before your users can select the model: Enable the policy for Gemini 2.5 Pro: Grant access in Copilot settings Once enabled, users will see Gemini 2.5 Pro in the model selector in Copilot Chat You can confirm availability by checking individual Copilot settings and ensuring the Gemini 2.5 Pro policy is set to enabled Share your feedback Join the comments below to share feedback and tips. Learn more Using Gemini 2.5 Pro in Copilot Choosing the right AI model for your task Get started with Copilot",
-      "content_hash": "7c77483de9eab7ec44f3207f2e43132a84ac999a21e9efe9f5789cbbae966ce8",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580012"
-    },
-    {
-      "id": "tag:github.com,2008:8771843",
-      "title": "Placeholder Discussion",
-      "link": "https://github.com/orgs/community/discussions/170523",
-      "published": "2025-08-21T09:37:21+00:00",
-      "content": "Placeholder Discussion",
-      "content_hash": "ddf4a2afb55015a888b84ffeca4dbf9de3480806b740fdd20e49d820ce58ccd3",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580013"
-    },
-    {
-      "id": "tag:github.com,2008:6297459",
-      "title": "Copilot Chat in JetBrains IDEs (GA) -  Feedback",
-      "link": "https://github.com/orgs/community/discussions/110614",
-      "published": "2024-03-01T11:04:57+00:00",
-      "content": "The purpose of this discussion is to collect feedback from our Copilot Chat users in JetBrains IDEs. Following our Private Beta, we are thrilled to announce Copilot Chat in JetBrains IDEs is now generally available (GA) \ud83c\udf89 Driven by GPT-4, GitHub Copilot Chat provides instant guidance directly within various JetBrains IDEs, such as PyCharm, IntelliJ IDEA, WebStorm, Rider, and more. This contextually-aware tool tailors suggestions to your specific coding tasks and even allows explicitly adding files for reference. It empowers developers to innovate efficiently by assisting with complex concepts, code explanations, unit testing, and many more use cases, all while effortlessly adjusting to your preferred language style. How to get started? Using GitHub Copilot Chat in your JetBrains IDE If you were already using Private Beta \u2013 No further action is required. You can continue using the chat feature as usual. If you haven\u2019t enabled Chat and want to use GitHub Copilot Chat in JetBrains IDEs Copilot Individual users: You automatically have access to the chat within JetBrains IDEs. Copilot Business and Enterprise users: Your organization admins will need to grant you access to Copilot chat in IDEs. Once you have access, please consult our getting started guide",
-      "content_hash": "fcd4984e90c8239f1ec5b98bc98b1885f27ef67888b07aef1e44a53dd765f798",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580014"
-    },
-    {
-      "id": "tag:github.com,2008:8719384",
-      "title": "Introducing GPT-5 mini: Now Available in GitHub Copilot (Public Preview)!",
-      "link": "https://github.com/orgs/community/discussions/169565",
-      "published": "2025-08-12T09:53:53+00:00",
-      "content": "Lightning-Fast AI Assistance Has Arrived! We're excited to announce that GPT-5 mini, OpenAI's faster and more cost-efficient variant of GPT-5, is now rolling out in public preview in GitHub Copilot! This streamlined model is specifically designed to provide quick and accurate responses for a variety of coding tasks. Optimized for precise prompts and well-defined tasks, GPT-5 mini delivers: Lower latency for faster response times Lower computational cost while maintaining strong performance Excellent results on focused coding and editing tasks For more detailed information about the model's capabilities and recommended usage patterns, check out OpenAI's model documentation. Available to Everyone - Including Free Tier! Here's the fantastic news: GPT-5 mini is rolling out to ALL Copilot plans, including Copilot Free! You'll be able to access this powerful new model in: GitHub Copilot Chat on github.com Visual Studio Code through the chat model picker GitHub Mobile on iOS and Android Support for additional IDEs is coming soon, so stay tuned for further updates! No Premium Request Consumption For users on paid plans, GPT-5 mini is offered as an included model and will not consume premium requests. This makes it an excellent choice for everyday coding tasks where you want quick, efficient assistance. For more details on model usage and billing, see our documentation on model multipliers. For Copilot Enterprise and Business Administrators If you're a Copilot Enterprise or Business administrator, you'll need to opt in by enabling the new GPT-5 mini policy in Copilot settings. Once enabled, users in your organization will see \"GPT-5 mini (Preview)\" in the model picker in: VS Code github.com GitHub Mobile Learn More To explore all the models available in Copilot and understand which is best for different tasks, see our documentation on choosing the right AI model. Not yet using Copilot? Get started today! We Want Your Feedback! Have feedback or questions about your experience with GPT-5 mini? Join us in the comments below to share feedback and tips with fellow developers. Start using GPT-5 mini in GitHub Copilot today and experience faster, more efficient AI-assisted development!",
-      "content_hash": "f61b2993bf09a3ccb5ccdeba764a3fbec26bbfa298e2446d2dddfec817b6246d",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580015"
-    },
-    {
-      "id": "tag:github.com,2008:7478094",
-      "title": "Get certified with GitHub Copilot! Win exam vouchers & boost your skills \ud83d\ude80",
-      "link": "https://github.com/orgs/community/discussions/144443",
-      "published": "2024-11-13T17:15:47+00:00",
-      "content": "The GitHub Copilot certification is now live! and we\u2019re excited to help you validate your AI development skills and earn a badge that stands out. It\u2019s your chance to showcase your expertise with the world\u2019s most widely used AI developer tool. \ud83d\udc40 Why Get Certified? Being GitHub Copilot certified showcases your AI coding knowledge, builds credibility, and validates your skills with the development tools trusted by millions. Plus, it\u2019s a fantastic way to stay ahead in the ever-evolving field of AI development! \ud83d\udcc5 Campaign Highlights Four Weeks of Learning: Our weekly study modules will guide you through core topics, from responsible AI to prompt engineering and security practices. Each week, we\u2019ll post: Key study materials and sessions including sessions from the much awaited Microsoft Ignite Q&A discussions Curated practice exercises NotePro Tip: Stay up to date by subscribing to this discussion\u2014don\u2019t miss any key resources or prep tips! \ud83d\udcf2 4\ufe0f\u20e3 Four-Week Study Guide Outline \ud83d\udca1 Week One (Nov 18-22): Core Knowledge & Responsible AI \ud83e\udd2f Week Two (Nov 25-29): Copilot Features & Data Handling \ud83d\ude80 Week Three (Dec 2-6): Prompt Engineering & Productivity \ud83c\udfaf Week Four (Dec 9-13): Testing, Security & Privacy Week 1\ufe0f\u20e3 Getting Started\" Discussion for GitHub Copilot Certification Week 2\ufe0f\u20e3 Part Two - Features and Data Handling Week 3\ufe0f\u20e3 Prep: Part Three - Prompt Engineering & Productivity \ud83c\udfaf Week 4\ufe0f\u20e3 Part Four - Testing, Security & Privacy \ud83d\ude80 \ud83c\udf81 Exclusive Rewards Active participants have a chance to win GitHub Copilot Certification exam vouchers as a thank-you for engaging in the prep journey. Winners for this campaign have been announced \ud83c\udf89 . But, we're not stopping yet \ud83d\udc40 Looking for more Certifications prep in the Community? GitHub Advanced Security Certification Exam Prep \ud83e\udde0: This prep course equips you with the knowledge needed to ace the certification and enhance software security at scale. Validate your expertise in vulnerability identification, workflow security, and robust security implementation\u2014elevating software integrity standards. We\u2019re actively building even more resources to help you succeed\u2014stay tuned for updates as they drop! \ud83d\udcda\u2728",
-      "content_hash": "8439e7eca5a25edf4f15f7e7c527fae50097c88244683069d7dd6a5ac7b77028",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580016"
-    },
-    {
-      "id": "tag:github.com,2008:7940840",
-      "title": "Week 1: Getting started! \ud83d\udd22  - GitHub Copilot Free learning and certification prep",
-      "link": "https://github.com/orgs/community/discussions/151118",
-      "published": "2025-02-10T12:29:14+00:00",
-      "content": "\ud83d\udc4b Welcome to Week 1 of the GitHub Copilot learning and certification prep course! This week, we\u2019ll start with some of the basics and best practices to build a foundational understanding of GitHub Copilot. \ud83d\udcda Week 1 Objectives Understand GitHub Copilot\u2019s core functionality and how it integrates seamlessly into your workflow. Dive into best practices to make the most of Copilot\u2019s suggestions and capabilities. Access curated resources, practice questions, and survey to accelerate your learning. Get Setup with Copilot Free \ud83d\udd11 Securing Your Access to GitHub Copilot Free: Before we proceed, make sure you have access to GitHub Copilot Free which is available in Visual Studio Code, Visual Studio, JetBrains, and directly on GitHub. The following blog post will provide you with all the steps necessary to gain access and start your journey. \u2699\ufe0f Streamlining Your Setup: Once you've secured access, it\u2019s time to configure GitHub Copilot to work effortlessly with your preferred IDE. We\u2019ve crafted a comprehensive, step-by-step guide to ensure you set everything up correctly from the outset. \ud83d\udca1 Pro Tip: If you're a student, teacher, or open-source maintainer, you qualify for free access to GitHub Copilot Pro \ud83c\udf89 . Unlock this benefit here. For FAQ's related to access, see Student Developer Pack Application + Copilot Pro FAQs \ud83c\udf92\u2728 All set \u2705 ? Let\u2019s begin! To give you a clear roadmap, we\u2019ve broken down the course into weekly learning goals as per the exam study guide. Here\u2019s an overview of what to expect, including the key topics and their weightage in the exam. \ud83d\udca1 Week One ((Now-Feb 14 \u2665\ufe0f): Core Knowledge & Responsible AI (22%) Introduction to GitHub Copilot GitHub Copilot plans Responsible AI with GitHub Copilot \ud83e\udd2f Week Two (Feb 17-21): Copilot Features & Data Handling (30%) GitHub Copilot features How GitHub Copilot works and handles data \ud83d\ude80 Week Three (Feb 24-28): Prompt Engineering & Productivity (24%) Prompt engineering and Prompt crafting Developer use cases for AI \ud83c\udfaf Week Four (Mar 3-7): Testing, Security & Privacy (24%) Testing with GitHub Copilot Privacy fundamentals and context exclusions. Your First Move: Study Smart, Level Up! \ud83c\udfaf Let\u2019s lay the groundwork for your Copilot expertise! Here's your curated resource pack for Week 1. These materials are everything you need to learn the fundamentals and ace this portion of the exam: NoteRemember, top participants will win a free GitHub Certification exam voucher! \ud83c\udfab So stay engaged, share your insights, and make the most of this opportunity. We have a ton of engagement lined up! Learning Resources for GitHub Copilot \ud83e\uddd1\u200d\ud83c\udf93 Getting Started with GitHub Copilot Free Get started with Copilot Free in VS Code Live demo: GitHub Copilot in Visual Studio Code Getting Started with Copilot Free in Visual Studio Microsoft Learn Modules (Each module includes a knowledge check exercise) Introduction to GitHub Copilot Get started with GitHub Copilot Responsible AI with GitHub Copilot Copilot plans Introduction to GitHub Copilot Business Introduction to GitHub Copilot Enterprise GitHub Learning Pathways \ud83d\udc63 Essentials of GitHub Copilot Microsoft Reactor \u2013 GitHub Copilot Study Guide (On-Demand Videos) \u2b50 Getting started with the fundamentals Copilot Learning Hub: Responsible AI GitHub Copilot plans and features Microsoft Ignite (On-Demand) Sessions catalog Discover GitHub Copilot's untapped potential in Visual Studio Videos \ud83d\udcf9 Getting started with GitHub Copilot Blogs \u270d\ufe0f Responsible AI pair programming with GitHub Copilot How to use GitHub Copilot: What it can do and real-world examples GitHub Docs \ud83d\udcdc Quickstart for GitHub Copilot Managing Copilot plans Responsible use of GitHub Copilot features Knowledge Checkpoint \ud83c\udfc1 - Let\u2019s See What You\u2019ve Got! \ud83e\udde0 \ud83d\udcd4 Take your time to review the resources above and ensure you're well-prepared for the practice questions: Which of the following data sources contribute to GitHub Copilot\u2019s training and code suggestions? (Select two options) A. Public open-source repositories B. Private repositories of individual users C. Large-scale proprietary datasets curated by GitHub D. Documentation and Stack Overflow discussions How does GitHub Copilot enhance a developer's productivity during pair programming? A. It provides inline code suggestions based on context B. It fully replaces manual code review processes C. It learns from individual coding patterns over time D. It automatically fixes all security vulnerabilities in the code What are key ethical considerations when using GitHub Copilot for software development? (Select two options) A. Ensuring the code adheres to licensing requirements B. Relying entirely on Copilot for production-level code C. Regularly reviewing AI-generated code for potential bias D. Using Copilot to replace human developers What action should developers take to mitigate security risks when using Copilot? A. Conducting thorough code reviews before deployment B. Avoiding Copilot usage in security-sensitive projects C. Disabling Copilot for handling confidential business logic D. Relying on Copilot\u2019s suggestions without further validation Which features are exclusive to GitHub Copilot Enterprise compared to Business? (Select two options) A. Integration with Microsoft Entra ID (Azure AD) B. Higher token limits for complex code completions C. Admin-level policy management D. Deployment in air-gapped environments How can developers maximize the accuracy of GitHub Copilot\u2019s code suggestions? A. Writing clear and descriptive function names and comments B. Using Copilot's chat functionality to ask context-specific questions C. Relying solely on Copilot\u2019s default recommendations D. Configuring settings to prioritize recent project data Which of the following actions reflect responsible AI usage with GitHub Copilot? (Select two options) A. Using code suggestions as a reference and refining manually B. Submitting AI-generated code directly to production C. Ensuring the AI-generated code meets compliance standards D. Ignoring the licensing of suggested code snippets Which subscription plan allows GitHub Copilot usage in a business environment? A. GitHub Copilot for Individuals B. GitHub Copilot for Business C. GitHub Copilot Enterprise D. GitHub Copilot Free What are the necessary steps to enable Copilot in VS Code? (Select two options) A. Install the GitHub Copilot extension B. Link a GitHub account with an active Copilot subscription C. Manually import Copilot's AI model into VS Code D. Enable Copilot from the Extensions tab in VS Code settings How does GitHub Copilot handle different programming paradigms? A. It adapts suggestions based on project context and code style B. It provides universal suggestions independent of coding paradigms C. It leverages AI models trained on diverse programming styles D. It requires manual configuration for each paradigm shift In what way does GitHub Copilot contribute to responsible AI usage? (Select two options) A. Providing proper attribution for AI-generated code to maintain transparency and respect intellectual property rights. B. Encouraging continuous user feedback to refine AI behavior, enhance accuracy, and mitigate potential biases in suggestions. C. Enabling developers to depend entirely on AI-generated code without manual review or validation. D. Suggesting solutions that incorporate ethical considerations, such as bias mitigation, security best practices, and compliance with licensing norms. What is the recommended practice for using GitHub Copilot effectively in a team setting? (Select two options) A. Establishing clear guidelines for Copilot usage B. Allowing Copilot to generate production-ready code without oversight C. Regular knowledge-sharing sessions on Copilot best practices D. Enabling Copilot only for senior developers Let\u2019s make this first week a success together! \ud83d\ude80",
-      "content_hash": "39caa7fb4d02fb39f737a1d76159d2e5d84c37588b1aa95ccc702a523b63a608",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580017"
-    },
-    {
-      "id": "tag:github.com,2008:8659991",
-      "title": "Copilot Monthly Roundup - July 2025",
-      "link": "https://github.com/orgs/community/discussions/168239",
-      "published": "2025-07-31T11:18:48+00:00",
-      "content": "Building the Future Together As July draws to a close, I'm sharing this month's Copilot highlights with you. It's been an incredibly productive month with a wave \ud83c\udf0a of new features, improvements, and community engagement. The length of this roundup reflects just how much we've accomplished together in July! (even though this is supposed to be a quick round-up \ud83d\ude05) From significant Coding Agent enhancements to expanded IDE support and your valuable feedback, there's a lot to celebrate. We've focused on delivering improvements that help you code more efficiently and creatively ---> because that's what matters most. \ud83c\udf89 This Month in Copilot \u2728 GitHub Spark arrives in public preview for our Pro+ subscribers! This new capability brings advanced AI features directly into your workflow, helping you solve complex problems faster. Check out the details here. \ud83d\udc96 Copilot Coding Agent improvements: We've optimized to one premium request per session, making your subscription go much further. See how this works and what it means for you. You can now add custom instructions through .instructions.md files \u2013 perfect for teaching your AI assistant your preferred coding style. We've got the full instructions available here. Setup steps are now more reliable and easier to troubleshoot, based directly on your feedback. We've documented the improvements for those curious about what changed. Your pull request titles and descriptions now stay updated automatically \u2013 a small but mighty quality-of-life improvement! Find out more about this time-saving feature. Want your agent to do some web research? You can now configure internet access for more powerful assistance. For VS Code users, you can now start and track agent sessions without leaving your editor. Learn about the integrated experience. We've launched a new Agents page that makes managing your AI assistants much simpler. Take a look at the dashboard to get started. Need to target a specific branch? You can now set the base branch for tasks right from the Agents page. We've added support for remote MCP servers, extending capabilities beyond local environments. Read about the possibilities this opens up. Task delegation from the GitHub MCP server is now available, creating powerful automation workflows. Learn how to delegate effectively. Your agent now comes with its own web browser for independent research. See how this enhances your experience. \ud83d\ude2e IDE integration milestones: \ud83d\udea2 Agent mode has reached general availability across JetBrains, Eclipse, and Xcode \u2013 no matter your preferred IDE, we've got you covered. Read the announcement. Our Eclipse integration received a major upgrade \u2013> it's faster and more deeply integrated. Eclipse users can find details here. VS Code users, version 1.102 is now available with performance improvements you'll definitely notice. Check out what's new. Model Context Protocol support in VS Code is now generally available, providing better contextual awareness. Here's what that means for you. ImportantChanges to Copilot code review: We're making some changes to Copilot code review - please review this announcement to understand how this might affect your workflow. Noteworthy Reads \ud83d\udcda Our team has published several articles to help you maximize your Copilot experience: From idea to PR: A guide to GitHub Copilot's agentic workflows \u2014 A comprehensive walkthrough of transforming issues into well-tested pull requests. 5 ways to transform your workflow using GitHub Copilot and MCP - Learn how to streamline your development workflow with five different MCP use cases. Debugging UI with AI: GitHub Copilot agent mode meets MCP servers \u2014 Learn how our engineering team uses Copilot to accelerate UI debugging. Beyond prompt crafting: How to be a better partner for your AI pair programmer \u2014 Practical tips for providing the right context to get better suggestions. Community Insights \ud83c\udf1f July has been an active month in our community. Here are the top trending conversations: The announcement about GitHub Copilot Coding Agent now using one premium request per session has generated significant discussion since it was posted three weeks ago. Users have been actively troubleshooting Eclipse plugin freezing issues after the latest update to version 0.9.3. Our team is working on a fix. There's been ongoing conversation about premium model availability, with many users discussing the thread Claude 4 Opus and GPT 4.5 models not appearing in the GitHub Copilot agent list despite Pro+ subscriptions. The topic of premium request allowance limits has sparked multiple discussions this month, with community members sharing experiences and workarounds. We're all\ud83d\udc42 to your feedback Our Long-running threads like Agent mode and MCP support for Copilot in Eclipse are packed with valuable feedback and continue to be active, with over 500 comments as you all explore these newer capabilities. We're monitoring these conversations closely and using your feedback to guide our next improvements. Thank you for your continued engagement! What's Next? \ud83d\ude80 As we look ahead to August, I encourage you to try the new custom instructions feature with .instructions.md in your repositories and explore the Agents page to better manage your coding assistant workflows. \u23ed\ufe0f Have thoughts or questions? Join us in the Copilot Conversations category where our team regularly engages with the community. Thank you for being part of our journey and helping make GitHub what it is today \u2014> the best AI-powered platform for developers everywhere! \u2728",
-      "content_hash": "ac351d7be0343f509b423cf8ac909e347270580c40ed6310c9543782346ed301",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580018"
-    },
-    {
-      "id": "tag:github.com,2008:8214815",
-      "title": "\ud83d\udc4b Say Hello to the New & Improved Copilot Category",
-      "link": "https://github.com/orgs/community/discussions/156965",
-      "published": "2025-04-17T16:20:30+00:00",
-      "content": "Hello everyone! \ud83c\udf89 I\u2019m excited to share that we\u2019ve just shipped some exciting updates to our Copilot category today. Here\u2019s what\u2019s new: \ud83c\udfe0 A Dedicated Copilot Space We\u2019ve grown the Copilot category into its own home, making it more visible and easier to navigate. You\u2019ll now find two sub\u2011categories: \ud83d\udcac Copilot Conversations: A place to ask questions, share feedback, troubleshoot issues, swap tips, and brainstorm ideas with fellow users. Every chat here helps us all learn and improve. \ud83d\uddde\ufe0f Copilot Announcements and News: Your go\u2011to spot for official updates, product launches, community campaigns, and all the must\u2011know news straight from our team. \u270d\ufe0f Enhanced Templates & \ud83d\udd25 Automation We\u2019ve revamped the Copilot category template to surface helpful resources and make it effortless to pick your discussion focus. \u2795 Plus, a brand\u2011new automation will auto\u2011label your posts based on their topic \u2014 no extra clicks needed! \ud83c\udff7\ufe0f New Discussion Labels To help your posts land in the right hands, we\u2019ve added focused Copilot labels: Copilot in GitHub \u2014 Copilot Chat and GitHub.com functionality Copilot Workspace \u2014 Repo\u2011wide coding tasks powered by natural language Copilot Agent Mode \u2014 Our new autonomous mode that iterates, debugs, and auto\u2011fixes code Copilot Enterprise \u2014 Admin controls, policies, seat management, and usage insights JetBrains & Xcode \u2014 Support for IntelliJ, PyCharm, WebStorm, Xcode, and more \ud83d\udca1 What\u2019s even cooler? We built and shipped all of this using Copilot itself. \ud83d\ude80 None of it would\u2019ve been possible without your invaluable feedback \u2014 Thanks for being an amazing community \ud83d\udc96 We can\u2019t wait to see the conversations you\u2019ll spark in this new, streamlined Copilot space! \u2014 Your GitHub Community Team \ud83d\udcaa\u2728",
-      "content_hash": "862c67cf71f81b7bee5dd1efaa21886d6af7337643f3f0883129c4bea2a4dde6",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580019"
-    },
-    {
-      "id": "tag:github.com,2008:8462016",
-      "title": "Update to GitHub Copilot Consumptive Billing Experience",
-      "link": "https://github.com/orgs/community/discussions/163114",
-      "published": "2025-06-17T09:47:47+00:00",
-      "content": "Hello Copilot Community, As of June 18th, monthly premium request allowances are now in effect for all paid Copilot plans. What\u2019s changed? The monthly allowance of premium requests per user is now enforced for Copilot Pro, Pro+, Business, and Enterprise plans. Premium requests unlock a selection of advanced AI models and features\u2014usage varies by model. What\u2019s unchanged? All paid plans still include unlimited use of GPT-4.1 and GPT-4o for agent mode and chat interactions, plus unlimited code completions! Please note that rate limits may still apply across all models. Managing Your Premium Requests Monthly Allowances: These reset on the 1st of each month. For this first billing cycle, your premium request counters have all started fresh at zero. Pay-Per-Request Option: Need more premium requests? You can set a spending limit in your billing settings (default limit is $0). Usage & Billing Controls: Monitor your real-time premium request usage via the Copilot status icon in your IDE, or download detailed usage reports in your billing settings. If you have licenses from multiple organizations, you can select which entity to bill. For all the details, check out our documentation. We Want Your Feedback! Have questions, comments, or suggestions? Your input helps shape the future of Copilot, please comment below. Thank you for being a part of our community and helping us make Copilot even better!",
-      "content_hash": "87eba59edea2107565ba3631d18de2021ed6b01dea14ea6a2547e81b369d3049",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580020"
-    },
-    {
-      "id": "tag:github.com,2008:8621635",
-      "title": "[2025-07-22] Incident Thread",
-      "link": "https://github.com/orgs/community/discussions/167167",
-      "published": "2025-07-22T18:35:48+00:00",
-      "content": "\u2757 An incident has been declared: Incident with Copilot and Claude Sonnet 4 Subscribe to this Discussion for updates on this incident. Please upvote or emoji react instead of commenting +1 on the Discussion to avoid overwhelming the thread. Any account guidance specific to this incident will be shared in thread and on the Incident Status Page.",
-      "content_hash": "bb241336a8be95e344d03cf3f7b7173a9f13092c7b85071dc1b22057ccb80071",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580021"
-    },
-    {
-      "id": "tag:github.com,2008:8499082",
-      "title": "Copilot Search on GitHub Docs [GA]",
-      "link": "https://github.com/orgs/community/discussions/164214",
-      "published": "2025-06-26T15:44:19+00:00",
-      "content": "Copilot Search now generally available on GitHub Docs Have you ever wondered how to do something on GitHub? \ud83e\udd14 Spend less time searching and get answers faster with the new Copilot search experience on GitHub Docs. Copilot search lets you ask questions directly in the search bar and receive comprehensive, actionable responses with links to related documentation. It's designed to help you quickly resolve issues, discover new tools, and boost your productivity with fewer interruptions. Try it now Head over to GitHub Docs and ask a question in the search bar to see it in action. We appreciate all feedback. Join us in the comments below. \ud83d\ude80",
-      "content_hash": "685aa49dd970e19542988baca61f4f92fd8471282825737e00895b12793701e7",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580022"
-    },
-    {
-      "id": "tag:github.com,2008:6954338",
-      "title": "Copilot Enterprise Mixed Licensing (Beta)",
-      "link": "https://github.com/orgs/community/discussions/132831",
-      "published": "2024-07-19T20:09:52+00:00",
-      "content": "We're pleased to announce the public beta of Copilot mixed licensing for enterprise customers. Enterprise customers can now select a Copilot plan per organization, allowing them to adopt Copilot Business and Copilot Enterprise according to each organization's needs and timelines. We welcome your feedback!",
-      "content_hash": "8b5d1fb178ce9ad203a8dbfe505fbab3f26f939360dd8367b4cd37ce813e2426",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580023"
-    },
-    {
-      "id": "tag:github.com,2008:8092621",
-      "title": "\ud83d\udce3  GitHub Copilot Learning Course Winners \ud83d\udce3",
-      "link": "https://github.com/orgs/community/discussions/154142",
-      "published": "2025-03-17T09:11:58+00:00",
-      "content": "\ud83e\udd73 Let's Give a Big Round of Applause for Our Certification Voucher Winners! \ud83d\udc4f\ud83d\udc4f\ud83d\udc4f\ud83d\udc4f A massive high-five to everyone who jumped into the Level Up with Copilot Free! \ud83d\ude80 Learn, Explore, and Get Certified campaign! Your contagious energy and non-stop engagement over these weeks have been nothing short of spectacular. Meet Our Certification Voucher Champions \ud83c\udfc6 Your enthusiasm turned this competition into an electrifying showdown. Here are the 10 stellar champions (in no particular order) who scored a free GitHub Certification exam voucher: @mvark @Ronaldo-001 @johnniekpng @paulsuv9 @VCharrua @RAVINDRA8008 @salahtidur @pintuyadav5468 @mvpkenlin @SatyamSharma007 If you see your username on the list, give yourself a well-deserved pat on the back and maybe even do a little victory dance! \ud83c\udf89 Claim your voucher by filling out this form by EOD, March 25, 2025, 10 AM EST. Note: We expect only the winners on the list to fill in the form. Once we have your details, our team will deliver your voucher faster than you can say \u201cGitHub certified!\u201d \ud83d\ude04 Jokes apart; the ETA is maximum 10 business days but we'll be much faster. What\u2019s Next? \u23ed\ufe0f Take the Exam: Dive into the Copilot Certification Exam and join the ranks of certified experts! \u2705 Share Your Thoughts: Drop by the discussion and let us know your feedback on the prep course and exam\u2014be it cheers, challenges, or quirky insights. \ud83d\udcac Stay Tuned: This is just the beginning! More exciting opportunities to upskill and rock the GitHub community are on the horizon. \ud83d\ude80 Thank you all for making this journey such a roaring success. Best of luck to everyone gearing up for the certification exam\u2014your adventure is only just beginning!",
-      "content_hash": "949bed921c355d3240058e4cd0ad1df656ec7dde415847a07c093b937c756398",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580024"
-    },
-    {
-      "id": "tag:github.com,2008:7690651",
-      "title": "Introducing GitHub Copilot Free",
-      "link": "https://github.com/orgs/community/discussions/147189",
-      "published": "2024-12-16T05:32:52+00:00",
-      "content": "We\u2019re thrilled to announce the GitHub Copilot Free plan! It\u2019s now easier than ever for developers to explore the power of GitHub Copilot in your favourite IDE Visual Studio Code, Visual Studio, JetBrains, and directly on GitHub. \ud83c\udf89 By signing in with your personal GitHub account, you\u2019ll gain 2000 code completions and 50 chat messages per month\u2014enough to experience how Copilot can transform the way you code. Here\u2019s what you can try today: Accelerate your development: Let Copilot complete your code with speed and accuracy. Smarter edits across projects: Simplify complex edits across multiple files with Copilot Edits. Flexible models at your fingertips: Start with Anthropic\u2019s Claude 3.5 Sonnet and find the best fit for your workflow. Tailor your experience: Use Copilot Extensions to customize your development journey. Start exploring how GitHub Copilot can help you write better, faster code today! Visit our immersive experience and learn more in our announcement blog. Got questions? Explore our comprehensive FAQs on GitHub Docs. Copilot Chat in GitHub is now generally available Wait, there\u2019s more! We\u2019re also excited to announce the General Availability of Copilot Chat on GitHub.com \ud83d\ude80 Your valuable insights during the public preview played a key role in refining and improving this feature. Got more feedback on the GA release? We\u2019d love to hear it! Share your thoughts and ideas in our dedicated discussion.",
-      "content_hash": "155fe0b0cb2f32deafae835fca71771ac9a140668aeb619e40b46f2e7886a820",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580025"
-    },
-    {
-      "id": "tag:github.com,2008:7351529",
-      "title": "Web search in GitHub Copilot Chat now available for Copilot Individual",
-      "link": "https://github.com/orgs/community/discussions/142253",
-      "published": "2024-10-22T10:03:48+00:00",
-      "content": "GitHub Copilot Chat now supports web search in VS Code, Visual Studio, and GitHub.com! \ud83c\udf89 This means you can effortlessly chat about the latest trends, technologies, and developments right from your coding environment. Why You'll Love It Imagine asking Copilot about recent events or technologies and getting real-time, relevant answers. Whether you\u2019re curious about the latest release of Node.js or want insights on SAT tokens securing against vulnerabilities, Copilot has your back! Getting Started Enable the \"Copilot Access to Bing\" policy in your Copilot Settings. Start using Copilot Chat to ask your burning questions. For more details, check out our documentation. We Want to Hear from You! How do you plan to use web search with Copilot? Share your thoughts and ideas below! \ud83d\udc47 Read more here",
-      "content_hash": "30a98dd993c3a23e545dcb4972d05bdcd95bd2d0056fbad382cdf6cf554ea116",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580027"
-    },
-    {
-      "id": "tag:github.com,2008:8553912",
-      "title": "New Copilot Chat features now generally available on GitHub",
-      "link": "https://github.com/orgs/community/discussions/165429",
-      "published": "2025-07-08T10:40:51+00:00",
-      "content": "\ud83d\ude80 Copilot Chat Just Leveled Up: Now Generally Available on GitHub.com! All the Copilot Chat features you\u2019ve been exploring in public preview are now generally available to everyone on GitHub.com! From smarter conversations to seamless file previews, your Copilot experience just got a major upgrade. \u2728 What\u2019s Now GA (and why you should care) \ud83d\udcc2 Rich file interactions View and edit generated files right in the side panel. You can even preview HTML, Markdown, and Mermaid diagrams instantly. Oh, and you can now work with issues there too! \ud83d\udd17 View & iterate announcement \ud83d\udd17 Enhanced previews & issue management \ud83d\udcac Message threading & model magic Refine your prompts by editing previous messages, reload responses to try different model outputs, and keep it all organized in threads. \ud83d\udd17 Refining & reloading preview \ud83d\udd17 Reload responses with different models \ud83d\udcce Smarter attachments Pasting a large chunk of text? Copilot Chat will now suggest turning it into an attachment for cleaner, more efficient conversations. \ud83d\udd17 Attachment upgrade preview These features were built and refined with your feedback. Now that they\u2019re GA, we\u2019d love to keep the conversation going \u2014 drop your thoughts in the comments below! \ud83d\udc47",
-      "content_hash": "ddc3a342375589702448dcf820164c89ea66e28c452bbcba2fb6377006e15802",
-      "feed_index": 1,
-      "detected_date": "2025-09-02T11:27:18.580028"
+      "detected_date": "2025-09-12T07:33:01.505348"
     }
   ],
-  "total_new": 25,
+  "total_new": 2,
   "cleanup_analysis": {
     "total_entries": 25,
-    "total_stored": 0,
-    "entry_growth": 25,
+    "total_stored": 25,
+    "entry_growth": 0,
     "oldest_entries": [
+      {
+        "id": "tag:github.com,2008:6282414",
+        "title": "Copilot Enterprise - Feedback",
+        "days_old": 0
+      },
+      {
+        "id": "tag:github.com,2008:8810697",
+        "title": "Manage Copilot and users via Enterprise Teams in p",
+        "days_old": 0
+      },
+      {
+        "id": "tag:github.com,2008:8771843",
+        "title": "[Preview] MCP Server Support in GitHub.com",
+        "days_old": 0
+      },
       {
         "id": "tag:github.com,2008:8655291",
         "title": "OpenAI GPT-5 and GPT-5 mini are now generally avai",
+        "days_old": 0
+      },
+      {
+        "id": "tag:github.com,2008:6297459",
+        "title": "Copilot Chat in JetBrains IDEs (GA) -  Feedback",
+        "days_old": 0
+      },
+      {
+        "id": "tag:github.com,2008:7300429",
+        "title": "\ud83d\ude80GitHub Copilot Metrics API GA release now availab",
+        "days_old": 0
+      },
+      {
+        "id": "tag:github.com,2008:8835797",
+        "title": "Copilot Monthly Digest: August Edition",
         "days_old": 0
       },
       {
@@ -275,36 +75,6 @@
       {
         "id": "tag:github.com,2008:8755442",
         "title": "Premium request overage policy is generally availa",
-        "days_old": 0
-      },
-      {
-        "id": "tag:github.com,2008:8810697",
-        "title": "Placeholder Discussion",
-        "days_old": 0
-      },
-      {
-        "id": "tag:github.com,2008:6282414",
-        "title": "Copilot Enterprise - Feedback",
-        "days_old": 0
-      },
-      {
-        "id": "tag:github.com,2008:8317177",
-        "title": "Speed up your Issue Creation with Copilot: Feedbac",
-        "days_old": 0
-      },
-      {
-        "id": "tag:github.com,2008:8316761",
-        "title": "GitHub Copilot Coding Agent Has Arrived! \ud83d\ude80",
-        "days_old": 0
-      },
-      {
-        "id": "tag:github.com,2008:8687365",
-        "title": "Anthropic Claude Opus 4.1 Now Available in GitHub ",
-        "days_old": 0
-      },
-      {
-        "id": "tag:github.com,2008:8181180",
-        "title": "Gemini 2.5 Pro is now generally available in GitHu",
         "days_old": 0
       }
     ],
