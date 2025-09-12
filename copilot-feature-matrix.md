@@ -219,10 +219,12 @@ The analysis reveals significant acceleration in AI feature development, particu
 
 | Feature / Capability | Category | First Introduced | Current Status | Latest Update | Key Milestones |
 |---------------------|----------|------------------|----------------|---------------|---------------|
-| **BYOK Support for JetBrains IDEs and Xcode** | Platform / IDE Integration | Sep 2025 | 🟡 | Sep 2025 | Bring Your Own Key support for Anthropic, Azure, Google Gemini, Groq, OpenAI, and OpenRouter models in JetBrains IDEs and Xcode public preview |
+| **Remote GitHub MCP Server General Availability** | Platform / Integration | Sep 2025 | 🟢 | Sep 2025 | OAuth 2.1 + PKCE authentication, Coding Agent integration, secret scanning with push protection, code scanning alerts, enhanced security guardrails across all IDEs |
+| **Path-Scoped Custom Instructions for Code Review** | Platform / Code Review | Sep 2025 | 🟢 | Sep 2025 | Support for *.instructions.md files with applyTo sections for targeted code review guidance, organization-level instructions integration, coding guidelines deprecation |
 | **Independent Repository Rule for Automatic Code Reviews** | Platform / Code Review | Sep 2025 | 🟢 | Sep 2025 | Standalone repository rule for automatic Copilot code review with subsettings for run-on-push and run-on-drafts control |
 | **OpenAI GPT-5 and GPT-5 Mini General Availability** | Platform / AI Models | Sep 2025 | 🟢 | Sep 2025 | GPT-5 available to paid plans, GPT-5 mini to all plans including Free, across github.com, VS Code, Visual Studio, JetBrains, Xcode, Eclipse, and Mobile |
 | **Enhanced GitHub Copilot in Eclipse** | Platform / IDE Integration | Sep 2025 | 🟢 | Sep 2025 | Custom instructions, image support in chat context, folder/resource references, improved UX, reduced plugin size, and public API for plugin integration |
+| **BYOK Support for JetBrains IDEs and Xcode** | Platform / IDE Integration | Sep 2025 | 🟡 | Sep 2025 | Bring Your Own Key support for Anthropic, Azure, Google Gemini, Groq, OpenAI, and OpenRouter models in JetBrains IDEs and Xcode public preview |
 | **AGENTS.md Custom Instructions** | Platform / Agent Customization | Aug 2025 | 🟢 | Aug 2025 | Copilot coding agent now supports AGENTS.md custom instructions alongside existing .github/copilot-instructions.md formats for enhanced project-specific guidance |
 | **Raycast Integration for Coding Agent** | Platform / External Integration | Aug 2025 | 🟡 | Aug 2025 | macOS Raycast extension enabling task delegation to Copilot coding agent with progress tracking, supporting Pro/Pro+, Business, and Enterprise plans |
 | **Sub-issues Creation with Copilot** | Platform / Issue Management | Aug 2025 | 🟡 | Aug 2025 | Public preview feature enabling creation of parent issues with sub-issues, breaking down complex work into component parts via natural language prompts |
@@ -299,12 +301,12 @@ The analysis reveals significant acceleration in AI feature development, particu
 
 ---
 
-*This analysis covers comprehensive GitHub Copilot integration across all major IDEs (VS Code v1.17 - v1.103, Visual Studio, JetBrains, Eclipse, Xcode) and the complete platform evolution, spanning from extension-based features to advanced AI capabilities and enterprise platform services.*
+*This analysis covers comprehensive GitHub Copilot integration across all major IDEs (VS Code v1.17 - v1.104, Visual Studio, JetBrains, Eclipse, Xcode) and the complete platform evolution, spanning from extension-based features to advanced AI capabilities and enterprise platform services.*
 
 **Key Data Points**:
-- **IDE Integration**: 81 major Copilot features tracked across all IDEs and versions
-- **Platform & Agent**: 67 platform features covering enterprise, security, AI models, and core services
-- **Total Coverage**: 148 comprehensive features across the complete Copilot ecosystem
+- **IDE Integration**: 91 major Copilot features tracked across all IDEs and versions
+- **Platform & Agent**: 72 platform features covering enterprise, security, AI models, and core services
+- **Total Coverage**: 163 comprehensive features across the complete Copilot ecosystem
 - **3 distinct maturity phases** for feature development
 - **Multi-IDE integration**: VS Code, Visual Studio, JetBrains, Eclipse, Xcode, Windows Terminal
 - **Monthly release cadence** with quarterly major feature introductions
