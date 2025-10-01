@@ -5,7 +5,7 @@
     "path": "release-notes/July_2016.md",
     "content_hash": "1f8d0ae21a79ff0da307052e807b11bf63ffba47712b1b6567bff9774e274b8a",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/July_2016.md",
-    "last_processed": "2025-09-12T07:32:58.353835"
+    "last_processed": "2025-10-01T09:08:48.726502"
   },
   "June_2016.md": {
     "sha": "ce7d11eff7220783cd1ffcdb316a40c0ef08d369",
@@ -13,7 +13,7 @@
     "path": "release-notes/June_2016.md",
     "content_hash": "ed4c8c964ec32031863be15cc690b0392eb5cd56efb38de67820add4017915b4",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/June_2016.md",
-    "last_processed": "2025-09-12T07:32:59.118199"
+    "last_processed": "2025-10-01T09:08:49.541986"
   },
   "May_2016.md": {
     "sha": "d53b1769338c268f95ead0f3d2cb56bb6739b048",
@@ -21,7 +21,7 @@
     "path": "release-notes/May_2016.md",
     "content_hash": "f9954ee42508bc52408c8830fcee032052c21b768484fff8b2977075c63e71e6",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/May_2016.md",
-    "last_processed": "2025-09-12T07:32:59.878760"
+    "last_processed": "2025-10-01T09:08:50.310670"
   },
   "v0_3_0.md": {
     "sha": "e7b2c67ca17748953c3a4465379d6daf9966a213",
@@ -29,7 +29,7 @@
     "path": "release-notes/v0_3_0.md",
     "content_hash": "a175dde23d0f14f9530754909c7d651627388e3dc64edd613ccdcc9eeda28e82",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v0_3_0.md",
-    "last_processed": "2025-09-12T07:33:46.599314"
+    "last_processed": "2025-10-01T09:09:38.815927"
   },
   "v0_5_0.md": {
     "sha": "226241325d9cacb07a696db1d317e0a0fc30624a",
@@ -37,7 +37,7 @@
     "path": "release-notes/v0_5_0.md",
     "content_hash": "89c9ac1ca03e2d2d9f94d349664d74b00f6d8aaf38af0e219c3935477da75c0e",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v0_5_0.md",
-    "last_processed": "2025-09-12T07:33:47.313650"
+    "last_processed": "2025-10-01T09:09:39.602336"
   },
   "v0_7_0.md": {
     "sha": "ba8ed78fbbbab803238304facb49d683ae749bd6",
@@ -45,7 +45,7 @@
     "path": "release-notes/v0_7_0.md",
     "content_hash": "223f4faf9343136a8d51258cc2f737bec41167685a0f05ca93f0de502412d612",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v0_7_0.md",
-    "last_processed": "2025-09-12T07:33:48.039415"
+    "last_processed": "2025-10-01T09:09:40.378907"
   },
   "v0_8_0.md": {
     "sha": "a0b8a3805ea69a08c43b80fb6c643306c137d69b",
@@ -53,7 +53,7 @@
     "path": "release-notes/v0_8_0.md",
     "content_hash": "a0466e0cde54924fb7c2969c453d8a6fc79527d5a9f2a4895a9de7a18fc0cc05",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v0_8_0.md",
-    "last_processed": "2025-09-12T07:33:48.778798"
+    "last_processed": "2025-10-01T09:09:41.115613"
   },
   "v0_9_0.md": {
     "sha": "4d66ed3c91d2a1766ca086be08376ac81cf6a286",
@@ -61,7 +61,7 @@
     "path": "release-notes/v0_9_0.md",
     "content_hash": "aade244157239f0f55a70ada6ef6530d2b6aa19d996a83863e94275081098ce3",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v0_9_0.md",
-    "last_processed": "2025-09-12T07:33:49.573896"
+    "last_processed": "2025-10-01T09:09:41.914275"
   },
   "v1_10.md": {
     "sha": "fc2738d8fcd03be5dbd8d45d4b6e451dfbf3cd6e",
@@ -69,7 +69,7 @@
     "path": "release-notes/v1_10.md",
     "content_hash": "1d606922f680eef8bad12f9d873e09ce7e1299accba392c1fc2f942bfe188326",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_10.md",
-    "last_processed": "2025-09-12T07:33:50.352622"
+    "last_processed": "2025-10-01T09:09:42.717827"
   },
   "v1_100.md": {
     "sha": "234a8596c4c49aa45240b95e17670b54b2ec453f",
@@ -77,7 +77,7 @@
     "path": "release-notes/v1_100.md",
     "content_hash": "d5d820ecebf6b617b59647c21862bc300b73bb9c7f1d665184297323f2b49417",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_100.md",
-    "last_processed": "2025-09-12T07:33:51.081994"
+    "last_processed": "2025-10-01T09:09:43.502303"
   },
   "v1_101.md": {
     "sha": "2a4c6bcb55d56452f7d437153fe1273c80174bce",
@@ -85,7 +85,7 @@
     "path": "release-notes/v1_101.md",
     "content_hash": "91d6bf557969612d11ade853b8c952d2b97512d4624c09f48b869c25359c9d41",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_101.md",
-    "last_processed": "2025-09-12T07:33:51.802480"
+    "last_processed": "2025-10-01T09:09:44.274275"
   },
   "v1_102.md": {
     "sha": "f17f5bd30d05a4b36adff5ea8d4994f2f94c6df5",
@@ -93,7 +93,7 @@
     "path": "release-notes/v1_102.md",
     "content_hash": "fcda4dcbe1e749d73bcd5fb944510f6f21fe8f405b5ca0954c07431541f99214",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_102.md",
-    "last_processed": "2025-09-12T07:33:52.537673"
+    "last_processed": "2025-10-01T09:09:45.043706"
   },
   "v1_103.md": {
     "sha": "d315c7e4fd247fe1dfbd4608cc88cf3cba3fce9f",
@@ -101,15 +101,15 @@
     "path": "release-notes/v1_103.md",
     "content_hash": "6d06e6ffdb8758e82a28f10530d7f18d1dca61c76c42375c5a9cd3a865e18d29",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_103.md",
-    "last_processed": "2025-09-12T07:33:53.308524"
+    "last_processed": "2025-10-01T09:09:45.809452"
   },
   "v1_104.md": {
-    "sha": "9c7cfc3f8d734c4139a659a98ee865ac87d388db",
-    "size": 62813,
+    "sha": "1c3724ed83f5ec5b70c8d73b170cff1458cb6bbf",
+    "size": 63133,
     "path": "release-notes/v1_104.md",
-    "content_hash": "654a1829c14b799ede6e23ab486a1e6a3e7df573117e5a55a632f2f7cd4a9bc8",
+    "content_hash": "d1cc6b087b7dc897e9b3ac3e0138bc5fa380fb950e96796a4dbb1b72ff0002c5",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_104.md",
-    "last_processed": "2025-09-12T07:33:54.090916"
+    "last_processed": "2025-10-01T09:09:46.574509"
   },
   "v1_105.md": {
     "sha": "6901f7a57e372781d2ede5dbc62194f98deb3c2f",
@@ -117,7 +117,7 @@
     "path": "release-notes/v1_105.md",
     "content_hash": "d601e7b8c9bbaa86a452cd775ea751cc3a3e487c9f84374300d6dfe765868f3e",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_105.md",
-    "last_processed": "2025-09-12T07:33:54.841098"
+    "last_processed": "2025-10-01T09:09:47.361216"
   },
   "v1_11.md": {
     "sha": "e229d5415e56ae352388cf34a1fa9158c48fbc80",
@@ -125,7 +125,7 @@
     "path": "release-notes/v1_11.md",
     "content_hash": "a4d7658819820c0b70d4d386daa65fa256922a64d8fea08ff5edb7163443cdd2",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_11.md",
-    "last_processed": "2025-09-12T07:33:55.601805"
+    "last_processed": "2025-10-01T09:09:48.120266"
   },
   "v1_12.md": {
     "sha": "55dabde48ed9291d41ba68d6ce45fd71ae6981a5",
@@ -133,7 +133,7 @@
     "path": "release-notes/v1_12.md",
     "content_hash": "15c4ff14f1074ffa2decdc1107eb0f3143b453f2a1806f32600a25c943c5e192",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_12.md",
-    "last_processed": "2025-09-12T07:33:56.331658"
+    "last_processed": "2025-10-01T09:09:48.917590"
   },
   "v1_13.md": {
     "sha": "0e29248d99aefbd3a0a9051ed17488d2b2f51777",
@@ -141,7 +141,7 @@
     "path": "release-notes/v1_13.md",
     "content_hash": "2511c7d3496586bc8e948a321e296516885ffe8ea656b8169348bf2b1bb779cc",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_13.md",
-    "last_processed": "2025-09-12T07:33:57.128984"
+    "last_processed": "2025-10-01T09:09:49.698103"
   },
   "v1_14.md": {
     "sha": "d6615106c29440ca9fbbd4c9583f0b1ab72ee6fb",
@@ -149,7 +149,7 @@
     "path": "release-notes/v1_14.md",
     "content_hash": "d7da9c993cb72910b28590d5af9f0af192ca84269d38b26060ebb576ee346b8d",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_14.md",
-    "last_processed": "2025-09-12T07:33:57.897404"
+    "last_processed": "2025-10-01T09:09:50.435129"
   },
   "v1_15.md": {
     "sha": "6b6a6e03eaf3d35f064e6664901119ffa6efb1c3",
@@ -157,7 +157,7 @@
     "path": "release-notes/v1_15.md",
     "content_hash": "c8ec9677eab00fd44d5ac8a017f69e9c1f98aad052c4fb5513cb0c27da11cc74",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_15.md",
-    "last_processed": "2025-09-12T07:33:58.634696"
+    "last_processed": "2025-10-01T09:09:51.230403"
   },
   "v1_16.md": {
     "sha": "ca83dd9546c0f6cbb70a095277fbfea82b13f218",
@@ -165,7 +165,7 @@
     "path": "release-notes/v1_16.md",
     "content_hash": "24498cdce7cdd811a1232b4a740bb63206637f90d22e21fac1d1e7f14fd95118",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_16.md",
-    "last_processed": "2025-09-12T07:33:59.408042"
+    "last_processed": "2025-10-01T09:09:51.992339"
   },
   "v1_17.md": {
     "sha": "f3546099eefcf006cbdbd3fd38c26e1812390615",
@@ -173,7 +173,7 @@
     "path": "release-notes/v1_17.md",
     "content_hash": "c97c831c7981122abfcf64985f3d47bcab2eaf6378e25c8024568f911ea040c7",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_17.md",
-    "last_processed": "2025-09-12T07:34:00.219469"
+    "last_processed": "2025-10-01T09:09:52.775756"
   },
   "v1_18.md": {
     "sha": "ce1ac6a841e51aba9c351414070750958334fd4d",
@@ -181,7 +181,7 @@
     "path": "release-notes/v1_18.md",
     "content_hash": "6aa9f827e5abe275aefbbf6cfb0b54df81340da3711e09a5e151502b5013d1e3",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_18.md",
-    "last_processed": "2025-09-12T07:34:00.951547"
+    "last_processed": "2025-10-01T09:09:53.534802"
   },
   "v1_19.md": {
     "sha": "27f10120ea5ea2d08cd1c9ba6422461d6100d4e9",
@@ -189,7 +189,7 @@
     "path": "release-notes/v1_19.md",
     "content_hash": "cecbe1e374e46c25341a930da4c8b76ebe0bb3b932b6d6cd60d6b5a66d3a523b",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_19.md",
-    "last_processed": "2025-09-12T07:34:01.705376"
+    "last_processed": "2025-10-01T09:09:54.276173"
   },
   "v1_20.md": {
     "sha": "3a1f9bb59c9989104518e278478852333a4e1bf5",
@@ -197,7 +197,7 @@
     "path": "release-notes/v1_20.md",
     "content_hash": "61621a1b2c7cb19768f85ad6fb211f414e59997212954b5bfcf34ede73db3f2a",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_20.md",
-    "last_processed": "2025-09-12T07:34:02.432507"
+    "last_processed": "2025-10-01T09:09:55.063406"
   },
   "v1_21.md": {
     "sha": "57153da395939845ba1cb2289379668713e870ae",
@@ -205,7 +205,7 @@
     "path": "release-notes/v1_21.md",
     "content_hash": "3219ca1b2e5a3dda391e50380fb6ae1b7ae665011f0aa35f5e5096be3570fae4",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_21.md",
-    "last_processed": "2025-09-12T07:34:03.177799"
+    "last_processed": "2025-10-01T09:09:55.836640"
   },
   "v1_22.md": {
     "sha": "d8caef87e5494327e98e291b476b7416a4c76fcf",
@@ -213,7 +213,7 @@
     "path": "release-notes/v1_22.md",
     "content_hash": "63d84364a40a6a558004c8468a8c28fcedbb4be687b309daef0c9b197e7ca98b",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_22.md",
-    "last_processed": "2025-09-12T07:34:03.944343"
+    "last_processed": "2025-10-01T09:09:56.623502"
   },
   "v1_23.md": {
     "sha": "543309c31302e50a2b2e27e8802955fa3445db49",
@@ -221,7 +221,7 @@
     "path": "release-notes/v1_23.md",
     "content_hash": "a8ead278826cd7aa1be7a5b15c50f9d913318ed2bf04f4d37cfd70f9e38eaa84",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_23.md",
-    "last_processed": "2025-09-12T07:34:04.715884"
+    "last_processed": "2025-10-01T09:09:57.383378"
   },
   "v1_24.md": {
     "sha": "9f4ddf82786477dce41e82febe312b4046c5d11f",
@@ -229,7 +229,7 @@
     "path": "release-notes/v1_24.md",
     "content_hash": "3fa99974bcb9fc64cc3a746da121def4a5a1cdf97e6973b616bcab4351c04869",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_24.md",
-    "last_processed": "2025-09-12T07:34:05.496682"
+    "last_processed": "2025-10-01T09:09:58.153724"
   },
   "v1_25.md": {
     "sha": "d91c4e5a6f72946f622eff506c0a50134cc44c3d",
@@ -237,7 +237,7 @@
     "path": "release-notes/v1_25.md",
     "content_hash": "fec49fd7b94a89ff9b7d9cf221fc28ad6dcd892faef360d4281c7b532744b2fb",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_25.md",
-    "last_processed": "2025-09-12T07:34:06.278099"
+    "last_processed": "2025-10-01T09:09:58.928097"
   },
   "v1_26.md": {
     "sha": "0e0fe1cf05af8aab5013218b182b2d63a9c17f1b",
@@ -245,7 +245,7 @@
     "path": "release-notes/v1_26.md",
     "content_hash": "a46fe6807e264376522b5967c89f54e756155c6ffe236509ebbda03c75238eb9",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_26.md",
-    "last_processed": "2025-09-12T07:34:07.049641"
+    "last_processed": "2025-10-01T09:09:59.701288"
   },
   "v1_27.md": {
     "sha": "b9fce9673ac281ccb7e6f51fc1f0558a27636054",
@@ -253,7 +253,7 @@
     "path": "release-notes/v1_27.md",
     "content_hash": "ef8fec8b7766b803c8511d167321d3c3210dce2b4f8dd80152c6cc3e3ef357e7",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_27.md",
-    "last_processed": "2025-09-12T07:34:07.815361"
+    "last_processed": "2025-10-01T09:10:00.550189"
   },
   "v1_28.md": {
     "sha": "533bd21d54647584479d78548ce66215bbb8196f",
@@ -261,7 +261,7 @@
     "path": "release-notes/v1_28.md",
     "content_hash": "d62e5bd0e5999afe8a3a67efccc1e12848f3b7333dd608531aac65bc1a0c23da",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_28.md",
-    "last_processed": "2025-09-12T07:34:08.561500"
+    "last_processed": "2025-10-01T09:10:01.313752"
   },
   "v1_29.md": {
     "sha": "817ec7688c63d3b15a4d80ba3216c7b0614cebf5",
@@ -269,7 +269,7 @@
     "path": "release-notes/v1_29.md",
     "content_hash": "7a43fba6f9f988c5babf01c262d25f6cfdb59b3962f6e84b1f7b094933b847ac",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_29.md",
-    "last_processed": "2025-09-12T07:34:09.316862"
+    "last_processed": "2025-10-01T09:10:02.111113"
   },
   "v1_30.md": {
     "sha": "2f956a31271484da2a91df9f0287ff0aad0cdaaf",
@@ -277,7 +277,7 @@
     "path": "release-notes/v1_30.md",
     "content_hash": "ab733892ed08edb8c5dedef3f92ff3dce0cfb449de285c5a762ed0449ff0e23f",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_30.md",
-    "last_processed": "2025-09-12T07:34:10.063983"
+    "last_processed": "2025-10-01T09:10:02.896269"
   },
   "v1_31.md": {
     "sha": "5362e2e27f813c8bc5223e8f2ebf10cb10abe3f3",
@@ -285,7 +285,7 @@
     "path": "release-notes/v1_31.md",
     "content_hash": "95771934d8a4bfb7ba8fb3b0596f69c932c22bfeb379f5c85a6263d7e3e0870c",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_31.md",
-    "last_processed": "2025-09-12T07:34:10.825206"
+    "last_processed": "2025-10-01T09:10:03.716505"
   },
   "v1_32.md": {
     "sha": "7f780021522230c217b7e17006392bf3bd6b37fe",
@@ -293,7 +293,7 @@
     "path": "release-notes/v1_32.md",
     "content_hash": "48728c5e2e751e553ab13a3e2944526a6edadbf466294ae2574b8024790e6fb5",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_32.md",
-    "last_processed": "2025-09-12T07:34:11.633933"
+    "last_processed": "2025-10-01T09:10:04.497359"
   },
   "v1_33.md": {
     "sha": "cbc062dce01bdaddd3c3a9680cc7e8f8da6e4ec7",
@@ -301,7 +301,7 @@
     "path": "release-notes/v1_33.md",
     "content_hash": "f1876b67ef2a3f82f86d5ae0ffacddaa4cd6816d041a7144912441819ac098cd",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_33.md",
-    "last_processed": "2025-09-12T07:34:12.370752"
+    "last_processed": "2025-10-01T09:10:05.227979"
   },
   "v1_34.md": {
     "sha": "914f5ccc320ec6a401b178011601a4bd643ecd51",
@@ -309,7 +309,7 @@
     "path": "release-notes/v1_34.md",
     "content_hash": "bec420a513a5d3a525ea888b8434f9ea7286f9e37d2c4db5b63b7887cae073be",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_34.md",
-    "last_processed": "2025-09-12T07:34:13.127593"
+    "last_processed": "2025-10-01T09:10:05.971077"
   },
   "v1_35.md": {
     "sha": "b379c577556a9aea9a18ebee51ebac967176653e",
@@ -317,7 +317,7 @@
     "path": "release-notes/v1_35.md",
     "content_hash": "46c62e7e9fb2a1bdd3a212989f0f1b291c95c31b23dd4f26143b1942e55dfc29",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_35.md",
-    "last_processed": "2025-09-12T07:34:13.856419"
+    "last_processed": "2025-10-01T09:10:06.759723"
   },
   "v1_36.md": {
     "sha": "1621e4becb0c784834fa14389571ae012ff525de",
@@ -325,7 +325,7 @@
     "path": "release-notes/v1_36.md",
     "content_hash": "7db524e7e354c78403f594d5108d783ae294ccbe0de0557dbded976c5e35f8d6",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_36.md",
-    "last_processed": "2025-09-12T07:34:14.625551"
+    "last_processed": "2025-10-01T09:10:07.536018"
   },
   "v1_37.md": {
     "sha": "892edae0d2811d6097562402c82b78c4482f7f91",
@@ -333,7 +333,7 @@
     "path": "release-notes/v1_37.md",
     "content_hash": "daabca3c3d31a74f8e19e09adb97e8b16b741b4855c2683f582f4a606fd3f0d7",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_37.md",
-    "last_processed": "2025-09-12T07:34:15.349003"
+    "last_processed": "2025-10-01T09:10:08.352065"
   },
   "v1_38.md": {
     "sha": "19011719a240cce823e3d497fcccab9e4d07b128",
@@ -341,7 +341,7 @@
     "path": "release-notes/v1_38.md",
     "content_hash": "369f2d47061f0f2b6e7e2fb65fb5cd93903321bc4d4e16d08e44e5a36fc9a37f",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_38.md",
-    "last_processed": "2025-09-12T07:34:16.124306"
+    "last_processed": "2025-10-01T09:10:09.111106"
   },
   "v1_39.md": {
     "sha": "cbb2db77b3fbe8d6b50c911432d613d5a07d0637",
@@ -349,7 +349,7 @@
     "path": "release-notes/v1_39.md",
     "content_hash": "0feaed438841a62a99c44aa3d9b446c30e8073c5734a3dd765a5eaf397c6cb03",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_39.md",
-    "last_processed": "2025-09-12T07:34:16.936033"
+    "last_processed": "2025-10-01T09:10:09.845945"
   },
   "v1_40.md": {
     "sha": "fc91b66c787ace327f0357513019db18bc364c0b",
@@ -357,7 +357,7 @@
     "path": "release-notes/v1_40.md",
     "content_hash": "cd783078f9e9dc5e759c2362c009b46163ff2e939928e5f83dacdb7afbf2b0e2",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_40.md",
-    "last_processed": "2025-09-12T07:34:17.696023"
+    "last_processed": "2025-10-01T09:10:10.666257"
   },
   "v1_41.md": {
     "sha": "d0be66e44c3a0324b1871805cb01b67a94c108d0",
@@ -365,7 +365,7 @@
     "path": "release-notes/v1_41.md",
     "content_hash": "e7304d34b50dd89dd5aada3479a54043a920bf6ff3c9a016f9585e228bf16129",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_41.md",
-    "last_processed": "2025-09-12T07:34:18.463866"
+    "last_processed": "2025-10-01T09:10:11.434826"
   },
   "v1_42.md": {
     "sha": "538cb0ff423197a6592a7cafbcb587bf23d3619e",
@@ -373,7 +373,7 @@
     "path": "release-notes/v1_42.md",
     "content_hash": "268d6d6d933b1abdb6ba1ad22c220b2524949f19df0f7f16fb5b9b17e0a75d0d",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_42.md",
-    "last_processed": "2025-09-12T07:34:19.207027"
+    "last_processed": "2025-10-01T09:10:12.175403"
   },
   "v1_43.md": {
     "sha": "9e4d6a7d84d0577671343486cba4d955a9c32ca6",
@@ -381,7 +381,7 @@
     "path": "release-notes/v1_43.md",
     "content_hash": "26df6323d5fb991872341f49cadabf290aef8613c911e608cc4fec02d6a62701",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_43.md",
-    "last_processed": "2025-09-12T07:34:19.970011"
+    "last_processed": "2025-10-01T09:10:12.928948"
   },
   "v1_44.md": {
     "sha": "1af8b5afb5608b380769dd0eeb978956ba401798",
@@ -389,7 +389,7 @@
     "path": "release-notes/v1_44.md",
     "content_hash": "cc62b4525867c6edaeff0e75d56ba0beec77ef5d7193626bfe5ec57a378f6099",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_44.md",
-    "last_processed": "2025-09-12T07:34:20.693154"
+    "last_processed": "2025-10-01T09:10:13.747379"
   },
   "v1_45.md": {
     "sha": "72d7297c3dffb55ac0f459919b7bcb1d0667d208",
@@ -397,7 +397,7 @@
     "path": "release-notes/v1_45.md",
     "content_hash": "8512dcee4db136c926c2edd22ef0ba81aa82cecd42fc112d3acce05bb9b0c411",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_45.md",
-    "last_processed": "2025-09-12T07:34:21.450738"
+    "last_processed": "2025-10-01T09:10:14.536411"
   },
   "v1_46.md": {
     "sha": "3d7b57d1364417a3a4e25915a9c83b982d187bb2",
@@ -405,7 +405,7 @@
     "path": "release-notes/v1_46.md",
     "content_hash": "44b63753579a445a53a07e5310d986667a953c42592bc901e36973573e1931d7",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_46.md",
-    "last_processed": "2025-09-12T07:34:22.207749"
+    "last_processed": "2025-10-01T09:10:15.502410"
   },
   "v1_47.md": {
     "sha": "76229b722434b9ecc0f750808357a6fd15868b8a",
@@ -413,7 +413,7 @@
     "path": "release-notes/v1_47.md",
     "content_hash": "bedec43c8ab73bd70dbfbc7119f493b8b81bdc6900d60e7480d2148b87a0f967",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_47.md",
-    "last_processed": "2025-09-12T07:34:22.913692"
+    "last_processed": "2025-10-01T09:10:16.271417"
   },
   "v1_48.md": {
     "sha": "5d2dbbe1f95e47f9510634106d7dbc467af0a0b1",
@@ -421,7 +421,7 @@
     "path": "release-notes/v1_48.md",
     "content_hash": "55aaab28b61fb68f263531e8b173a94e0e4b1cc6ceac7705353cd44b7624a3bb",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_48.md",
-    "last_processed": "2025-09-12T07:34:23.651119"
+    "last_processed": "2025-10-01T09:10:17.047331"
   },
   "v1_49.md": {
     "sha": "4df8ef1fc21c106c9fe6585779c4ca92e9194a6e",
@@ -429,7 +429,7 @@
     "path": "release-notes/v1_49.md",
     "content_hash": "6515215472abefb85f293b346ad9f4cd6ca74a389c94fd847a613bea9e49d360",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_49.md",
-    "last_processed": "2025-09-12T07:34:24.480156"
+    "last_processed": "2025-10-01T09:10:17.836943"
   },
   "v1_5.md": {
     "sha": "fa47d0407903377ff9ddcdb278a2eb30900e6363",
@@ -437,7 +437,7 @@
     "path": "release-notes/v1_5.md",
     "content_hash": "cd49e87026fe3e8ee521fd571105a0ddce9b0b5deeeb9ba040eb6503199130c7",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_5.md",
-    "last_processed": "2025-09-12T07:34:25.271050"
+    "last_processed": "2025-10-01T09:10:18.608269"
   },
   "v1_50.md": {
     "sha": "fb20ff2f1e4d762d7192794ce7851dcfa2e64ad3",
@@ -445,7 +445,7 @@
     "path": "release-notes/v1_50.md",
     "content_hash": "b222b6da6af8c4681b44ee37497472b4808b0b408b2a09219132b0e8e356f3a6",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_50.md",
-    "last_processed": "2025-09-12T07:34:26.033703"
+    "last_processed": "2025-10-01T09:10:19.415555"
   },
   "v1_51.md": {
     "sha": "d2eaca99eba450d19d8e22771d0ef92cd0555770",
@@ -453,7 +453,7 @@
     "path": "release-notes/v1_51.md",
     "content_hash": "08d3c9fda3b21df6c91990668230e20d8af978b5e9c8432079ff7f0a500c1ef7",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_51.md",
-    "last_processed": "2025-09-12T07:34:26.825587"
+    "last_processed": "2025-10-01T09:10:20.185212"
   },
   "v1_52.md": {
     "sha": "f09a6c6c77ecece4511ce282f3663c33eb1a51bd",
@@ -461,7 +461,7 @@
     "path": "release-notes/v1_52.md",
     "content_hash": "39b810479379bbbeec1495d0759d67f1792205ebafdfa3c88e245217ab2bd98a",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_52.md",
-    "last_processed": "2025-09-12T07:34:27.561116"
+    "last_processed": "2025-10-01T09:10:20.944521"
   },
   "v1_53.md": {
     "sha": "e3872e2d860f7340fd0d0195adf119075f43d39d",
@@ -469,7 +469,7 @@
     "path": "release-notes/v1_53.md",
     "content_hash": "fffc23e01611f1a3ee60f055c38a9689c0a46451df103aae8441a1ca266ba0c1",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_53.md",
-    "last_processed": "2025-09-12T07:34:28.313319"
+    "last_processed": "2025-10-01T09:10:21.734363"
   },
   "v1_54.md": {
     "sha": "48587d95087b945e8d51703d69817f27809de516",
@@ -477,7 +477,7 @@
     "path": "release-notes/v1_54.md",
     "content_hash": "2bf79807ecd30b249c4486d85be54385c60abd8214f97a55cb1bd6774fd53b81",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_54.md",
-    "last_processed": "2025-09-12T07:34:29.059734"
+    "last_processed": "2025-10-01T09:10:22.527463"
   },
   "v1_55.md": {
     "sha": "891064c8bf7b3c05d8a11b4f629aab316c125f5e",
@@ -485,7 +485,7 @@
     "path": "release-notes/v1_55.md",
     "content_hash": "dd9fa4506e932bab79806192bb7c8d67f3ead5e811ad37d042a84fa39127f59a",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_55.md",
-    "last_processed": "2025-09-12T07:34:29.832986"
+    "last_processed": "2025-10-01T09:10:23.359182"
   },
   "v1_56.md": {
     "sha": "f0a0085f5b865d5ccce63f6eebbbc6c663ae72a5",
@@ -493,7 +493,7 @@
     "path": "release-notes/v1_56.md",
     "content_hash": "404cb02915a715968a218b8277bafc8878d82390661b237e5dc5f409bc000423",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_56.md",
-    "last_processed": "2025-09-12T07:34:30.590743"
+    "last_processed": "2025-10-01T09:10:24.121951"
   },
   "v1_57.md": {
     "sha": "ecae986f26bfe7ed85b9bc8e1a21f6cf34ee58a8",
@@ -501,7 +501,7 @@
     "path": "release-notes/v1_57.md",
     "content_hash": "0f335ee807809be7b7d362fde3516a1dd5c37af4013f53134fcb2b0c7dbfa4f3",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_57.md",
-    "last_processed": "2025-09-12T07:34:31.334657"
+    "last_processed": "2025-10-01T09:10:24.926888"
   },
   "v1_58.md": {
     "sha": "b65e3420defb4698e217bcd0c4dd98e7c9c79af9",
@@ -509,7 +509,7 @@
     "path": "release-notes/v1_58.md",
     "content_hash": "edafa471cada30a895346d7369e7d5c076c01d039ccb6049567f6a48a9210303",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_58.md",
-    "last_processed": "2025-09-12T07:34:32.056055"
+    "last_processed": "2025-10-01T09:10:25.734954"
   },
   "v1_59.md": {
     "sha": "e71c4861809c859f4dd3ed61a97d6cb4cd291412",
@@ -517,7 +517,7 @@
     "path": "release-notes/v1_59.md",
     "content_hash": "e9627fed23023bc9e160f44b11fed3f4be261ae641f6db27590e8b89e08c178d",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_59.md",
-    "last_processed": "2025-09-12T07:34:32.795442"
+    "last_processed": "2025-10-01T09:10:26.499385"
   },
   "v1_6.md": {
     "sha": "d08e534afb4b8146a42bd105a624c9833b3ed31e",
@@ -525,7 +525,7 @@
     "path": "release-notes/v1_6.md",
     "content_hash": "456ac86eff293382c6524687120636b8e1cf84855d612588027d44f715d88cf1",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_6.md",
-    "last_processed": "2025-09-12T07:34:33.509171"
+    "last_processed": "2025-10-01T09:10:27.258391"
   },
   "v1_60.md": {
     "sha": "4613e7189d74fab6786f065f5d1fccd1fc4a1f1e",
@@ -533,7 +533,7 @@
     "path": "release-notes/v1_60.md",
     "content_hash": "bfdd0cb9b497dd066b6563a59a99dac2295706a219f75c76ab41e2255889fa3d",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_60.md",
-    "last_processed": "2025-09-12T07:34:34.295393"
+    "last_processed": "2025-10-01T09:10:28.010651"
   },
   "v1_61.md": {
     "sha": "78f1344400518612c91e86d03ee526d098799c3e",
@@ -541,7 +541,7 @@
     "path": "release-notes/v1_61.md",
     "content_hash": "74a73146a0993577c9d0c5aa099a6a017e5b93d40329747cbe819e07968718a4",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_61.md",
-    "last_processed": "2025-09-12T07:34:35.041703"
+    "last_processed": "2025-10-01T09:10:28.763213"
   },
   "v1_62.md": {
     "sha": "86d18487bd935f912de870f962d36e36f07819dc",
@@ -549,7 +549,7 @@
     "path": "release-notes/v1_62.md",
     "content_hash": "6346de8da09c77b2d196d689d70410bf7e18ac67597b6cd909ed336a8861d2c5",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_62.md",
-    "last_processed": "2025-09-12T07:34:35.808143"
+    "last_processed": "2025-10-01T09:10:29.546481"
   },
   "v1_63.md": {
     "sha": "1640380c35ad1e4431f1f8fef1ace4dc05ba6fdf",
@@ -557,7 +557,7 @@
     "path": "release-notes/v1_63.md",
     "content_hash": "a78bfc9d3edd21469eb9de4341471829f616a4b0608099308233d0449bbcdcfc",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_63.md",
-    "last_processed": "2025-09-12T07:34:36.554811"
+    "last_processed": "2025-10-01T09:10:30.312982"
   },
   "v1_64.md": {
     "sha": "7e95a2aae0394b5f37675f403b5547b83da880f0",
@@ -565,7 +565,7 @@
     "path": "release-notes/v1_64.md",
     "content_hash": "a9765368b316ea34d78df79d039a5f771a7d557162382fdae0ccdd2b2141ebba",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_64.md",
-    "last_processed": "2025-09-12T07:34:37.280664"
+    "last_processed": "2025-10-01T09:10:31.083421"
   },
   "v1_65.md": {
     "sha": "88fc9f2e0048cce2f27fb3473371207d313d4c4d",
@@ -573,7 +573,7 @@
     "path": "release-notes/v1_65.md",
     "content_hash": "08f4f96f5c229434353f18e1d2e9db9a0ae1def9be951c0341e01ba31fa5e4b5",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_65.md",
-    "last_processed": "2025-09-12T07:34:38.043858"
+    "last_processed": "2025-10-01T09:10:31.852933"
   },
   "v1_66.md": {
     "sha": "c64c10df235b4ca4f2626c7eedc2e31280c2edf9",
@@ -581,7 +581,7 @@
     "path": "release-notes/v1_66.md",
     "content_hash": "93c81b917f4036ee579cd1a8c93d05cfa2cce8372041f85ace912c08d2ebbef4",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_66.md",
-    "last_processed": "2025-09-12T07:34:38.824463"
+    "last_processed": "2025-10-01T09:10:32.609120"
   },
   "v1_67.md": {
     "sha": "a49e1d5477cf418fd2e04ca61100a4dbb34ed212",
@@ -589,7 +589,7 @@
     "path": "release-notes/v1_67.md",
     "content_hash": "c3194a0abf23762a0d4db20aebfd7a741a837bdf00c2b2014f27a98be49ce9ab",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_67.md",
-    "last_processed": "2025-09-12T07:34:39.556001"
+    "last_processed": "2025-10-01T09:10:33.365997"
   },
   "v1_68.md": {
     "sha": "08d86abb757410f38d3622cf7a2d027cf7a4cf38",
@@ -597,7 +597,7 @@
     "path": "release-notes/v1_68.md",
     "content_hash": "1ce83a88e863aba0942536de340f743161f53ed28c6e6e69c98f101a6b290bad",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_68.md",
-    "last_processed": "2025-09-12T07:34:40.307105"
+    "last_processed": "2025-10-01T09:10:34.133970"
   },
   "v1_69.md": {
     "sha": "cf180fdd96c4de89d663265a3172dfc94ada71e8",
@@ -605,7 +605,7 @@
     "path": "release-notes/v1_69.md",
     "content_hash": "85178fb260742a067cd3ea59dcf783b160d91ab0edc6ed5b6486f752940cfaf3",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_69.md",
-    "last_processed": "2025-09-12T07:34:41.083335"
+    "last_processed": "2025-10-01T09:10:34.937631"
   },
   "v1_7.md": {
     "sha": "80d93d8c062e5047ac8978488b0bdee8ac4aafbe",
@@ -613,7 +613,7 @@
     "path": "release-notes/v1_7.md",
     "content_hash": "926f0bb18cb7945bb4f5d33d3663fbfa73b3ffdb4a3c96c5efd66fc3cc65bc43",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_7.md",
-    "last_processed": "2025-09-12T07:34:41.841452"
+    "last_processed": "2025-10-01T09:10:35.733606"
   },
   "v1_70.md": {
     "sha": "2c3e75a3d8d3c26984b9eba50635a48bb5f1db7f",
@@ -621,7 +621,7 @@
     "path": "release-notes/v1_70.md",
     "content_hash": "04007235dfa212f6db269465e6c5c9e1d90cbb38b7a2beaedfc64f148d6bcd7e",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_70.md",
-    "last_processed": "2025-09-12T07:34:42.602278"
+    "last_processed": "2025-10-01T09:10:36.487960"
   },
   "v1_71.md": {
     "sha": "334785eb7dda4959119cb29307ca2cc1fdce7f02",
@@ -629,7 +629,7 @@
     "path": "release-notes/v1_71.md",
     "content_hash": "c159c5075105ed3a76ee19014323ab3f28fde7f5d954e2f63af527b18650e023",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_71.md",
-    "last_processed": "2025-09-12T07:34:43.330516"
+    "last_processed": "2025-10-01T09:10:37.270320"
   },
   "v1_72.md": {
     "sha": "a9a8f307c5c778bd4e9d717bcbc9b17f6bec4a40",
@@ -637,7 +637,7 @@
     "path": "release-notes/v1_72.md",
     "content_hash": "ad5dbaac6eb1bb23581e7e3df3a9ad07626ef0fce7ba71aa8683769a02b857d1",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_72.md",
-    "last_processed": "2025-09-12T07:34:44.192039"
+    "last_processed": "2025-10-01T09:10:38.029167"
   },
   "v1_73.md": {
     "sha": "575b0f68b7fc5f05a90579533fdf1d5bad18171c",
@@ -645,7 +645,7 @@
     "path": "release-notes/v1_73.md",
     "content_hash": "420474d9a49b850ff8b4dbd62d2463588cd7489e6107f32f8d09e385796f0f0c",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_73.md",
-    "last_processed": "2025-09-12T07:34:44.963397"
+    "last_processed": "2025-10-01T09:10:38.815941"
   },
   "v1_74.md": {
     "sha": "adccfb9791c62397efdfbc398c33943efe82d25d",
@@ -653,7 +653,7 @@
     "path": "release-notes/v1_74.md",
     "content_hash": "cc99a26fac43b91419889e825b898ecc31986fc9f110afd0295c5034ae1fab78",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_74.md",
-    "last_processed": "2025-09-12T07:34:45.714078"
+    "last_processed": "2025-10-01T09:10:39.590004"
   },
   "v1_75.md": {
     "sha": "c03e449b0957cd1007d2b4be288448861b17b436",
@@ -661,7 +661,7 @@
     "path": "release-notes/v1_75.md",
     "content_hash": "2d597fd356b55a277823bd0dbc6567eab36fc352536feffe062c2b72293de0b2",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_75.md",
-    "last_processed": "2025-09-12T07:34:46.437803"
+    "last_processed": "2025-10-01T09:10:40.362993"
   },
   "v1_76.md": {
     "sha": "f4664919f94048a5a31cd040e40bf2a947fe295c",
@@ -669,7 +669,7 @@
     "path": "release-notes/v1_76.md",
     "content_hash": "7b7c83d60defa3c141e398e877c5331aa1d4f3c92edc12a1107f7a69a78701f3",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_76.md",
-    "last_processed": "2025-09-12T07:34:47.186730"
+    "last_processed": "2025-10-01T09:10:41.152213"
   },
   "v1_77.md": {
     "sha": "2a59ce5685e83f21713ace86fd024956a4897901",
@@ -677,7 +677,7 @@
     "path": "release-notes/v1_77.md",
     "content_hash": "6fac327f80e46f0c3b1f3b1b6d9ecc2f0f1158de382e13a97cf95439ac4cf4e9",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_77.md",
-    "last_processed": "2025-09-12T07:34:47.931352"
+    "last_processed": "2025-10-01T09:10:41.948208"
   },
   "v1_78.md": {
     "sha": "960211b09cfeb0327975959677ad6a6b7005b94c",
@@ -685,7 +685,7 @@
     "path": "release-notes/v1_78.md",
     "content_hash": "1721f88884450160f188eb5b880b72f3af77ab40d3c7e19a26b8060de50c1a64",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_78.md",
-    "last_processed": "2025-09-12T07:34:48.681794"
+    "last_processed": "2025-10-01T09:10:42.761586"
   },
   "v1_79.md": {
     "sha": "a56149e3fc2ad1debb59f93d1b346be15332317d",
@@ -693,7 +693,7 @@
     "path": "release-notes/v1_79.md",
     "content_hash": "8cc91314d238850a631194a78e8f7f73b68df74eda0c617cb308a9551ea337a2",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_79.md",
-    "last_processed": "2025-09-12T07:34:49.446245"
+    "last_processed": "2025-10-01T09:10:43.543296"
   },
   "v1_8.md": {
     "sha": "e9a87b959b89a1a98dc30cf95d3f7cc854a65d05",
@@ -701,7 +701,7 @@
     "path": "release-notes/v1_8.md",
     "content_hash": "897cf060e10696c24f27aafb3ffbb350e5ceee033f56824a09c76104eba195d5",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_8.md",
-    "last_processed": "2025-09-12T07:34:50.206863"
+    "last_processed": "2025-10-01T09:10:44.304976"
   },
   "v1_80.md": {
     "sha": "86f68275059360277d3cadb998363eb04f5a3db5",
@@ -709,7 +709,7 @@
     "path": "release-notes/v1_80.md",
     "content_hash": "66f023352ecf1d64ba5bf53d58c63edecc62749a1490d5ab3ca3d60cf589e774",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_80.md",
-    "last_processed": "2025-09-12T07:34:50.970552"
+    "last_processed": "2025-10-01T09:10:45.080105"
   },
   "v1_81.md": {
     "sha": "158489b3af61f941d6c9c3fed8b14be752c48006",
@@ -717,7 +717,7 @@
     "path": "release-notes/v1_81.md",
     "content_hash": "6f35574f0f489886d8e571ef2351d735e377bb6c47005fd2339558db5e9a3301",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_81.md",
-    "last_processed": "2025-09-12T07:34:51.737000"
+    "last_processed": "2025-10-01T09:10:45.912586"
   },
   "v1_82.md": {
     "sha": "bfc4391e977bd517d829a9a6ae3873e342bb53af",
@@ -725,7 +725,7 @@
     "path": "release-notes/v1_82.md",
     "content_hash": "01473123a1057a4d178f6215daaf281b7973f2c0cf15fe71bb707e10e75bcfdb",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_82.md",
-    "last_processed": "2025-09-12T07:34:52.697543"
+    "last_processed": "2025-10-01T09:10:46.668236"
   },
   "v1_83.md": {
     "sha": "3db909609895e74f7a603dc186465fac3b9f5205",
@@ -733,7 +733,7 @@
     "path": "release-notes/v1_83.md",
     "content_hash": "baabec0df195f2b8e9a8ae85bf79ac0610fe6560886c06f7708d89400ad727fe",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_83.md",
-    "last_processed": "2025-09-12T07:34:53.484207"
+    "last_processed": "2025-10-01T09:10:47.443723"
   },
   "v1_84.md": {
     "sha": "ac159201ac8c4f2e40f7e0e9233ceeea9f4f562c",
@@ -741,7 +741,7 @@
     "path": "release-notes/v1_84.md",
     "content_hash": "a4ebc6b88d4c69b6d33699971748161bd0daabb47b9dabb5b9f1beda3a79ec98",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_84.md",
-    "last_processed": "2025-09-12T07:34:54.240889"
+    "last_processed": "2025-10-01T09:10:48.194193"
   },
   "v1_85.md": {
     "sha": "a397ec06faa1d0b4d95eaa36368edd8655c5931b",
@@ -749,7 +749,7 @@
     "path": "release-notes/v1_85.md",
     "content_hash": "1fe4094df0c40f3f2e8690aaa46dd87046b777f77bc586141daf355e3a57a455",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_85.md",
-    "last_processed": "2025-09-12T07:34:54.986181"
+    "last_processed": "2025-10-01T09:10:48.966925"
   },
   "v1_86.md": {
     "sha": "f0820b0f1b67602a720886e8fe34d56c9e18624c",
@@ -757,7 +757,7 @@
     "path": "release-notes/v1_86.md",
     "content_hash": "3ffeba9f928a6fcd42065701aa301b242292f12e332a5800090ea5e98ae59372",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_86.md",
-    "last_processed": "2025-09-12T07:34:55.740656"
+    "last_processed": "2025-10-01T09:10:49.753359"
   },
   "v1_87.md": {
     "sha": "1c8035789b243f542a6554bb9c3a14723e84e053",
@@ -765,7 +765,7 @@
     "path": "release-notes/v1_87.md",
     "content_hash": "98c39a9977484545422b4d158fe3ad70cb629ba3d998c46de1359730aa51f0a4",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_87.md",
-    "last_processed": "2025-09-12T07:34:56.505932"
+    "last_processed": "2025-10-01T09:10:50.535433"
   },
   "v1_88.md": {
     "sha": "0152509a034459181df30da86933545584222668",
@@ -773,7 +773,7 @@
     "path": "release-notes/v1_88.md",
     "content_hash": "3030addc747900924db9edf4d79cd0c57567f3d167568cf7f2090e70b0da53d5",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_88.md",
-    "last_processed": "2025-09-12T07:34:57.259033"
+    "last_processed": "2025-10-01T09:10:51.273446"
   },
   "v1_89.md": {
     "sha": "601f7ef9541b7afa3112ebb73c2d54cd14f178cd",
@@ -781,7 +781,7 @@
     "path": "release-notes/v1_89.md",
     "content_hash": "c0a2199eb58ab108e8e9f330f4f9fc7b3bc3f5bff2552cd4200ab4e3624ec8fb",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_89.md",
-    "last_processed": "2025-09-12T07:34:58.019677"
+    "last_processed": "2025-10-01T09:10:52.035934"
   },
   "v1_9.md": {
     "sha": "3facee073d1c7c34557f8002775a159938f64f0c",
@@ -789,7 +789,7 @@
     "path": "release-notes/v1_9.md",
     "content_hash": "7a39f001111d120dbacd5c9f637e587fbee81a9a1b585a0b8996ac59d390a1f6",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_9.md",
-    "last_processed": "2025-09-12T07:34:58.784900"
+    "last_processed": "2025-10-01T09:10:52.798391"
   },
   "v1_90.md": {
     "sha": "e22295bcf2cc97d48cbe95c94669a5e7b1f5f225",
@@ -797,7 +797,7 @@
     "path": "release-notes/v1_90.md",
     "content_hash": "2c615d61c558ee1ef7c1631c753fbc5e4a40577cacf94448a0b51a36445872e8",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_90.md",
-    "last_processed": "2025-09-12T07:34:59.573352"
+    "last_processed": "2025-10-01T09:10:53.535485"
   },
   "v1_91.md": {
     "sha": "e41676bac55c66f4ae34c82c5a33010b7fa71a2c",
@@ -805,7 +805,7 @@
     "path": "release-notes/v1_91.md",
     "content_hash": "a44a7c6f7ccb19ca5668eb0f03430280cb6736d94e41bc93a5f6f9f7f1756915",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_91.md",
-    "last_processed": "2025-09-12T07:35:00.295922"
+    "last_processed": "2025-10-01T09:10:54.337405"
   },
   "v1_92.md": {
     "sha": "e4d83312b6cf09b2b4c8a9d47105caa833da7f3c",
@@ -813,7 +813,7 @@
     "path": "release-notes/v1_92.md",
     "content_hash": "13268310a08d299c4bff65f0d8ded208f761a036225aa266ce5262b6bb1e9e9e",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_92.md",
-    "last_processed": "2025-09-12T07:35:01.027138"
+    "last_processed": "2025-10-01T09:10:55.156432"
   },
   "v1_93.md": {
     "sha": "4d543342744db065c50c0779afc7bc63069c680c",
@@ -821,7 +821,7 @@
     "path": "release-notes/v1_93.md",
     "content_hash": "83eabb6fd59c243dba28868d84a4a2ee95e154784728ba3690e83db293112d5b",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_93.md",
-    "last_processed": "2025-09-12T07:35:01.794715"
+    "last_processed": "2025-10-01T09:10:55.957181"
   },
   "v1_94.md": {
     "sha": "4d0d09352f292518974aae4ca8507859f0d44181",
@@ -829,7 +829,7 @@
     "path": "release-notes/v1_94.md",
     "content_hash": "842035b7eb1a8c1028b88c832153202e973c6209e421751843cb6999a94ac1cb",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_94.md",
-    "last_processed": "2025-09-12T07:35:02.596715"
+    "last_processed": "2025-10-01T09:10:56.739273"
   },
   "v1_95.md": {
     "sha": "d37b20f95431f49df644834d1cd0be5d95205b4e",
@@ -837,7 +837,7 @@
     "path": "release-notes/v1_95.md",
     "content_hash": "639f618ff1b0393456caac129ddda2493172bb1467ccd300360048f277b0b11d",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_95.md",
-    "last_processed": "2025-09-12T07:35:03.389337"
+    "last_processed": "2025-10-01T09:10:57.493032"
   },
   "v1_96.md": {
     "sha": "eb1b1e8fd6121355fd11d559ca79ceabf87359fb",
@@ -845,7 +845,7 @@
     "path": "release-notes/v1_96.md",
     "content_hash": "7a7fbc90bc428f84eb56cd70c62565ceb28239d64bb7a0a5c93671bad752c561",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_96.md",
-    "last_processed": "2025-09-12T07:35:04.148622"
+    "last_processed": "2025-10-01T09:10:58.347963"
   },
   "v1_97.md": {
     "sha": "1a72d0993ff7414e41ff69847db6ae9e1d67d76f",
@@ -853,7 +853,7 @@
     "path": "release-notes/v1_97.md",
     "content_hash": "9f61d88e687b8f58ea2730493d364beb55792c045232d81151b94dc70a8fd334",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_97.md",
-    "last_processed": "2025-09-12T07:35:04.890545"
+    "last_processed": "2025-10-01T09:10:59.139256"
   },
   "v1_98.md": {
     "sha": "e40cece0e23be69fe56e2a000668d51b47ee1dcc",
@@ -861,7 +861,7 @@
     "path": "release-notes/v1_98.md",
     "content_hash": "f080f61bf9d4cc915a44b913444b55b4daa4e178fcd727bee47920214748591d",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_98.md",
-    "last_processed": "2025-09-12T07:35:05.720957"
+    "last_processed": "2025-10-01T09:10:59.911901"
   },
   "v1_99.md": {
     "sha": "8afc88d36a3d0ac98d24650608447422c15238e9",
@@ -869,7 +869,7 @@
     "path": "release-notes/v1_99.md",
     "content_hash": "55e71f12c8d0fc24875bee3557393ddf0d6eef6b565bcf3326c0d3a7fd9237bf",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/v1_99.md",
-    "last_processed": "2025-09-12T07:35:06.493027"
+    "last_processed": "2025-10-01T09:11:00.707465"
   },
   "vApril.md": {
     "sha": "6938f44f4bdb0a12eea465492d281958f6a6b161",
@@ -877,7 +877,7 @@
     "path": "release-notes/vApril.md",
     "content_hash": "ded4896fbc5496be6017ce80be40b6920f99ca8a249a53ace34063d6b8dc89d0",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/vApril.md",
-    "last_processed": "2025-09-12T07:35:07.222862"
+    "last_processed": "2025-10-01T09:11:01.478000"
   },
   "vDecember.md": {
     "sha": "80775e2519eb76b73ddfe3026b4f0b8ae17b5d28",
@@ -885,7 +885,7 @@
     "path": "release-notes/vDecember.md",
     "content_hash": "2ca7a39ede7f9abd7bd75484d65f079ff32f23feb4a49e6154f7b86bc5958712",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/vDecember.md",
-    "last_processed": "2025-09-12T07:35:07.963311"
+    "last_processed": "2025-10-01T09:11:02.233557"
   },
   "vFebruary.md": {
     "sha": "4b71c1edf9d928652df0b96653d6b6fd495369c6",
@@ -893,7 +893,7 @@
     "path": "release-notes/vFebruary.md",
     "content_hash": "6d028f166aa5ffc21ff2dbcab656f0532c22f4536f528b6d0380ec2cc73830ee",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/vFebruary.md",
-    "last_processed": "2025-09-12T07:35:08.708100"
+    "last_processed": "2025-10-01T09:11:03.000807"
   },
   "vJanuary.md": {
     "sha": "556d628979e3a27e611337eeb66d435459b42a0f",
@@ -901,7 +901,7 @@
     "path": "release-notes/vJanuary.md",
     "content_hash": "8d0576411a34d620dd198c617d56177705f88236d531fcccdcec4ebbeae41916",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/vJanuary.md",
-    "last_processed": "2025-09-12T07:35:09.439119"
+    "last_processed": "2025-10-01T09:11:03.761760"
   },
   "vMarch.md": {
     "sha": "1b3bb0ca146ed2cd305f21843ba84281c95be40e",
@@ -909,7 +909,7 @@
     "path": "release-notes/vMarch.md",
     "content_hash": "81613dc22157160b514311b02a2ebe79c989244b4fffb5199c197432de1ffe41",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/vMarch.md",
-    "last_processed": "2025-09-12T07:35:10.167010"
+    "last_processed": "2025-10-01T09:11:04.522901"
   },
   "vNovember.md": {
     "sha": "a96764fc3fb8b7e6e5446618d5c68145d16742a0",
@@ -917,6 +917,6 @@
     "path": "release-notes/vNovember.md",
     "content_hash": "1cfa12b2159ca0f19a6ed99d0ccaee0ecc2a1e406980902ad92b3493772400f8",
     "download_url": "https://raw.githubusercontent.com/microsoft/vscode-docs/main/release-notes/vNovember.md",
-    "last_processed": "2025-09-12T07:35:10.900015"
+    "last_processed": "2025-10-01T09:11:05.263797"
   }
 }
