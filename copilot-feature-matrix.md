@@ -253,6 +253,8 @@ The analysis reveals significant acceleration in AI feature development, particu
 | **Copilot Spaces GA** | Platform / Knowledge | Sep 2025 | 🟢 | Sep 2025 | New way to work with context - Copilot Spaces now generally available replacing knowledge bases |
 | **Repository and Branch Selection for Issue Assignment** | Platform / Agent | Sep 2025 | 🟢 | Sep 2025 | Pick repository and base branch when assigning issues to Copilot for better targeting |
 | **Premium Request Budget Changes** | Platform / Billing | Sep 2025 | 🔴 | Sep 2025 | Upcoming removal of Copilot premium request $0 budgets for enterprise and team accounts |
+| **Enterprise Teams Management** | Platform / Enterprise | Aug 2025 | 🟡 | Aug 2025 | Public preview of managing Copilot and users via Enterprise Teams for centralized control |
+| **MCP Server Support on GitHub.com** | Platform / Integration | Aug 2025 | 🟡 | Aug 2025 | Preview support for Model Context Protocol (MCP) servers on GitHub.com for enhanced context and tool integration |
 | **Copilot Coding Agent GA** | Platform / Agent | May 2025 | 🟢 | Sep 2025 | Copilot coding agent now generally available with background task execution and autonomous development capabilities |
 | **Issue Creation Feedback** | Platform / Agent | May 2025 | 🟡 | Sep 2025 | Speed up issue creation with Copilot - public preview with feedback collection |
 | **AGENTS.md Custom Instructions** | Platform / Agent Customization | Aug 2025 | 🟢 | Aug 2025 | Copilot coding agent now supports AGENTS.md custom instructions alongside existing .github/copilot-instructions.md formats for enhanced project-specific guidance |
@@ -335,8 +337,8 @@ The analysis reveals significant acceleration in AI feature development, particu
 
 **Key Data Points**:
 - **IDE Integration**: 128 major Copilot features tracked across all IDEs and versions
-- **Platform & Agent**: 89 platform features covering enterprise, security, AI models, and core services
-- **Total Coverage**: 217 comprehensive features across the complete Copilot ecosystem
+- **Platform & Agent**: 91 platform features covering enterprise, security, AI models, and core services
+- **Total Coverage**: 219 comprehensive features across the complete Copilot ecosystem
 - **3 distinct maturity phases** for feature development
 - **Multi-IDE integration**: VS Code, Visual Studio, JetBrains, Eclipse, Xcode, Windows Terminal
 - **Monthly release cadence** with quarterly major feature introductions
