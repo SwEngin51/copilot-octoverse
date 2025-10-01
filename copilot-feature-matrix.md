@@ -5,16 +5,17 @@
 ## Executive Summary
 
 This matrix tracks the evolution of GitHub Copilot features across two primary platforms:
-1. **IDE Integration** (Visual Studio Code) - v1.17 through v1.103.1 (July 2025) - *Latest analyzed release*
-2. **Platform Evolution** - Service capabilities and cross-IDE features through August 2025
+1. **IDE Integration** (Visual Studio Code) - v1.17 through v1.104.2 (September 2025) - *Latest analyzed release*
+2. **Platform Evolution** - Service capabilities and cross-IDE features through September 2025
 
-**Recent Highlights (August 2025)**:
-- **Cross-IDE Expansion**: Next Edit Suggestions (NES) now available in JetBrains IDEs
-- **Enhanced AI Models**: GPT-5 mini deployment across Visual Studio, JetBrains, Xcode, and Eclipse  
-- **Agent Customization**: AGENTS.md custom instructions and Raycast integration
-- **Platform Integration**: Sub-issues creation, enterprise data residency, code review GA in Xcode
+**Recent Highlights (September 2025)**:
+- **Auto Model Selection**: Intelligent model selection in VS Code for optimal performance and reduced rate limits
+- **Enhanced Security**: Sensitive file edit confirmations and improved terminal auto-approve with security warnings
+- **Claude Sonnet 4.5**: New Anthropic model in public preview for coding agent with enhanced capabilities
+- **Language Model Provider API**: Extensions can now contribute custom models (cloud-hosted or local) via finalized API
+- **Coding Agent Enhancements**: Context persistence within PRs, GitHub CLI integration, and repository initialization support
 
-The analysis reveals significant acceleration in AI feature development, particularly around multimodal capabilities (Vision), agent automation, and cross-platform standardization.
+The analysis reveals significant acceleration in AI feature development, particularly around model flexibility, security enhancements, and coding agent automation.
 
 ---
 
@@ -26,6 +27,35 @@ The analysis reveals significant acceleration in AI feature development, particu
 
 | Feature / Capability | Category | First Introduced | Current Status | Latest Version | Key Milestones |
 |---------------------|----------|------------------|----------------|----------------|---------------|
+| **Auto Model Selection** | Chat / AI Models | v1.104 | 🟡 | v1.104.2 | Automatic model selection between Claude Sonnet 4, GPT-5, GPT-5 mini, and GPT-4.1 with 10% request discount for paid users, rolling out gradually starting with individual plans |
+| **Language Model Chat Provider API (GA)** | Extension / API | v1.104 | 🟢 | v1.104.2 | Finalized API enabling extensions to contribute cloud-hosted or local language models, used by AI Toolkit, Cerebras Inference, and Hugging Face extensions |
+| **AGENTS.md File Support** | Chat / Customization | v1.104 | 🟠 | v1.104.2 | Automatic context pickup from AGENTS.md files in workspace roots, configurable via chat.useAgentsMdFile setting |
+| **Sensitive File Edit Confirmation** | Chat / Security | v1.104 | 🟢 | v1.104.2 | Agent mode now requires explicit confirmation for edits to system folders, dotfiles, and files outside workspace via chat.tools.edits.autoApprove setting |
+| **Chat Font Customization** | Chat / UX | v1.104 | 🟢 | v1.104.2 | Configure chat font family and size with chat.fontFamily and chat.fontSize settings |
+| **Terminal Auto-Approve Enhancements** | Chat / Terminal | v1.104 | 🟢 | v1.104.2 | Explicit opt-in UI, improved security with web request warnings, path-based rules, and transparent auto-approve notifications |
+| **Global Auto-Approve Security Warning** | Chat / Security | v1.104 | 🟢 | v1.104.2 | Explicit scary warning dialog on first use, setting renamed to chat.tools.global.autoApprove without migration |
+| **Math Rendering GA** | Chat / Rendering | v1.104 | 🟢 | v1.104.2 | KaTeX-powered inline and block math equations enabled by default, configurable via chat.math.enabled |
+| **Changed Files Experience Improvements** | Chat / UX | v1.104 | 🟢 | v1.104.2 | Collapsed by default, auto-removal on keep/accept, Source Control integration, per-file line change indicators |
+| **Custom Chat Modes in Prompt Files** | Chat / Customization | v1.104 | 🟢 | v1.104.2 | Reference custom chat modes in reusable prompt files with IntelliSense support |
+| **Prompt File Recommendations** | Chat / Customization | v1.104 | 🟠 | v1.104.2 | Context-aware prompt file suggestions via chat.promptFilesRecommendations setting with when-clause expressions |
+| **Tool Set Selection** | Chat / Tools | v1.104 | 🟢 | v1.104.2 | Individual tool enable/disable within tool sets via improved tools picker in Chat view |
+| **Chat Sessions View Enhancements** | Chat / Management | v1.104 | 🟠 | v1.104.2 | Unified view for local and GitHub coding agent sessions with Status Bar tracking, rich descriptions, and improved integration |
+| **Delegate to Coding Agent** | Chat / Automation | v1.104 | 🟠 | v1.104.2 | TODO comment code actions and chat delegation with file references forwarded to GitHub coding agent |
+| **Google Social Sign-In GA** | Chat / Authentication | v1.104 | 🟢 | v1.104.2 | Sign in/up to GitHub Copilot with Google accounts, rolling out to all VS Code users |
+| **Task Support Improvements** | Chat / Tools | v1.104 | 🟢 | v1.104.2 | Input request detection, problem matcher error surfacing, and compound task support in agent mode |
+| **Terminal Tool Enhancements** | Chat / Terminal | v1.104 | 🟢 | v1.104.2 | terminalSelection and terminalLastCommand moved to core, configurable shell integration timeout, Windows PowerShell preference over Command Prompt |
+| **Todo List Tool GA** | Chat / Project Management | v1.104 | 🟢 | v1.104.2 | Default-enabled task breakdown with collapsed progress display showing current task |
+| **Skip Tool Calls** | Chat / UX | v1.104 | 🟢 | v1.104.2 | Option to skip tool call confirmations and let agent continue without execution |
+| **Semantic Workspace Search Upgrade** | Chat / Context | v1.104 | 🟢 | v1.104.2 | New embeddings model for #codebase tool with better results and 94% storage reduction, gradual rollout |
+| **AI Features Disable Setting** | Chat / Configuration | v1.104 | 🟢 | v1.104.2 | Unified chat.disableAIFeatures setting to disable/hide all AI features with sync, profile, and workspace support |
+| **MCP Server Instructions Support** | Integration / Protocol | v1.104 | 🟢 | v1.104.2 | VS Code reads and includes MCP server instructions in base prompts |
+| **MCP Auto-Discovery Disabled by Default** | Integration / Protocol | v1.104 | 🟢 | v1.104.2 | Auto-discovery of MCP servers from other apps now opt-in via chat.mcp.discovery.enabled setting |
+| **MCP Access Control** | Integration / Protocol | v1.104 | 🟢 | v1.104.2 | chat.mcp.enabled migrated to chat.mcp.access with descriptive 'all' and 'none' options |
+| **Inline Suggestion Delay Configuration** | Editor / Completions | v1.104 | 🟢 | v1.104.2 | editor.inlineSuggest.minShowDelay setting to control suggestion appearance speed |
+| **Python Pipenv Support** | Languages / Python | v1.104 | 🟢 | v1.104.2 | Pipenv environment discovery and selection in Python Environments extension |
+| **AI-Powered Python Hover Summaries** | Languages / Python | v1.104 | 🟠 | v1.104.2 | Experimental Pylance feature for on-the-fly AI summaries of undocumented symbols via python.analysis.aiHoverSummaries setting |
+| **Pylance Run Code Snippet Tool** | Languages / Python | v1.104 | 🟢 | v1.104.2 | Execute Python snippets in-memory with correct workspace interpreter, clean formatted output for agent mode |
+| **Enhanced Notebook NES Suggestions** | Notebooks / AI | v1.104 | 🟠 | v1.104.2 | Experimental full-notebook context for Next Edit Suggestions via github.copilot.chat.notebook.enhancedNextEditSuggestions.enabled |
 | **GPT-5 Integration** | Chat / AI Models | v1.103 | 🟡 | v1.103.1 | Public preview for all paid Copilot plans, prompt improvements in v1.103.1 |
 | **Chat Checkpoints** | Chat / Session Management | v1.103 | 🟢 | v1.103 | Restore chat and workspace to previous states, enabled by default |
 | **Claude Opus 4.1 Model Support** | Chat / AI Models | v1.103 | 🟡 | v1.103 | Advanced Anthropic model with enhanced reasoning available in Visual Studio Code for Enterprise/Pro+ users |
@@ -176,30 +206,30 @@ The analysis reveals significant acceleration in AI feature development, particu
 - **Protocol Standardization**: MCP for tool and model provider integration
 - **Community Collaboration**: Open source approach for transparency and contribution
 
-### IDE Current State (v1.98 - February 2025)
+### IDE Current State (v1.104 - September 2025)
 
 **Production Ready**:
-- Copilot Vision with multimodal image support
-- Custom Instructions general availability (.github/copilot-instructions.md)
-- Copilot Edits with unlimited file attachments
-- Advanced codebase search with multiple tools
-- Next Edit Suggestions (NES) preview
-- Enhanced authentication flows
-- GPT-4.5 and Claude 3.7 Sonnet models
+- Auto model selection (preview) with intelligent Claude/GPT selection
+- Language Model Chat Provider API for extension-contributed models
+- AGENTS.md file support for custom agent instructions
+- Sensitive file edit confirmation for enhanced security
+- Math rendering with KaTeX (GA, enabled by default)
+- Google social sign-in (GA, rolling out)
+- Terminal auto-approve enhancements with security warnings
+- Semantic workspace search with new embeddings model
+- Python Pipenv support and AI-powered hover summaries
 
 **In Development**:
-- Copilot Edits notebook support (preview)
-- Next Edit Suggestions collapsed mode
-- Enhanced completion model selection
-- Problems and folder attachment workflows
+- Enhanced Notebook NES suggestions (experimental)
+- Chat sessions view with GitHub coding agent integration (experimental)
+- Prompt file recommendations with context-aware suggestions (experimental)
+- Delegate to coding agent from TODO comments (experimental)
 
 **Cross-IDE Expansion**:
-- Next Edit Suggestions rolling out to JetBrains IDEs
-- GPT-5 mini available across Visual Studio, JetBrains, Xcode, Eclipse
-- MCP protocol standardization across all major IDEs
-- Enhanced Visual Studio integration with BYOM support
-- Context7 project scaffolding
-- Advanced AI statistics and analytics
+- Claude Sonnet 4.5 available across GitHub Copilot platforms
+- Visual Studio September 2025 update with model improvements
+- GitHub CLI integration for coding agent sessions
+- Copilot Spaces replacing knowledge bases across all platforms
 
 ---
 
@@ -209,6 +239,22 @@ The analysis reveals significant acceleration in AI feature development, particu
 
 | Feature / Capability | Category | First Introduced | Current Status | Latest Update | Key Milestones |
 |---------------------|----------|------------------|----------------|---------------|---------------|
+| **Claude Sonnet 4.5 for Coding Agent** | Platform / AI Models | Sep 2025 | 🟡 | Sep 2025 | Anthropic's Claude Sonnet 4.5 available in public preview specifically for Copilot coding agent with enhanced coding capabilities |
+| **Claude Sonnet 4.5 for GitHub Copilot** | Platform / AI Models | Sep 2025 | 🟡 | Sep 2025 | Anthropic's Claude Sonnet 4.5 available in public preview for GitHub Copilot across all platforms |
+| **Repository Initialization with Coding Agent** | Platform / Agent | Sep 2025 | 🟢 | Sep 2025 | Start new repositories using Copilot coding agent to bootstrap projects with AI assistance |
+| **Premium Requests Analytics GA** | Platform / Analytics | Sep 2025 | 🟢 | Sep 2025 | Premium requests analytics page now generally available for tracking advanced model usage |
+| **Visual Studio September 2025 Update** | IDE / Integration | Sep 2025 | 🟢 | Sep 2025 | GitHub Copilot updates for Visual Studio including model improvements and feature enhancements |
+| **Coding Agent PR Context Memory** | Platform / Agent | Sep 2025 | 🟢 | Sep 2025 | Copilot coding agent now remembers context within the same pull request for improved continuity |
+| **GitHub Spark for Enterprise** | Platform / Tools | Sep 2025 | 🟡 | Sep 2025 | GitHub Spark natural language app builder in public preview for Copilot Enterprise subscribers |
+| **GitHub CLI Coding Agent Integration** | Platform / CLI | Sep 2025 | 🟢 | Sep 2025 | Kick off and track Copilot coding agent sessions directly from GitHub CLI |
+| **Issue Creation with Code Snippets** | Platform / Agent | Sep 2025 | 🟡 | Sep 2025 | Copilot can create issues with embedded code snippets in public preview |
+| **gh-copilot CLI Extension Deprecation** | Platform / CLI | Sep 2025 | 🔴 | Sep 2025 | Upcoming deprecation of standalone gh-copilot CLI extension, functionality moving to native GitHub CLI |
+| **Auto Model Selection in VS Code** | Platform / AI Models | Sep 2025 | 🟡 | Sep 2025 | Intelligent automatic model selection now available in Visual Studio Code, rolling out to all users |
+| **Copilot Spaces GA** | Platform / Knowledge | Sep 2025 | 🟢 | Sep 2025 | New way to work with context - Copilot Spaces now generally available replacing knowledge bases |
+| **Repository and Branch Selection for Issue Assignment** | Platform / Agent | Sep 2025 | 🟢 | Sep 2025 | Pick repository and base branch when assigning issues to Copilot for better targeting |
+| **Premium Request Budget Changes** | Platform / Billing | Sep 2025 | 🔴 | Sep 2025 | Upcoming removal of Copilot premium request $0 budgets for enterprise and team accounts |
+| **Copilot Coding Agent GA** | Platform / Agent | May 2025 | 🟢 | Sep 2025 | Copilot coding agent now generally available with background task execution and autonomous development capabilities |
+| **Issue Creation Feedback** | Platform / Agent | May 2025 | 🟡 | Sep 2025 | Speed up issue creation with Copilot - public preview with feedback collection |
 | **AGENTS.md Custom Instructions** | Platform / Agent Customization | Aug 2025 | 🟢 | Aug 2025 | Copilot coding agent now supports AGENTS.md custom instructions alongside existing .github/copilot-instructions.md formats for enhanced project-specific guidance |
 | **Raycast Integration for Coding Agent** | Platform / External Integration | Aug 2025 | 🟡 | Aug 2025 | macOS Raycast extension enabling task delegation to Copilot coding agent with progress tracking, supporting Pro/Pro+, Business, and Enterprise plans |
 | **Sub-issues Creation with Copilot** | Platform / Issue Management | Aug 2025 | 🟡 | Aug 2025 | Public preview feature enabling creation of parent issues with sub-issues, breaking down complex work into component parts via natural language prompts |
@@ -285,12 +331,12 @@ The analysis reveals significant acceleration in AI feature development, particu
 
 ---
 
-*This analysis covers comprehensive GitHub Copilot integration across all major IDEs (VS Code v1.17 - v1.103, Visual Studio, JetBrains, Eclipse, Xcode) and the complete platform evolution, spanning from extension-based features to advanced AI capabilities and enterprise platform services.*
+*This analysis covers comprehensive GitHub Copilot integration across all major IDEs (VS Code v1.17 - v1.104, Visual Studio, JetBrains, Eclipse, Xcode) and the complete platform evolution, spanning from extension-based features to advanced AI capabilities and enterprise platform services.*
 
 **Key Data Points**:
-- **IDE Integration**: 81 major Copilot features tracked across all IDEs and versions
-- **Platform & Agent**: 67 platform features covering enterprise, security, AI models, and core services
-- **Total Coverage**: 148 comprehensive features across the complete Copilot ecosystem
+- **IDE Integration**: 128 major Copilot features tracked across all IDEs and versions
+- **Platform & Agent**: 89 platform features covering enterprise, security, AI models, and core services
+- **Total Coverage**: 217 comprehensive features across the complete Copilot ecosystem
 - **3 distinct maturity phases** for feature development
 - **Multi-IDE integration**: VS Code, Visual Studio, JetBrains, Eclipse, Xcode, Windows Terminal
 - **Monthly release cadence** with quarterly major feature introductions
