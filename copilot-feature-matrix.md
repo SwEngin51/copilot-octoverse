@@ -5,14 +5,15 @@
 ## Executive Summary
 
 This matrix tracks the evolution of GitHub Copilot features across two primary platforms:
-1. **IDE Integration** (Visual Studio Code) - v1.17 through v1.103.1 (July 2025) - *Latest analyzed release*
-2. **Platform Evolution** - Service capabilities and cross-IDE features through August 2025
+1. **IDE Integration** (Visual Studio Code) - v1.17 through v1.104 (August 2025) - *Latest analyzed release*
+2. **Platform Evolution** - Service capabilities and cross-IDE features through September 2025
 
-**Recent Highlights (August 2025)**:
-- **Cross-IDE Expansion**: Next Edit Suggestions (NES) now available in JetBrains IDEs
-- **Enhanced AI Models**: GPT-5 mini deployment across Visual Studio, JetBrains, Xcode, and Eclipse  
-- **Agent Customization**: AGENTS.md custom instructions and Raycast integration
-- **Platform Integration**: Sub-issues creation, enterprise data residency, code review GA in Xcode
+**Recent Highlights (September 2025)**:
+- **Auto Model Selection**: VS Code v1.104 introduces intelligent model selection with 10% discount for paid users
+- **Enhanced Security**: BYOK support for JetBrains/Xcode, sensitive file edit confirmations, and advanced terminal auto-approve
+- **GPT-5 General Availability**: OpenAI GPT-5 and GPT-5 mini now GA across all supported IDEs 
+- **Eclipse Feature Expansion**: Custom instructions, image support in chat, richer context with folders/resources
+- **Cross-IDE Consistency**: Repository rule automation for code reviews, enhanced admin controls
 
 The analysis reveals significant acceleration in AI feature development, particularly around multimodal capabilities (Vision), agent automation, and cross-platform standardization.
 
@@ -26,6 +27,16 @@ The analysis reveals significant acceleration in AI feature development, particu
 
 | Feature / Capability | Category | First Introduced | Current Status | Latest Version | Key Milestones |
 |---------------------|----------|------------------|----------------|----------------|---------------|
+| **Auto Model Selection** | Chat / AI Models | v1.104 | 🟡 | v1.104 | Automatic model selection between Claude Sonnet 4, GPT-5, GPT-5 mini, GPT-4.1, and Gemini Pro 2.5 with 10% request discount for paid users |
+| **Chat Font Configuration** | Chat / UX | v1.104 | 🟢 | v1.104 | Configurable font family and font size for chat messages via settings |
+| **Enhanced Terminal Auto-Approve** | Chat / Terminal | v1.104 | 🟢 | v1.104 | Security improvements with explicit opt-in, organization management support, and enhanced UI for rule configuration |
+| **AGENTS.md File Support** | Chat / Customization | v1.104 | 🟠 | v1.104 | Automatic detection and use of AGENTS.md files in workspace root for agent context and instructions |
+| **Sensitive File Edit Confirmation** | Chat / Security | v1.104 | 🟢 | v1.104 | Agent mode requires user confirmation before editing system folders, dotfiles, and files outside workspace |
+| **Improved Changed Files Experience** | Chat / UX | v1.104 | 🟢 | v1.104 | Collapsed file list by default, per-file change tracking, automatic removal of accepted changes |
+| **Custom Chat Modes in Prompt Files** | Chat / Customization | v1.104 | 🟢 | v1.104 | Support for referencing custom chat modes in prompt files with IntelliSense |
+| **Prompt File Recommendations** | Chat / Discovery | v1.104 | 🟠 | v1.104 | Context-aware prompt file suggestions based on workspace and file type conditions |
+| **Tool Sets Configuration** | Chat / Tools | v1.104 | 🟢 | v1.104 | Individual tool enable/disable within tool sets via enhanced tools picker |
+| **Language Model Chat Provider API** | Extension / API | v1.104 | 🟢 | v1.104 | API for extensions to contribute additional models to VS Code chat, available for individual Copilot plans |
 | **GPT-5 Integration** | Chat / AI Models | v1.103 | 🟡 | v1.103.1 | Public preview for all paid Copilot plans, prompt improvements in v1.103.1 |
 | **Chat Checkpoints** | Chat / Session Management | v1.103 | 🟢 | v1.103 | Restore chat and workspace to previous states, enabled by default |
 | **Claude Opus 4.1 Model Support** | Chat / AI Models | v1.103 | 🟡 | v1.103 | Advanced Anthropic model with enhanced reasoning available in Visual Studio Code for Enterprise/Pro+ users |
@@ -135,28 +146,28 @@ The analysis reveals significant acceleration in AI feature development, particu
 ## Key Feature Categories
 
 ### 🤖 **AI Models & Core Chat**
-- **Multimodal Capabilities**: Copilot Vision with image attachment support
-- **Model Diversity**: GPT-5, GPT-4.5, Claude 3.7 Sonnet, GPT-5 mini, Grok Code Fast 1
-- **Cross-Platform Models**: Standardized model availability across IDEs
-- **Custom Completions**: Separate model selection for code completions vs chat
+- **Model Flexibility**: Auto model selection with intelligent switching and cost optimization
+- **Model Diversity**: GPT-5 (GA), GPT-5 mini (GA), Claude 3.7 Sonnet, Claude Opus 4.1, Grok Code Fast 1
+- **Cross-Platform Models**: Standardized model availability across all major IDEs
+- **BYOK Integration**: Bring Your Own Key support for JetBrains IDEs and Xcode
 
 ### 🛠️ **Agent Mode & Automation**
-- **Agent Customization**: AGENTS.md files and platform-specific instructions
-- **External Integrations**: Raycast launcher integration for task management
-- **Issue Management**: Sub-issues creation and hierarchical project organization
-- **Enterprise Features**: Data residency and enhanced security controls
+- **Enhanced Security**: Sensitive file edit confirmations and improved terminal auto-approve
+- **Agent Customization**: AGENTS.md files and .github/copilot-instructions.md support
+- **Repository Rules**: Independent automatic code review rules with granular controls
+- **External Integrations**: Raycast launcher integration and MCP protocol expansion
 
 ### 🔧 **Developer Experience**
-- **Enhanced Editing**: Next Edit Suggestions (NES) across IDEs
-- **Contextual Assistance**: Advanced codebase search, problems attachment
-- **Workspace Integration**: Folder attachments, smoother authentication
-- **Code Review**: GA availability in Xcode with admin controls
+- **Enhanced Customization**: Custom chat modes in prompt files, context-aware prompt recommendations
+- **Security Controls**: BYOK support, sensitive file confirmations, organization-managed settings
+- **Tool Management**: Enhanced tool sets with individual component control
+- **IDE Expansion**: Comprehensive Eclipse feature set, cross-IDE model availability
 
 ### 🎯 **Customization & Extensibility**
-- **Knowledge Spaces**: Copilot Spaces for centralized context management
-- **Custom Instructions**: Multiple format support (.github/, AGENTS.md, etc.)
-- **MCP Protocol**: General availability across all major IDEs
-- **BYOM Support**: Bring Your Own Model with API key integration
+- **Extension Ecosystem**: Language Model Chat Provider API for third-party model integration
+- **Context Management**: AGENTS.md support, improved changed files experience
+- **Enterprise Features**: Independent repository rules, enhanced admin controls
+- **Font Configuration**: Customizable chat font family and size settings
 
 ### IDE Evolution Patterns
 
@@ -176,30 +187,29 @@ The analysis reveals significant acceleration in AI feature development, particu
 - **Protocol Standardization**: MCP for tool and model provider integration
 - **Community Collaboration**: Open source approach for transparency and contribution
 
-### IDE Current State (v1.98 - February 2025)
+### IDE Current State (v1.104 - August 2025)
 
 **Production Ready**:
-- Copilot Vision with multimodal image support
-- Custom Instructions general availability (.github/copilot-instructions.md)
-- Copilot Edits with unlimited file attachments
-- Advanced codebase search with multiple tools
-- Next Edit Suggestions (NES) preview
-- Enhanced authentication flows
-- GPT-4.5 and Claude 3.7 Sonnet models
+- Auto model selection with intelligent switching and cost optimization
+- Enhanced terminal auto-approve with security improvements and organization controls
+- AGENTS.md file support for agent context and customization
+- Sensitive file edit confirmation for improved security
+- Custom chat modes in prompt files with IntelliSense support
+- Tool sets configuration with granular control
+- Language Model Chat Provider API for extension ecosystem
+- GPT-5 and GPT-5 mini integration across VS Code
+- Advanced Azure DevOps remote index support for #codebase tool
 
 **In Development**:
-- Copilot Edits notebook support (preview)
-- Next Edit Suggestions collapsed mode
-- Enhanced completion model selection
-- Problems and folder attachment workflows
+- Prompt file recommendations with context-aware suggestions (experimental)
+- Cross-IDE BYOK expansion (coming to Eclipse)
+- Enhanced changed files experience optimizations
 
 **Cross-IDE Expansion**:
-- Next Edit Suggestions rolling out to JetBrains IDEs
-- GPT-5 mini available across Visual Studio, JetBrains, Xcode, Eclipse
-- MCP protocol standardization across all major IDEs
-- Enhanced Visual Studio integration with BYOM support
-- Context7 project scaffolding
-- Advanced AI statistics and analytics
+- BYOK support now available in JetBrains IDEs and Xcode (public preview)
+- GPT-5 and GPT-5 mini general availability across all major IDEs
+- Enhanced Eclipse integration with custom instructions and image support
+- Independent repository rules for automatic code reviews
 
 ---
 
@@ -209,6 +219,12 @@ The analysis reveals significant acceleration in AI feature development, particu
 
 | Feature / Capability | Category | First Introduced | Current Status | Latest Update | Key Milestones |
 |---------------------|----------|------------------|----------------|---------------|---------------|
+| **Remote GitHub MCP Server General Availability** | Platform / Integration | Sep 2025 | 🟢 | Sep 2025 | OAuth 2.1 + PKCE authentication, Coding Agent integration, secret scanning with push protection, code scanning alerts, enhanced security guardrails across all IDEs |
+| **Path-Scoped Custom Instructions for Code Review** | Platform / Code Review | Sep 2025 | 🟢 | Sep 2025 | Support for *.instructions.md files with applyTo sections for targeted code review guidance, organization-level instructions integration, coding guidelines deprecation |
+| **Independent Repository Rule for Automatic Code Reviews** | Platform / Code Review | Sep 2025 | 🟢 | Sep 2025 | Standalone repository rule for automatic Copilot code review with subsettings for run-on-push and run-on-drafts control |
+| **OpenAI GPT-5 and GPT-5 Mini General Availability** | Platform / AI Models | Sep 2025 | 🟢 | Sep 2025 | GPT-5 available to paid plans, GPT-5 mini to all plans including Free, across github.com, VS Code, Visual Studio, JetBrains, Xcode, Eclipse, and Mobile |
+| **Enhanced GitHub Copilot in Eclipse** | Platform / IDE Integration | Sep 2025 | 🟢 | Sep 2025 | Custom instructions, image support in chat context, folder/resource references, improved UX, reduced plugin size, and public API for plugin integration |
+| **BYOK Support for JetBrains IDEs and Xcode** | Platform / IDE Integration | Sep 2025 | 🟡 | Sep 2025 | Bring Your Own Key support for Anthropic, Azure, Google Gemini, Groq, OpenAI, and OpenRouter models in JetBrains IDEs and Xcode public preview |
 | **AGENTS.md Custom Instructions** | Platform / Agent Customization | Aug 2025 | 🟢 | Aug 2025 | Copilot coding agent now supports AGENTS.md custom instructions alongside existing .github/copilot-instructions.md formats for enhanced project-specific guidance |
 | **Raycast Integration for Coding Agent** | Platform / External Integration | Aug 2025 | 🟡 | Aug 2025 | macOS Raycast extension enabling task delegation to Copilot coding agent with progress tracking, supporting Pro/Pro+, Business, and Enterprise plans |
 | **Sub-issues Creation with Copilot** | Platform / Issue Management | Aug 2025 | 🟡 | Aug 2025 | Public preview feature enabling creation of parent issues with sub-issues, breaking down complex work into component parts via natural language prompts |
@@ -285,12 +301,12 @@ The analysis reveals significant acceleration in AI feature development, particu
 
 ---
 
-*This analysis covers comprehensive GitHub Copilot integration across all major IDEs (VS Code v1.17 - v1.103, Visual Studio, JetBrains, Eclipse, Xcode) and the complete platform evolution, spanning from extension-based features to advanced AI capabilities and enterprise platform services.*
+*This analysis covers comprehensive GitHub Copilot integration across all major IDEs (VS Code v1.17 - v1.104, Visual Studio, JetBrains, Eclipse, Xcode) and the complete platform evolution, spanning from extension-based features to advanced AI capabilities and enterprise platform services.*
 
 **Key Data Points**:
-- **IDE Integration**: 81 major Copilot features tracked across all IDEs and versions
-- **Platform & Agent**: 67 platform features covering enterprise, security, AI models, and core services
-- **Total Coverage**: 148 comprehensive features across the complete Copilot ecosystem
+- **IDE Integration**: 91 major Copilot features tracked across all IDEs and versions
+- **Platform & Agent**: 72 platform features covering enterprise, security, AI models, and core services
+- **Total Coverage**: 163 comprehensive features across the complete Copilot ecosystem
 - **3 distinct maturity phases** for feature development
 - **Multi-IDE integration**: VS Code, Visual Studio, JetBrains, Eclipse, Xcode, Windows Terminal
 - **Monthly release cadence** with quarterly major feature introductions
